@@ -1,0 +1,328 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Portfolio Content\n"
+"POT-Creation-Date: 2019-05-09 15:32+0200\n"
+"PO-Revision-Date: 2019-05-09 15:32+0200\n"
+"Last-Translator: David Decker DECKERWEB.de -- https://deckerweb.de/\n"
+"Language-Team: David Decker DECKERWEB.de -- https://deckerweb.de/\n"
+"Language: de_DE@formal\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: portfolio-content.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: portfolio-content.php:103
+msgctxt "Post Type General Name"
+msgid "Portfolios"
+msgstr "Portfolios"
+
+#: portfolio-content.php:104
+msgctxt "Post Type Singular Name"
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: portfolio-content.php:105
+msgctxt "Admin menu name"
+msgid "Portfolio Content"
+msgstr "Portfolio-Inhalte"
+
+#: portfolio-content.php:106
+msgctxt "Toolbar name"
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: portfolio-content.php:107
+msgid "Portfolio Archive"
+msgstr "Portfolio Archiv"
+
+#: portfolio-content.php:108
+msgid "Portfolio Attributes"
+msgstr "Portfolio-Attribute"
+
+#: portfolio-content.php:109
+msgid "Parent Portfolio:"
+msgstr "Eltern Portfolio:"
+
+#: portfolio-content.php:110
+msgid "All Porfolios"
+msgstr "Alle Porfolios"
+
+#: portfolio-content.php:111
+msgid "Add New Portfolio"
+msgstr "Neues Portfolio hinzufügen"
+
+#: portfolio-content.php:112
+msgid "Add New"
+msgstr "Hinzufügen"
+
+#: portfolio-content.php:113
+msgid "New Portfolio"
+msgstr "Neuer Portfolio-Beitrag"
+
+#: portfolio-content.php:114
+msgid "Edit Portfolio"
+msgstr "Portolio bearbeiten"
+
+#: portfolio-content.php:115
+msgid "Update Portfolio"
+msgstr "Portfolio aktualisieren"
+
+#: portfolio-content.php:116
+msgid "View Portfolio"
+msgstr "Portfolio anzeigen"
+
+#: portfolio-content.php:117
+msgid "View Portfolios"
+msgstr "Portfolio anschauen"
+
+#: portfolio-content.php:118
+msgid "Search Portfolios"
+msgstr "Portfolio suchen"
+
+#: portfolio-content.php:119
+msgid "Not found"
+msgstr "Nichts gefunden"
+
+#: portfolio-content.php:120
+msgid "Not found in Trash"
+msgstr "Es befinden sich keine Elemente im Papierkorb"
+
+#: portfolio-content.php:121
+msgid "Featured Image"
+msgstr "Beitragsbild"
+
+#: portfolio-content.php:122
+msgid "Set featured image"
+msgstr "Beitragsbild festlegen"
+
+#: portfolio-content.php:123
+msgid "Remove featured image"
+msgstr "Beitragsbild entfernen"
+
+#: portfolio-content.php:124
+msgid "Use as featured image"
+msgstr "Als Beitragsbild verwenden"
+
+#: portfolio-content.php:125
+msgid "Insert into Portfolio"
+msgstr "In Portfolio einfügen"
+
+#: portfolio-content.php:126
+msgid "Uploaded to this Portfolio"
+msgstr "Zu diesem Portfolio hochgeladen"
+
+#: portfolio-content.php:127
+msgid "Portfolios list"
+msgstr "Portfolios Liste"
+
+#: portfolio-content.php:128
+msgid "Portfolios list navigation"
+msgstr "Portfolios Listennavigation"
+
+#: portfolio-content.php:129
+msgid "Filter Portfolios list"
+msgstr "Filter Portfolios Liste"
+
+#: portfolio-content.php:145
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: portfolio-content.php:146
+msgid "Custom portfolio content"
+msgstr "Individuelle Portfolio-Inhalte"
+
+#: portfolio-content.php:184
+msgctxt "Taxonomy General Name"
+msgid "Portfolio Categories"
+msgstr "Portfolio Kategorien"
+
+#: portfolio-content.php:185
+msgctxt "Taxonomy Singular Name"
+msgid "Portfolio Category"
+msgstr "Portfolio Kategorie"
+
+#: portfolio-content.php:186
+msgctxt "Admin menu name"
+msgid "Categories"
+msgstr "Kategorien"
+
+#: portfolio-content.php:187
+msgid "All Categories"
+msgstr "Alle Kategorien"
+
+#: portfolio-content.php:188
+msgid "Parent Category"
+msgstr "Übergeordnete Kategorie"
+
+#: portfolio-content.php:189
+msgid "Parent Category:"
+msgstr "Übergeordnete Kategorie:"
+
+#: portfolio-content.php:190
+msgid "New Category Name"
+msgstr "Neuer Kategoriename"
+
+#: portfolio-content.php:191
+msgid "Add New Category"
+msgstr "Neue Kategorie hinzufügen"
+
+#: portfolio-content.php:192
+msgid "Edit Category"
+msgstr "Kategorie bearbeiten"
+
+#: portfolio-content.php:193
+msgid "Update Category"
+msgstr "Kategorie aktualisieren"
+
+#: portfolio-content.php:194
+msgid "View Category"
+msgstr "Kategorie anzeigen"
+
+#: portfolio-content.php:195
+msgid "Separate Categories with commas"
+msgstr "Kategorien mit Kommas trennen"
+
+#: portfolio-content.php:196
+msgid "Add or remove Categories"
+msgstr "Kategorien hinzufügen oder entfernen"
+
+#: portfolio-content.php:197 portfolio-content.php:248
+msgid "Choose from the most used"
+msgstr "Aus meistbenutzten wählen"
+
+#: portfolio-content.php:198
+msgid "Popular Categories"
+msgstr "Beliebte Kategorien"
+
+#: portfolio-content.php:199
+msgid "Search Categories"
+msgstr "Kategorien durchsuchen"
+
+#: portfolio-content.php:200 portfolio-content.php:251
+msgid "Not Found"
+msgstr "Nichts gefunden"
+
+#: portfolio-content.php:201
+msgid "No Categories"
+msgstr "Keine Kategorien"
+
+#: portfolio-content.php:202
+msgid "Categories list"
+msgstr "Kategorienliste"
+
+#: portfolio-content.php:203
+msgid "Categories list navigation"
+msgstr "Kategorien-Listen Navigation"
+
+#: portfolio-content.php:235
+msgctxt "Taxonomy General Name"
+msgid "Portfolio Tags"
+msgstr "Portfolio Schlagwörter"
+
+#: portfolio-content.php:236
+msgctxt "Taxonomy Singular Name"
+msgid "Portfolio Tag"
+msgstr "Portfolio Schlagwort"
+
+#: portfolio-content.php:237
+msgctxt "Admin menu name"
+msgid "Tags"
+msgstr "Schlagwörter"
+
+#: portfolio-content.php:238
+msgid "All Tags"
+msgstr "Alle Schlagwörter"
+
+#: portfolio-content.php:239
+msgid "Parent Tag"
+msgstr "Übergeordnetes Schlagwort"
+
+#: portfolio-content.php:240
+msgid "Parent Tag:"
+msgstr "Übergeordnetes Schlagwort:"
+
+#: portfolio-content.php:241
+msgid "New Tag Name"
+msgstr "Neuer Schlagwort-Name"
+
+#: portfolio-content.php:242
+msgid "Add New Tag"
+msgstr "Neues Schlagwort hinzufügen"
+
+#: portfolio-content.php:243
+msgid "Edit Tag"
+msgstr "Schlagwort bearbeiten"
+
+#: portfolio-content.php:244
+msgid "Update Tag"
+msgstr "Schlagwort aktualisieren"
+
+#: portfolio-content.php:245
+msgid "View Tag"
+msgstr "Schlagwort anzeigen"
+
+#: portfolio-content.php:246
+msgid "Separate Tags with commas"
+msgstr "Schlagwörter durch Kommas trennen"
+
+#: portfolio-content.php:247
+msgid "Add or remove Tags"
+msgstr "Hinzufügen oder Entfernen von Stichworte"
+
+#: portfolio-content.php:249
+msgid "Popular Tags"
+msgstr "Beliebte Schlagwörter"
+
+#: portfolio-content.php:250
+msgid "Search Tags"
+msgstr "Schlagwörter suchen"
+
+#: portfolio-content.php:252
+msgid "No Tags"
+msgstr "Keine Schlagwörter"
+
+#: portfolio-content.php:253
+msgid "Tags list"
+msgstr "Schlagwortliste"
+
+#: portfolio-content.php:254
+msgid "Tags list navigation"
+msgstr "Navigation der Schlagwortliste"
+
+#. Plugin Name of the plugin/theme
+msgid "Portfolio Content"
+msgstr "Portfolio-Inhalte"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/deckerweb/portfolio-content"
+msgstr "https://github.com/deckerweb/portfolio-content"
+
+#. Description of the plugin/theme
+msgid "Simple Portfolio custom post type for custom content."
+msgstr ""
+"Einfacher individueller Inhaltstyp (Post Type) für benutzerdefinierte "
+"Inhalte."
+
+#. Author of the plugin/theme
+msgid "David Decker - DECKERWEB"
+msgstr "David Decker - DECKERWEB.de"
+
+#. Author URI of the plugin/theme
+msgid "https://deckerweb.de/"
+msgstr "https://deckerweb.de/"
+
+#~ msgid "Taxonomy"
+#~ msgstr "Taxonomie"
+
+#~ msgid "Portfolio Tags"
+#~ msgstr "Portfolio Schlagwörter"
