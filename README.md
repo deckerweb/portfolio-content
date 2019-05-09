@@ -20,6 +20,8 @@ The Post Type comes with two taxonomies registered as well, Portfolio Categories
 
 This plugin is fully translateable by default so it works perfectly for multlingual installs - and multilingual plugins like Polylang.
 
+The available filters allow you to tweak all registered arguments for the post type and its taxonomies. For example, you would also be able to change the slugs on a per language basis via filter functions that way.
+
 
 ## Features:
 
@@ -53,13 +55,14 @@ This plugin is fully translateable by default so it works perfectly for multling
 
 
 ## Translations:
-= Localization & Internationalizaton:
+
+### Localization & Internationalizaton:
 
 * Used textdomain: `portfolio-content`
 * Default `.pot` file included
 * German translations included (`de_DE` & `de_DE_formal`)
 * Plugin's own path for translations: `wp-content/plugins/portfolio-content/languages/portfolio-content-de_DE.mo`
 * *Recommended:* Global WordPress lang dir path for translations: `wp-content/languages/plugins/portfolio-content-de_DE.mo` ---> *NOTE: if this file/path exists it will be loaded at higher priority than the plugin path! This is the recommended path & way to store your translations as it is update-safe and allows for custom translations!*
-* Recommended translation tools: *Poedit* (free) OR *Poedit Pro*
+* Recommended translation tools: **Poedit** (free) OR **Poedit Pro**
 
 Copyright (c) 2019 David Decker - DECKERWEB
