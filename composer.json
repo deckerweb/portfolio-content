@@ -1,0 +1,22 @@
+{
+  "name": "deckerweb/portfolio-content",
+  "description": "Simple Portfolio custom post type for custom content.",
+  "keywords": ["portfolio", "content", "cpt", "post type"],
+  "type": "wordpress-plugin",
+  "homepage": "https://github.com/deckerweb/portfolio-content",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "David Decker",
+      "homepage": "https://deckerweb-plugins.com/",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/deckerweb/portfolio-content/issues",
+    "source": "https://github.com/deckerweb/portfolio-content"
+  },
+  "require": {
+    "php": ">=5.6"
+  }
+}
