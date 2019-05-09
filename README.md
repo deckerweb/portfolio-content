@@ -14,6 +14,10 @@ Simple Portfolio custom post type for custom content.
 
 ## Description:
 
+The Portfolio CPT is defacto like "Posts" but just on its own.
+
+The Post Type comes with two taxonomies registered as well, Portfolio Categories and Portfolio Tags.
+
 This plugin is fully translateable by default so it works perfectly for multlingual installs - and multilingual plugins like Polylang.
 
 
@@ -22,6 +26,9 @@ This plugin is fully translateable by default so it works perfectly for multling
 * Simple post type - all that you know and would expect
 * Nothing extra -- use custom field plugins like ACF or Pods, please
 * Gutenberg enabled by default (in post type parameters)
+* Taxonomy: Portfolio Categories
+* Taxonomy: Portfolio Tags
+* Filters for all 3 registrations available to tweak the arguments if needed
 
 
 ## Plugin Installation:
