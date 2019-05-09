@@ -73,12 +73,12 @@ function ddw_cpt_portfolio_content_load_translations() {
 	 * WordPress languages directory
 	 *   Will default to: wp-content/languages/portfolio-content/portfolio-content-{locale}.mo
 	 */
-	$tbex_wp_lang_dir = trailingslashit( WP_LANG_DIR ) . trailingslashit( $portfolio_textdomain ) . $portfolio_textdomain . '-' . $locale . '.mo';
+	$pfc_wp_lang_dir = trailingslashit( WP_LANG_DIR ) . trailingslashit( $portfolio_textdomain ) . $portfolio_textdomain . '-' . $locale . '.mo';
 
 	/** Translations: First, look in WordPress' "languages" folder = custom & update-safe! */
 	load_textdomain(
 		$portfolio_textdomain,
-		$tbex_wp_lang_dir
+		$pfc_wp_lang_dir
 	);
 
 	/** Translations: Secondly, look in 'wp-content/languages/plugins/' for the proper .mo file (= default) */
