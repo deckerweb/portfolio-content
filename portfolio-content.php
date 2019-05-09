@@ -174,7 +174,7 @@ function ddw_cpt_portfolio_content_post_type() {
 
 add_action( 'init', 'ddw_cpt_portfolio_category_taxonomy', 0 );
 /**
- * Register custom taxonomy: Portfolia Category
+ * Register custom taxonomy: Portfolio Category
  *
  * @since 1.0.0
  */
@@ -225,7 +225,7 @@ function ddw_cpt_portfolio_category_taxonomy() {
 
 add_action( 'init', 'ddw_cpt_portfolio_tag_taxonomy', 0 );
 /**
- * Register custom taxonomy: Portfolia Tag
+ * Register custom taxonomy: Portfolio Tag
  *
  * @since 1.0.0
  */
