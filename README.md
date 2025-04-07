@@ -130,7 +130,7 @@ The available filters allow you to tweak all registered arguments for the post t
 
 ## Changelog 
 
-### 🎉 v1.1.0 – 2025-04-??
+### 🎉 v1.1.0 – 2025-04-07
 * Bring back the plugin to a new life
 * New: Transformed code into class-based approach (more future-proof)
 * New: Flush permalink rewrite rules on plugin activation (and only then)
