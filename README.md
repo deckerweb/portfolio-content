@@ -1,35 +1,93 @@
 # Portfolio Content (CPT)
 
+Simple Portfolio custom post type for custom content. An **easy drop-in solution** – fast, simple, lightweight!
+
 * Contributors: [David Decker](https://github.com/deckerweb), [contributors](https://github.com/deckerweb/portfolio-content/graphs/contributors)
 * Tags: portfolio, content, cpt, post type, custom
-* Requires at least: 4.7
-* Tested up to: 5.2
+* Requires at least: 6.7
+* Requires PHP: 7.4
+* Stable tag: [master](https://github.com/deckerweb/portfolio-content/releases/latest)
 * Stable tag: master
 * Donate link: [https://www.paypal.me/deckerweb](https://www.paypal.me/deckerweb)
-* License: GPL-2.0+
-* License URI: [http://www.opensource.org/licenses/gpl-license.php](http://www.opensource.org/licenses/gpl-license.php)
+* License: GPL v2 or later
 
-Simple Portfolio custom post type for custom content.
+---
 
+[Support Project](#support-the-project) | [Installation](#installation) | [Updates](#updates) | [Description](#description) | [Features](#features) | [Translations](#translations) | [Changelog](#changelog--version-history) | [Plugin Scope / Disclaimer](#plugin-scope--disclaimer)
 
-## Description:
+---
 
-The Portfolio CPT is defacto like "Posts" but just on its own.
+## Support the Project
 
-The Post Type comes with two taxonomies registered as well, Portfolio Categories and Portfolio Tags.
+If you find this project helpful, consider showing your support by buying me a coffee! Your contribution helps me keep developing and improving this plugin.
 
-This plugin is fully translateable by default so it works perfectly for multlingual installs - and multilingual plugins like Polylang.
+Enjoying the plugin? Feel free to treat me to a cup of coffee ☕🙂 through the following options:
+
+- [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W81BNTZE)
+- [Buy me a coffee](https://buymeacoffee.com/daveshine)
+- [PayPal donation](https://paypal.me/deckerweb)
+- [Join my **newsletter** for DECKERWEB WordPress Plugins](https://eepurl.com/gbAUUn)
+
+---
+
+## Installation
+
+#### **Quick Install – as Plugin**
+1. **Download ZIP:** [**portfolio-content.zip**](https://github.com/deckerweb/portfolio-content/releases/latest/download/portfolio-content.zip)
+2. Upload via WordPress Plugins > Add New > Upload Plugin
+3. Once activated, you can see Portfolio admin menu – just add content
+ 
+#### **Alternative: Use as Code Snippet**
+1. Below, download the appropriate snippet version
+2. activate or deactivate in your snippets plugin
+
+[**Download .json**](https://github.com/deckerweb/portfolio-content/releases/latest/download/ddw-portfolio-content.code-snippets.json) version for: _Code Snippets_ (free & Pro), _Advanced Scripts_ (Premium), _Scripts Organizer_ (Premium)  
+--> just use their elegant script import features  
+--> in _Scripts Organizer_ use the "Code Snippets Import"  
+
+For all other snippet manager plugins just use our plugin's main .php file [`portfolio-content.php`](https://github.com/deckerweb/portfolio-content/blob/master/portfolio-content.php) and use its content as snippet (bevor saving your snippet: please check for your plugin if the opening php tag needs to be removed or not!).  
+Also NOTE: When using the snippet version you have to re-save the Permalinks in WordPress _after activating_ the code snippet!
+
+--> Please decide for one of both alternatives!
+
+---
+
+## Updates 
+
+#### For Plugin Version:
+
+1) Alternative 1: Just download a new [ZIP file](https://github.com/deckerweb/portfolio-content/releases/latest/download/portfolio-content.zip) (see above), upload and override existing version. Done.
+
+2) Alternative 2: Use the (free) [**_Git Updater_ plugin**](https://git-updater.com/) and get updates automatically.
+
+3) Alternative 3: Upcoming! – In future I will built-in our own deckerweb updater. This is currently being worked on for my plugins. Stay tuned!
+
+#### For Code Snippet Version:
+
+Just manually: Download the latest Snippet version (see above) and import it in your favorite snippets manager plugin. – You can delete the old snippet; then just activate the new one. Done.
+
+---
+
+## Description 
+
+The Portfolio CPT is defacto like "Posts" but just on its own.  
+A **simple drop-in solution** – fast, easy, lightweight!
+
+The Post Type comes with two taxonomies registered as well, _Portfolio Categories_ and _Portfolio Tags_.
+
+This plugin is fully translateable by default so it works perfectly for multlingual installs - and multilingual plugins like _Polylang_.
 
 The available filters allow you to tweak all registered arguments for the post type and its taxonomies. For example, you would also be able to change the slugs on a per language basis via filter functions that way.
 
+---
 
-## Features:
+## Features 
 
-* Simple post type - all that you know and would expect
-* Nothing extra -- use custom field plugins like ACF or Pods, please
+* Simple post type - all that you know and would expect – slug: `portfolio-content`
+* Nothing extra – use custom field plugins like Meta Box, ACPT, ACF, JetEngine or Pods, please
 * Gutenberg enabled by default (in post type parameters)
-* Taxonomy: Portfolio Categories
-* Taxonomy: Portfolio Tags
+* Taxonomy: Portfolio Categories – slug: `portfolio-category`
+* Taxonomy: Portfolio Tags – slug: `portfolio-tag`
 * Filters for all 3 registrations available to tweak the arguments if needed
 
 
@@ -53,8 +111,9 @@ The available filters allow you to tweak all registered arguments for the post t
 * Setting your GitHub API Token is recommended! :)
 * It's so easy and seamless you won't find any better solution for this ;-)
 
+---
 
-## Translations:
+## Translations 
 
 ### Localization & Internationalizaton:
 
@@ -65,4 +124,37 @@ The available filters allow you to tweak all registered arguments for the post t
 * *Recommended:* Global WordPress lang dir path for translations: `wp-content/languages/plugins/portfolio-content-de_DE.mo` ---> *NOTE: if this file/path exists it will be loaded at higher priority than the plugin path! This is the recommended path & way to store your translations as it is update-safe and allows for custom translations!*
 * Recommended translation tools: **Poedit** (free) OR **Poedit Pro**
 
-Copyright (c) 2019 David Decker - DECKERWEB
+---
+
+## Changelog 
+
+### 🎉 v1.1.0 – 2025-04-??
+* Bring back the plugin to a new life
+* New: Transformed code into class-based approach (more future-proof)
+* New: Flush permalink rewrite rules on plugin activation (and only then)
+* New: Installable and updateable via [Git Updater plugin](https://git-updater.com/)
+* Plugin: Add meta links on WP Plugins page
+* Alternate install: Use "plugin" as Code Snippet version – now officially promoted here in Readme and with downloadable `.json` file
+* Updated `.pot` file, plus packaged German translations, now including new `l10n.php` files!
+
+### 🎉 v1.0.0 – 2019-05-09
+* Everything's new 👍
+* Initial _public_ release on GitHub
+
+---
+
+## Plugin Scope / Disclaimer
+
+This plugin comes as is.
+
+_Disclaimer 1:_ So far I will support the plugin for breaking errors to keep it working. Otherwise support will be very limited. Also, it will NEVER be released to WordPress.org Plugin Repository for a lot of reasons (ah, thanks, Matt!).
+
+_Disclaimer 2:_ All of the above might change. I do all this stuff only in my spare time.
+
+_Most of all:_ Have fun building great sites!!! ;-)
+
+---
+
+Icon used in promo graphics: [© Remix Icon](https://remixicon.com/)
+
+Readme & Plugin Copyright: © 2019-2025, David Decker - DECKERWEB
