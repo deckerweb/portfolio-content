@@ -1,6 +1,8 @@
 # Portfolio Content (CPT)
 
-Simple Portfolio custom post type for custom content. An **easy drop-in solution** – fast, simple, lightweight!
+Simple Portfolio custom post type for custom content. An **easy drop-in solution** – fast, simple, lightweight! Perfect for your favorite page builder. Fully translateable for multilingual WordPress installations. 
+
+![Portfolio Content plugin banner](https://repository-images.githubusercontent.com/185806227/00213974-3ea1-4a84-bff1-1460629b97c4)
 
 * Contributors: [David Decker](https://github.com/deckerweb), [contributors](https://github.com/deckerweb/portfolio-content/graphs/contributors)
 * Tags: portfolio, content, cpt, post type, custom
