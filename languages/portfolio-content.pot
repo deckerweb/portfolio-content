@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Portfolio Content\n"
-"POT-Creation-Date: 2025-04-07 16:46+0200\n"
+"POT-Creation-Date: 2025-04-07 23:37+0200\n"
 "PO-Revision-Date: 2019-05-09 15:28+0200\n"
 "Last-Translator: David Decker DECKERWEB.de -- https://deckerweb.de/\n"
 "Language-Team: David Decker DECKERWEB.de -- https://deckerweb.de/\n"
@@ -20,281 +20,281 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: portfolio-content.php:85
+#: portfolio-content.php:99
 msgctxt "Post Type General Name"
 msgid "Portfolios"
 msgstr ""
 
-#: portfolio-content.php:86
+#: portfolio-content.php:100
 msgctxt "Post Type Singular Name"
 msgid "Portfolio"
 msgstr ""
 
-#: portfolio-content.php:88
+#: portfolio-content.php:101
 msgctxt "Admin Bar name"
 msgid "Portfolio"
 msgstr ""
 
-#: portfolio-content.php:89
+#: portfolio-content.php:102
 msgid "Portfolio Archive"
 msgstr ""
 
-#: portfolio-content.php:90
+#: portfolio-content.php:103
 msgid "Portfolio Attributes"
 msgstr ""
 
-#: portfolio-content.php:91
+#: portfolio-content.php:104
 msgid "Parent Portfolio:"
 msgstr ""
 
-#: portfolio-content.php:92
+#: portfolio-content.php:105
 msgid "All Porfolios"
 msgstr ""
 
-#: portfolio-content.php:93
+#: portfolio-content.php:106
 msgid "Add New Portfolio"
 msgstr ""
 
-#: portfolio-content.php:94
+#: portfolio-content.php:107
 msgid "Add New"
 msgstr ""
 
-#: portfolio-content.php:95
+#: portfolio-content.php:108
 msgid "New Portfolio"
 msgstr ""
 
-#: portfolio-content.php:96
+#: portfolio-content.php:109
 msgid "Edit Portfolio"
 msgstr ""
 
-#: portfolio-content.php:97
+#: portfolio-content.php:110
 msgid "Update Portfolio"
 msgstr ""
 
-#: portfolio-content.php:98
+#: portfolio-content.php:111
 msgid "View Portfolio"
 msgstr ""
 
-#: portfolio-content.php:99
+#: portfolio-content.php:112
 msgid "View Portfolios"
 msgstr ""
 
-#: portfolio-content.php:100
+#: portfolio-content.php:113
 msgid "Search Portfolios"
 msgstr ""
 
-#: portfolio-content.php:101
+#: portfolio-content.php:114
 msgid "Not found"
 msgstr ""
 
-#: portfolio-content.php:102
+#: portfolio-content.php:115
 msgid "Not found in Trash"
 msgstr ""
 
-#: portfolio-content.php:103
+#: portfolio-content.php:116
 msgid "Featured Image"
 msgstr ""
 
-#: portfolio-content.php:104
+#: portfolio-content.php:117
 msgid "Set featured image"
 msgstr ""
 
-#: portfolio-content.php:105
+#: portfolio-content.php:118
 msgid "Remove featured image"
 msgstr ""
 
-#: portfolio-content.php:106
+#: portfolio-content.php:119
 msgid "Use as featured image"
 msgstr ""
 
-#: portfolio-content.php:107
+#: portfolio-content.php:120
 msgid "Insert into Portfolio"
 msgstr ""
 
-#: portfolio-content.php:108
+#: portfolio-content.php:121
 msgid "Uploaded to this Portfolio"
 msgstr ""
 
-#: portfolio-content.php:109
+#: portfolio-content.php:122
 msgid "Portfolios list"
 msgstr ""
 
-#: portfolio-content.php:110
+#: portfolio-content.php:123
 msgid "Portfolios list navigation"
 msgstr ""
 
-#: portfolio-content.php:111
+#: portfolio-content.php:124
 msgid "Filter Portfolios list"
 msgstr ""
 
 #. translators: Title attribute for Post Author Taxonomy tax link
-#: portfolio-content.php:127 portfolio-content.php:306
+#: portfolio-content.php:140 portfolio-content.php:317
 msgid "Portfolio"
 msgstr ""
 
-#: portfolio-content.php:128
+#: portfolio-content.php:141
 msgid "Custom portfolio content"
 msgstr ""
 
-#: portfolio-content.php:163
+#: portfolio-content.php:176
 msgctxt "Taxonomy General Name"
 msgid "Portfolio Categories"
 msgstr ""
 
-#: portfolio-content.php:164
+#: portfolio-content.php:177
 msgctxt "Taxonomy Singular Name"
 msgid "Portfolio Category"
 msgstr ""
 
-#: portfolio-content.php:166
+#: portfolio-content.php:178
 msgid "All Categories"
 msgstr ""
 
-#: portfolio-content.php:167
+#: portfolio-content.php:179
 msgid "Parent Category"
 msgstr ""
 
-#: portfolio-content.php:168
+#: portfolio-content.php:180
 msgid "Parent Category:"
 msgstr ""
 
-#: portfolio-content.php:169
+#: portfolio-content.php:181
 msgid "New Category Name"
 msgstr ""
 
-#: portfolio-content.php:170
+#: portfolio-content.php:182
 msgid "Add New Category"
 msgstr ""
 
-#: portfolio-content.php:171
+#: portfolio-content.php:183
 msgid "Edit Category"
 msgstr ""
 
-#: portfolio-content.php:172
+#: portfolio-content.php:184
 msgid "Update Category"
 msgstr ""
 
-#: portfolio-content.php:173
+#: portfolio-content.php:185
 msgid "View Category"
 msgstr ""
 
-#: portfolio-content.php:174
+#: portfolio-content.php:186
 msgid "Separate Categories with commas"
 msgstr ""
 
-#: portfolio-content.php:175
+#: portfolio-content.php:187
 msgid "Add or remove Categories"
 msgstr ""
 
-#: portfolio-content.php:176 portfolio-content.php:224
+#: portfolio-content.php:188 portfolio-content.php:235
 msgid "Choose from the most used"
 msgstr ""
 
-#: portfolio-content.php:177
+#: portfolio-content.php:189
 msgid "Popular Categories"
 msgstr ""
 
-#: portfolio-content.php:178
+#: portfolio-content.php:190
 msgid "Search Categories"
 msgstr ""
 
-#: portfolio-content.php:179 portfolio-content.php:227
+#: portfolio-content.php:191 portfolio-content.php:238
 msgid "Not Found"
 msgstr ""
 
-#: portfolio-content.php:180
+#: portfolio-content.php:192
 msgid "No Categories"
 msgstr ""
 
-#: portfolio-content.php:181
+#: portfolio-content.php:193
 msgid "Categories list"
 msgstr ""
 
-#: portfolio-content.php:182
+#: portfolio-content.php:194
 msgid "Categories list navigation"
 msgstr ""
 
-#: portfolio-content.php:211
+#: portfolio-content.php:223
 msgctxt "Taxonomy General Name"
 msgid "Portfolio Tags"
 msgstr ""
 
-#: portfolio-content.php:212
+#: portfolio-content.php:224
 msgctxt "Taxonomy Singular Name"
 msgid "Portfolio Tag"
 msgstr ""
 
-#: portfolio-content.php:214
+#: portfolio-content.php:225
 msgid "All Tags"
 msgstr ""
 
-#: portfolio-content.php:215
+#: portfolio-content.php:226
 msgid "Parent Tag"
 msgstr ""
 
-#: portfolio-content.php:216
+#: portfolio-content.php:227
 msgid "Parent Tag:"
 msgstr ""
 
-#: portfolio-content.php:217
+#: portfolio-content.php:228
 msgid "New Tag Name"
 msgstr ""
 
-#: portfolio-content.php:218
+#: portfolio-content.php:229
 msgid "Add New Tag"
 msgstr ""
 
-#: portfolio-content.php:219
+#: portfolio-content.php:230
 msgid "Edit Tag"
 msgstr ""
 
-#: portfolio-content.php:220
+#: portfolio-content.php:231
 msgid "Update Tag"
 msgstr ""
 
-#: portfolio-content.php:221
+#: portfolio-content.php:232
 msgid "View Tag"
 msgstr ""
 
-#: portfolio-content.php:222
+#: portfolio-content.php:233
 msgid "Separate Tags with commas"
 msgstr ""
 
-#: portfolio-content.php:223
+#: portfolio-content.php:234
 msgid "Add or remove Tags"
 msgstr ""
 
-#: portfolio-content.php:225
+#: portfolio-content.php:236
 msgid "Popular Tags"
 msgstr ""
 
-#: portfolio-content.php:226
+#: portfolio-content.php:237
 msgid "Search Tags"
 msgstr ""
 
-#: portfolio-content.php:228
+#: portfolio-content.php:239
 msgid "No Tags"
 msgstr ""
 
-#: portfolio-content.php:229
+#: portfolio-content.php:240
 msgid "Tags list"
 msgstr ""
 
-#: portfolio-content.php:230
+#: portfolio-content.php:241
 msgid "Tags list navigation"
 msgstr ""
 
-#: portfolio-content.php:307
+#: portfolio-content.php:318
 msgctxt "For Portfolio Content Plugin"
 msgid "Portfolio Content"
 msgstr ""
 
-#: portfolio-content.php:353
+#: portfolio-content.php:364
 msgctxt "Plugins page listing"
 msgid "Donate"
 msgstr ""
 
-#: portfolio-content.php:359
+#: portfolio-content.php:370
 msgctxt "Plugins page listing"
 msgid "Join our Newsletter"
 msgstr ""
