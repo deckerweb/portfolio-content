@@ -35,13 +35,13 @@ Enjoying the plugin? Feel free to treat me to a cup of coffee ☕🙂 through th
 ## Installation
 
 #### **Quick Install – as Plugin**
-[![Download Plugin](https://raw.githubusercontent.com/deckerweb/portfolio-content/refs/heads/master/assets/button-download-plugin.png)](https://github.com/deckerweb/portfolio-content/releases/latest/download/portfolio-content.zip)
+[![Download Plugin](https://raw.githubusercontent.com/deckerweb/portfolio-content/refs/heads/master/assets/button-download-plugin.png)](https://github.com/deckerweb/portfolio-content/releases/latest/download/portfolio-content.zip)  
 1. **Download ZIP:** [**portfolio-content.zip**](https://github.com/deckerweb/portfolio-content/releases/latest/download/portfolio-content.zip)
 2. Upload via WordPress Plugins > Add New > Upload Plugin
-3. Once activated, you can see Portfolio admin menu – just add content
+3. Once activated, you can see Portfolio admin menu – just add content  
  
-#### **Alternative: Use as Code Snippet**
-[![Download Code Snippet](https://raw.githubusercontent.com/deckerweb/portfolio-content/refs/heads/master/assets/button-download-snippet.png)](https://github.com/deckerweb/portfolio-content/releases/latest/download/ddw-portfolio-content.code-snippets.json)
+#### **Alternative: Use as Code Snippet**  
+[![Download Code Snippet](https://raw.githubusercontent.com/deckerweb/portfolio-content/refs/heads/master/assets/button-download-snippet.png)](https://github.com/deckerweb/portfolio-content/releases/latest/download/ddw-portfolio-content.code-snippets.json)  
 1. **Download .json:** [**ddw-portfolio-content.code-snippets.json**](https://github.com/deckerweb/portfolio-content/releases/latest/download/ddw-portfolio-content.code-snippets.json)
 2. Activate or deactivate in your snippets plugin
 
