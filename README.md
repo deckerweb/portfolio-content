@@ -159,6 +159,6 @@ _Most of all:_ Have fun building great sites!!! ;-)
 
 ---
 
-Icon used in promo graphics: [© Remix Icon](https://remixicon.com/)
+Icon used in promo graphics: [© Tabler Icons by Paweł Kuna](https://tabler.io/icons)
 
 Readme & Plugin Copyright: © 2019-2025, David Decker - DECKERWEB
