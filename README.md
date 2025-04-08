@@ -41,10 +41,11 @@ Enjoying the plugin? Feel free to treat me to a cup of coffee ☕🙂 through th
 3. Once activated, you can see Portfolio admin menu – just add content
  
 #### **Alternative: Use as Code Snippet**
-1. Below, download the appropriate snippet version
-2. activate or deactivate in your snippets plugin
+[![Download Code Snippet](https://raw.githubusercontent.com/deckerweb/portfolio-content/refs/heads/master/assets/button-download-snippet.png)](https://github.com/deckerweb/portfolio-content/releases/latest/download/ddw-portfolio-content.code-snippets.json)
+1. [**Download .json**](https://github.com/deckerweb/portfolio-content/releases/latest/download/ddw-portfolio-content.code-snippets.json)
+2. Activate or deactivate in your snippets plugin
 
-[**Download .json**](https://github.com/deckerweb/portfolio-content/releases/latest/download/ddw-portfolio-content.code-snippets.json) version for: _Code Snippets_ (free & Pro), _Advanced Scripts_ (Premium), _Scripts Organizer_ (Premium)  
+This snippet version is for: _Code Snippets_ (free & Pro), _Advanced Scripts_ (Premium), _Scripts Organizer_ (Premium)  
 --> just use their elegant script import features  
 --> in _Scripts Organizer_ use the "Code Snippets Import"  
 
