@@ -42,7 +42,7 @@ Enjoying the plugin? Feel free to treat me to a cup of coffee ☕🙂 through th
  
 #### **Alternative: Use as Code Snippet**
 [![Download Code Snippet](https://raw.githubusercontent.com/deckerweb/portfolio-content/refs/heads/master/assets/button-download-snippet.png)](https://github.com/deckerweb/portfolio-content/releases/latest/download/ddw-portfolio-content.code-snippets.json)
-1. [**Download .json**](https://github.com/deckerweb/portfolio-content/releases/latest/download/ddw-portfolio-content.code-snippets.json)
+1. **Download .json** [**ddw-portfolio-content.code-snippets.json**](https://github.com/deckerweb/portfolio-content/releases/latest/download/ddw-portfolio-content.code-snippets.json)
 2. Activate or deactivate in your snippets plugin
 
 This snippet version is for: _Code Snippets_ (free & Pro), _Advanced Scripts_ (Premium), _Scripts Organizer_ (Premium)  
