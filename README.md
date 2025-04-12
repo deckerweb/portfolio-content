@@ -9,7 +9,6 @@ Simple Portfolio custom post type for custom content. An **easy drop-in solution
 * Requires at least: 6.7
 * Requires PHP: 7.4
 * Stable tag: [master](https://github.com/deckerweb/portfolio-content/releases/latest)
-* Stable tag: master
 * Donate link: [https://www.paypal.me/deckerweb](https://www.paypal.me/deckerweb)
 * License: GPL v2 or later
 
@@ -49,10 +48,10 @@ This snippet version is for: _Code Snippets_ (free & Pro), _Advanced Scripts_ (P
 --> just use their elegant script import features  
 --> in _Scripts Organizer_ use the "Code Snippets Import"  
 
-For all other snippet manager plugins just use our plugin's main .php file [`portfolio-content.php`](https://github.com/deckerweb/portfolio-content/blob/master/portfolio-content.php) and use its content as snippet (bevor saving your snippet: please check for your plugin if the opening php tag needs to be removed or not!).  
+For all other snippet manager plugins just use our plugin's main `.php` file [`portfolio-content.php`](https://github.com/deckerweb/portfolio-content/blob/master/portfolio-content.php) and use its content as snippet (bevor saving your snippet: please check for your plugin if the opening `<?php` tag needs to be removed or not!).  
 Also NOTE: When using the snippet version you have to re-save the Permalinks in WordPress _after activating_ the code snippet!
 
---> Please decide for one of both alternatives!
+➔ Please decide for _one_ of both alternatives!
 
 ---
 
@@ -132,7 +131,7 @@ The available filters allow you to tweak all registered arguments for the post t
 
 ## Changelog 
 
-### 🎉 v1.2.0 - 2025-04-??
+### 🎉 v1.2.0 - 2025-04-?? _(unreleased!)_
 * New: Confirmed full compatibility with ClassicPress 2.x
 * Improved: Internal code & documentation improvements
 * Updated `.pot` file, plus packaged German translations
