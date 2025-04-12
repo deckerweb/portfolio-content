@@ -13,9 +13,31 @@ Text Domain:       portfolio-content
 Domain Path:       /languages/
 Requires WP:       6.7
 Requires PHP:      7.4
+Requires CP:       2.0
+Update URI:        https://github.com/deckerweb/portfolio-content/
 GitHub Plugin URI: https://github.com/deckerweb/portfolio-content
 GitHub Branch:     master
 Copyright:         © 2019-2025, David Decker - DECKERWEB
+
+TESTED WITH:
+Product			Versions
+--------------------------------------------------------------------------------------------------------------
+PHP 			8.0, 8.3
+WordPress		6.7.2 ... 6.8 Beta
+ClassicPress	2.4.x
+--------------------------------------------------------------------------------------------------------------
+
+VERSION HISTORY:
+Date        Version     Description
+--------------------------------------------------------------------------------------------------------------
+2025-04-??	1.2.0		?						
+2025-04-07	1.1.0	    New: Fresh restart (brought plugin back into life)
+						New: Flush permalink rewrite rules on plugin activation (and only then)
+						New: Class-based approach
+.			.			.
+2019-05-09	1.0.0       Initial release
+2019-05-09	0.0.0	    Development start
+--------------------------------------------------------------------------------------------------------------
 */
 
 /**

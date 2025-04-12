@@ -35,13 +35,13 @@ Enjoying the plugin? Feel free to treat me to a cup of coffee ☕🙂 through th
 ## Installation
 
 #### **Quick Install – as Plugin**
-[![Download Plugin](https://raw.githubusercontent.com/deckerweb/portfolio-content/refs/heads/master/assets/button-download-plugin.png)](https://github.com/deckerweb/portfolio-content/releases/latest/download/portfolio-content.zip)  
+[![Download Plugin](https://raw.githubusercontent.com/deckerweb/portfolio-content/refs/heads/master/assets/button-download-plugin-v2.png)](https://github.com/deckerweb/portfolio-content/releases/latest/download/portfolio-content.zip)  
 1. **Download ZIP:** [**portfolio-content.zip**](https://github.com/deckerweb/portfolio-content/releases/latest/download/portfolio-content.zip)
 2. Upload via WordPress Plugins > Add New > Upload Plugin
-3. Once activated, you can see Portfolio admin menu – just add content  
- 
+3. Once activated, you can see Portfolio admin menu – just add content
+  
 #### **Alternative: Use as Code Snippet**  
-[![Download Code Snippet](https://raw.githubusercontent.com/deckerweb/portfolio-content/refs/heads/master/assets/button-download-snippet.png)](https://github.com/deckerweb/portfolio-content/releases/latest/download/ddw-portfolio-content.code-snippets.json)  
+[![Download Code Snippet](https://raw.githubusercontent.com/deckerweb/portfolio-content/refs/heads/master/assets/button-download-snippet-v2.png)](https://github.com/deckerweb/portfolio-content/releases/latest/download/ddw-portfolio-content.code-snippets.json)  
 1. **Download .json:** [**ddw-portfolio-content.code-snippets.json**](https://github.com/deckerweb/portfolio-content/releases/latest/download/ddw-portfolio-content.code-snippets.json)
 2. Activate or deactivate in your snippets plugin
 
@@ -132,6 +132,12 @@ The available filters allow you to tweak all registered arguments for the post t
 
 ## Changelog 
 
+### 🎉 v1.2.0 - 2025-04-??
+* New: Confirmed full compatibility with ClassicPress 2.x
+* Improved: Internal code & documentation improvements
+* Updated `.pot` file, plus packaged German translations
+
+
 ### 🎉 v1.1.0 – 2025-04-07
 * Bring back the plugin to a new life
 * New: Transformed code into class-based approach (more future-proof)
@@ -140,6 +146,7 @@ The available filters allow you to tweak all registered arguments for the post t
 * Plugin: Add meta links on WP Plugins page
 * Alternate install: Use "plugin" as Code Snippet version – now officially promoted here in Readme and with downloadable `.json` file
 * Updated `.pot` file, plus packaged German translations, now including new `l10n.php` files!
+
 
 ### 🎉 v1.0.0 – 2019-05-09
 * Everything's new 👍
