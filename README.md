@@ -45,13 +45,18 @@ Enjoying the plugin? Feel free to treat me to a cup of coffee ☕🙂 through th
 2. Activate or deactivate in your snippets plugin
 
 This snippet version is for: _Code Snippets_ (free & Pro), _Advanced Scripts_ (Premium), _Scripts Organizer_ (Premium)  
---> just use their elegant script import features  
---> in _Scripts Organizer_ use the "Code Snippets Import"  
+➔ just use their elegant script import features  
+➔ in _Scripts Organizer_ use the "Code Snippets Import"  
 
 For all other snippet manager plugins just use our plugin's main `.php` file [`portfolio-content.php`](https://github.com/deckerweb/portfolio-content/blob/master/portfolio-content.php) and use its content as snippet (bevor saving your snippet: please check for your plugin if the opening `<?php` tag needs to be removed or not!).  
 Also NOTE: When using the snippet version you have to re-save the Permalinks in WordPress _after activating_ the code snippet!
 
 ➔ Please decide for _one_ of both alternatives!
+
+#### Tested Compatibility
+- **WordPress**: 6.7.2 / 6.8 Beta
+- **ClassicPress:** 2.4.0 / 2.4.1
+- **PHP**: 8.0 – 8.3
 
 ---
 
