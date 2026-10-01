@@ -1,175 +1,124 @@
-# Portfolio Content (CPT)
+# Portfolio Content
 
-Simple Portfolio custom post type for custom content. An **easy drop-in solution** – fast, simple, lightweight! Perfect for your favorite page builder. Fully translateable for multilingual WordPress installations. 
+![Portfolio Content](assets/banner-1544x500.png)
 
-![Portfolio Content plugin banner](https://repository-images.githubusercontent.com/185806227/00213974-3ea1-4a84-bff1-1460629b97c4)
+**Your projects. Ready to share.**
 
-* Contributors: [David Decker](https://github.com/deckerweb), [contributors](https://github.com/deckerweb/portfolio-content/graphs/contributors)
-* Tags: portfolio, content, cpt, post type, custom
-* Requires at least: 6.7
-* Requires PHP: 7.4
-* Stable tag: [master](https://github.com/deckerweb/portfolio-content/releases/latest)
-* Donate link: [https://www.paypal.me/deckerweb](https://www.paypal.me/deckerweb)
-* License: GPL v2 or later
+**Version:** 1.2.0 · **Requires:** WordPress 6.7+ / PHP 7.4+ · **License:** GPL v2 or later
 
----
+A lightweight portfolio content plugin by [David Decker – DECKERWEB](https://deckerweb.de/).
+[Download](https://github.com/deckerweb/portfolio-content/releases/latest) · [User guide](https://github.com/deckerweb/portfolio-content/wiki/English) · [Deutsch](README-de.md) · [Changelog](CHANGELOG.md) · [Support](https://github.com/deckerweb/portfolio-content/issues)
 
-[Support Project](#support-the-project) | [Installation](#installation) | [Updates](#updates) | [Description](#description) | [Features](#features) | [Translations](#translations) | [Changelog](#changelog--version-history) | [Plugin Scope / Disclaimer](#plugin-scope--disclaimer)
+## Contents
 
----
+- [What it does](#what-it-does)
+- [Requirements](#requirements)
+- [Install and start](#install-and-start)
+- [Project starter](#project-starter)
+- [Updates and Library](#updates-and-library)
+- [Alternative: code snippet](#alternative-code-snippet)
+- [FAQ](#faq)
+- [Compatibility contract](#compatibility-contract)
+- [Development](#development)
+- [Changelog](#changelog)
 
-## Support the Project
+## What it does
 
-If you find this project helpful, consider showing your support by buying me a coffee! Your contribution helps me keep developing and improving this plugin.
+Portfolio projects with categories and tags, ready for the block editor or your preferred page builder. Your theme controls presentation. No custom front-end scripts, gallery engine or required field plugin.
 
-Enjoying the plugin? Feel free to treat me to a cup of coffee ☕🙂 through the following options:
+- Quick start under Settings → Portfolio Content and Portfolio → Quick start.
+- Featured-image previews and a category filter in the project list.
+- Optional editable project starter: challenge, approach, result and gallery.
+- Two native block patterns: project story and responsive project overview with pagination.
+- Bundled deckerweb GitHub Release Updater v2 and deckerweb Plugin Library 0.2.0.
+- English, German and formal German interfaces and localized update banners.
 
-- [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W81BNTZE)
-- [Buy me a coffee](https://buymeacoffee.com/daveshine)
-- [PayPal donation](https://paypal.me/deckerweb)
-- [Join my **newsletter** for DECKERWEB WordPress Plugins](https://eepurl.com/gbAUUn)
+## Requirements
 
----
+WordPress 6.7+, PHP 7.4+. The embedded Library runs on PHP 8.0+; on PHP 7.4 the portfolio and updater remain available without the Library. ClassicPress is not an official support or test target.
 
-## Installation
+## Install and start
 
-#### **Quick Install – as Plugin**
-[![Download Plugin](https://raw.githubusercontent.com/deckerweb/portfolio-content/refs/heads/master/assets/button-download-plugin-v2.png)](https://github.com/deckerweb/portfolio-content/releases/latest/download/portfolio-content.zip)  
-1. **Download ZIP:** [**portfolio-content.zip**](https://github.com/deckerweb/portfolio-content/releases/latest/download/portfolio-content.zip)
-2. Upload via WordPress Plugins > Add New > Upload Plugin
-3. Once activated, you can see Portfolio admin menu – just add content
-  
-#### **Alternative: Use as Code Snippet**  
-[![Download Code Snippet](https://raw.githubusercontent.com/deckerweb/portfolio-content/refs/heads/master/assets/button-download-snippet-v2.png)](https://github.com/deckerweb/portfolio-content/releases/latest/download/ddw-portfolio-content.code-snippets.json)  
-1. **Download .json:** [**ddw-portfolio-content.code-snippets.json**](https://github.com/deckerweb/portfolio-content/releases/latest/download/ddw-portfolio-content.code-snippets.json)
-2. Activate or deactivate in your snippets plugin
+1. Upload `portfolio-content.zip` under Plugins → Add New → Upload Plugin; activate it.
+2. Open Settings → Portfolio Content. Optionally enable the project starter.
+3. Add a project with title, featured image and excerpt; publish it.
+4. Create a page. In the block inserter's Patterns tab choose Portfolio Content → Portfolio: project overview.
+5. Publish the page and add it to your navigation.
 
-This snippet version is for: _Code Snippets_ (free & Pro), _Advanced Scripts_ (Premium), _Scripts Organizer_ (Premium)  
-➔ just use their elegant script import features  
-➔ in _Scripts Organizer_ use the "Code Snippets Import"  
+The overview uses a native Query Loop: six projects, newest first, three columns and pagination. Adjust these in the editor. Theme styles control appearance. The built-in archive at `/portfolio/` uses your theme's archive template and can look different from the overview page.
 
-For all other snippet manager plugins just use our plugin's main `.php` file [`portfolio-content.php`](https://github.com/deckerweb/portfolio-content/blob/master/portfolio-content.php) and use its content as snippet (bevor saving your snippet: please check for your plugin if the opening `<?php` tag needs to be removed or not!).  
-Also NOTE: When using the snippet version you have to re-save the Permalinks in WordPress _after activating_ the code snippet!
+For page builders, select `portfolio-content` as the post grid content source and configure image, title and excerpt. Custom fields remain the responsibility of your chosen field plugin. No specific commercial builder integration is included or claimed as tested.
 
-➔ Please decide for _one_ of both alternatives!
+## Project starter
 
-#### Tested Compatibility
-- **WordPress**: 6.7.2 / 6.8 Beta
-- **ClassicPress:** 2.4.0 / 2.4.1
-- **PHP**: 8.0 – 8.3
+Disabled by default. Enable it in settings to populate new empty auto-drafts only. Existing projects and non-empty defaults remain untouched. It is ordinary editable content, not a locked template. The classic WordPress editor receives headings and paragraphs instead of block markup.
 
----
+## Updates and Library
 
-## Updates 
+The bundled updater checks public stable GitHub releases through WordPress's native update system. It does not enable automatic updates. A release ZIP must contain the plugin, a newer stable version and matching requirements. Artwork is served locally in your administrator's language.
 
-#### For Plugin Version:
+The Library adds the deckerweb catalog to Plugins → Add New, with its own settings, capabilities, verified packages and network handling. The bundled approval catalog is preserved from Library 0.2.0; catalog entries are approved separately against the public release ZIP and its checksum. Optional online catalog updates stay opt-in. This direct-distribution package is not intended for submission to WordPress.org with its external installer.
 
-1) Alternative 1: Just download a new [ZIP file](https://github.com/deckerweb/portfolio-content/releases/latest/download/portfolio-content.zip) (see above), upload and override existing version. Done.
+## Alternative: code snippet
 
-2) Alternative 2: Use the (free) [**_Git Updater_ plugin**](https://git-updater.com/) and get updates automatically.
+Import `ddw-portfolio-content.code-snippets.json` in Code Snippets and run it everywhere. Use either plugin or snippet, not both. The snippet includes registration, quick start, editor patterns and inline admin styles, but deliberately excludes the plugin updater and Library. German translations are embedded in the generated snippet. After enabling or disabling it, save Settings → Permalinks once. The plugin refreshes rewrites on activation only.
 
-3) Alternative 3: Upcoming! – In future I will built-in our own deckerweb updater. This is currently being worked on for my plugins. Stay tuned!
+## FAQ
 
-#### For Code Snippet Version:
+**Do I need a page builder?** No. The native block patterns work with the WordPress block editor. A builder can use the portfolio post type as a grid source.
 
-Just manually: Download the latest Snippet version (see above) and import it in your favorite snippets manager plugin. – You can delete the old snippet; then just activate the new one. Done.
+**Will it change my website design?** Your theme or builder controls the appearance. The plugin registers content and provides editable native patterns.
 
----
+**Does the starter change existing projects?** No. It is optional and only fills new empty automatic drafts.
 
-## Description 
+**How do I show my projects?** Create a page and insert Portfolio: project overview from the Patterns tab, or use the theme archive at /portfolio/.
 
-The Portfolio CPT is defacto like "Posts" but just on its own.  
-A **simple drop-in solution** – fast, easy, lightweight!
+**Do I need a custom field plugin?** No. Title, content, excerpt, featured image, categories and tags are included. Additional fields are optional.
 
-The Post Type comes with two taxonomies registered as well, _Portfolio Categories_ and _Portfolio Tags_.
+**How do updates work?** Public stable GitHub releases appear in the regular WordPress plugin update system. No separate updater plugin is needed.
 
-This plugin is fully translateable by default so it works perfectly for multlingual installs - and multilingual plugins like _Polylang_.
+**Can I use the snippet instead?** Yes. Import the release JSON in Code Snippets and run it everywhere. Choose either plugin or snippet; the snippet has no updater or Library.
 
-The available filters allow you to tweak all registered arguments for the post type and its taxonomies. For example, you would also be able to change the slugs on a per language basis via filter functions that way.
+[More answers by topic](https://github.com/deckerweb/portfolio-content/wiki/FAQ-English)
 
----
+## Compatibility contract
 
-## Features 
+Internal identifiers stay `portfolio-content`, `portfolio-category`, `portfolio-tag`. Project URLs and archive remain `/portfolio/`; REST support and post capabilities stay unchanged. Existing filters:
 
-* Simple post type - all that you know and would expect – slug: `portfolio-content`
-* Nothing extra – use custom field plugins like Meta Box, ACPT, ACF, JetEngine or Pods, please
-* Gutenberg enabled by default (in post type parameters)
-* Taxonomy: Portfolio Categories – slug: `portfolio-category`
-* Taxonomy: Portfolio Tags – slug: `portfolio-tag`
-* Filters for all 3 registrations available to tweak the arguments if needed
+- `pfc/post-type/params`
+- `pfc/taxonomy/params-category`
+- `pfc/taxonomy/params-tag`
+- `pfc/plugins-page/cpt-links`
+- `pfc/plugins-page/meta-links`
 
+The meta-links filter is now scoped to this plugin's row. Custom translations under `wp-content/languages/portfolio-content/` remain supported; normal WordPress plugin translations and bundled fallbacks are supported as well.
 
-## Plugin Installation:
+## Development
 
-**Manual Upload**
-* download current .zip archive from master branch here, URL: [https://github.com/deckerweb/portfolio-content/archive/master.zip](https://github.com/deckerweb/portfolio-content/archive/master.zip)
-* unzip the package, then **rename the folder to `portfolio-content`**, then upload renamed folder via FTP to your WordPress plugin directory
-* activate the plugin
+`python3 tools/build.py --output /path/to/output` builds the clean installable ZIP and snippet JSON from one source. Development files and artwork alternatives are excluded. Run PHP lint and the WordPress integration checks described in `docs/TESTING.md` before release. Release version: 1.2.0, dated 2026-10-01.
 
-**Via "GitHub Updater" Plugin** *(recommended!)*
+GPL-2.0-or-later. [Donate](https://ko-fi.com/deckerweb) · [Newsletter](https://deckerweb.us2.list-manage.com/subscribe?u=e09bef034abf80704e5ff9809&id=380976af88)
 
-* Install & activate the "GitHub Updater" plugin, get from here: [https://github.com/afragen/github-updater](https://github.com/afragen/github-updater)
-* Recommended: set your API Token in the plugin's settings
-* Go to "Settings > GitHub Updater > Install Plugin"
-* Paste the GitHub URL `https://github.com/deckerweb/portfolio-content` in the "Plugin URI" field (branch "master" is pre-set), then hit the "Install Plugin" button there
-* Install & activate the plugin
+## Changelog
 
-**Updates**
-* Are done via the plugin "GitHub Updater" (see above) - leveraging the default WordPress update system!
-* Setting your GitHub API Token is recommended! :)
-* It's so easy and seamless you won't find any better solution for this ;-)
+### 1.2.0 — 2026-10-01
 
----
+- **New:** Added quick start, featured-image column and portfolio category filter.
+- **New:** Added optional starter content and two native block patterns.
+- **New:** Added deckerweb updater v2 and optional Library 0.2.0.
+- **Improved:** Refactored registration, administration and editor responsibilities; preserved content identifiers and filters.
+- **Fixed:** Corrected minimum WordPress header, translation locale handling, spelling and plugin-row link scope.
+- **Fixed:** Removed personal data prefill from the newsletter URL.
+- **Improved:** Updated English/German documentation and German translations.
 
-## Translations 
+### 1.1.0 — 2025-04-07
 
-### Localization & Internationalizaton:
+- **Improved:** Restarted development with a class-based registration.
+- **Improved:** Refresh rewrite rules on activation only.
+- **New:** Added plugin links and snippet distribution.
 
-* Used textdomain: `portfolio-content`
-* Default `.pot` file included
-* German translations included (`de_DE` & `de_DE_formal`)
-* Plugin's own path for translations: `wp-content/plugins/portfolio-content/languages/portfolio-content-de_DE.mo`
-* *Recommended:* Global WordPress lang dir path for translations: `wp-content/languages/plugins/portfolio-content-de_DE.mo` ---> *NOTE: if this file/path exists it will be loaded at higher priority than the plugin path! This is the recommended path & way to store your translations as it is update-safe and allows for custom translations!*
-* Recommended translation tools: **Poedit** (free) OR **Poedit Pro**
+### 1.0.0 — 2019-05-09
 
----
+- **New:** Initial public release.
 
-## Changelog 
-
-### 🎉 v1.2.0 - 2025-04-?? _(unreleased!)_
-* New: Confirmed full compatibility with ClassicPress 2.x
-* Improved: Internal code & documentation improvements
-* Updated `.pot` file, plus packaged German translations
-
-
-### 🎉 v1.1.0 – 2025-04-07
-* Bring back the plugin to a new life
-* New: Transformed code into class-based approach (more future-proof)
-* New: Flush permalink rewrite rules on plugin activation (and only then)
-* New: Installable and updateable via [Git Updater plugin](https://git-updater.com/)
-* Plugin: Add meta links on WP Plugins page
-* Alternate install: Use "plugin" as Code Snippet version – now officially promoted here in Readme and with downloadable `.json` file
-* Updated `.pot` file, plus packaged German translations, now including new `l10n.php` files!
-
-
-### 🎉 v1.0.0 – 2019-05-09
-* Everything's new 👍
-* Initial _public_ release on GitHub
-
----
-
-## Plugin Scope / Disclaimer
-
-This plugin comes as is.
-
-_Disclaimer 1:_ So far I will support the plugin for breaking errors to keep it working. Otherwise support will be very limited. Also, it will NEVER be released to WordPress.org Plugin Repository for a lot of reasons (ah, thanks, Matt!).
-
-_Disclaimer 2:_ All of the above might change. I do all this stuff only in my spare time.
-
-_Most of all:_ Have fun building great sites!!! ;-)
-
----
-
-Icon used in promo graphics: [© Tabler Icons by Paweł Kuna](https://tabler.io/icons)
-
-Readme & Plugin Copyright: © 2019-2025, David Decker - DECKERWEB
+[Complete changelog](https://github.com/deckerweb/portfolio-content/wiki/Changelog-English)

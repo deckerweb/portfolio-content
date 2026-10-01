@@ -9,3 +9,7 @@ node_modules/
 
 # macOS
 .DS_Store
+
+# Release artifacts
+dist/
+__pycache__/
