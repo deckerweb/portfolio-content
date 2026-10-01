@@ -1,353 +1,360 @@
 msgid ""
-msgstr ""
-"Project-Id-Version: Portfolio Content\n"
-"POT-Creation-Date: 2025-04-07 23:37+0200\n"
-"PO-Revision-Date: 2025-04-07 23:37+0200\n"
-"Last-Translator: David Decker DECKERWEB.de <David Decker DECKERWEB.de>\n"
-"Language-Team: David Decker DECKERWEB.de -- https://deckerweb.de/\n"
-"Language: de_DE\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.6\n"
-"X-Poedit-Basepath: ..\n"
-"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
-"X-Poedit-WPHeader: portfolio-content.php\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: "
-"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPathExcluded-0: *.js\n"
+msgstr "Project-Id-Version: Portfolio Content 1.2.0\nLanguage: de_DE\nLast-Translator: David Decker – DECKERWEB\nLanguage-Team: German\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\nPO-Revision-Date: 2026-10-01 12:00+0200\n"
 
-#: portfolio-content.php:99
 msgctxt "Post Type General Name"
 msgid "Portfolios"
 msgstr "Portfolios"
 
-#: portfolio-content.php:100
 msgctxt "Post Type Singular Name"
 msgid "Portfolio"
 msgstr "Portfolio"
 
-#: portfolio-content.php:101
 msgctxt "Admin Bar name"
 msgid "Portfolio"
 msgstr "Portfolio"
 
-#: portfolio-content.php:102
 msgid "Portfolio Archive"
 msgstr "Portfolio Archiv"
 
-#: portfolio-content.php:103
 msgid "Portfolio Attributes"
 msgstr "Portfolio-Attribute"
 
-#: portfolio-content.php:104
 msgid "Parent Portfolio:"
 msgstr "Eltern Portfolio:"
 
-#: portfolio-content.php:105
-msgid "All Porfolios"
-msgstr "Alle Porfolios"
+msgid "All Portfolios"
+msgstr "Alle Portfolios"
 
-#: portfolio-content.php:106
 msgid "Add New Portfolio"
 msgstr "Neues Portfolio hinzufügen"
 
-#: portfolio-content.php:107
 msgid "Add New"
 msgstr "Hinzufügen"
 
-#: portfolio-content.php:108
 msgid "New Portfolio"
 msgstr "Neuer Portfolio-Beitrag"
 
-#: portfolio-content.php:109
 msgid "Edit Portfolio"
-msgstr "Portolio bearbeiten"
+msgstr "Portfolio bearbeiten"
 
-#: portfolio-content.php:110
 msgid "Update Portfolio"
 msgstr "Portfolio aktualisieren"
 
-#: portfolio-content.php:111
 msgid "View Portfolio"
 msgstr "Portfolio anzeigen"
 
-#: portfolio-content.php:112
 msgid "View Portfolios"
 msgstr "Portfolio anschauen"
 
-#: portfolio-content.php:113
 msgid "Search Portfolios"
 msgstr "Portfolio suchen"
 
-#: portfolio-content.php:114
 msgid "Not found"
 msgstr "Nichts gefunden"
 
-#: portfolio-content.php:115
 msgid "Not found in Trash"
 msgstr "Es befinden sich keine Elemente im Papierkorb"
 
-#: portfolio-content.php:116
 msgid "Featured Image"
 msgstr "Beitragsbild"
 
-#: portfolio-content.php:117
 msgid "Set featured image"
 msgstr "Beitragsbild festlegen"
 
-#: portfolio-content.php:118
 msgid "Remove featured image"
 msgstr "Beitragsbild entfernen"
 
-#: portfolio-content.php:119
 msgid "Use as featured image"
 msgstr "Als Beitragsbild verwenden"
 
-#: portfolio-content.php:120
 msgid "Insert into Portfolio"
 msgstr "In Portfolio einfügen"
 
-#: portfolio-content.php:121
 msgid "Uploaded to this Portfolio"
 msgstr "Zu diesem Portfolio hochgeladen"
 
-#: portfolio-content.php:122
 msgid "Portfolios list"
 msgstr "Portfolios Liste"
 
-#: portfolio-content.php:123
 msgid "Portfolios list navigation"
 msgstr "Portfolios Listennavigation"
 
-#: portfolio-content.php:124
 msgid "Filter Portfolios list"
 msgstr "Filter Portfolios Liste"
 
-#. translators: Title attribute for Post Author Taxonomy tax link
-#: portfolio-content.php:140 portfolio-content.php:317
 msgid "Portfolio"
 msgstr "Portfolio"
 
-#: portfolio-content.php:141
 msgid "Custom portfolio content"
 msgstr "Individuelle Portfolio-Inhalte"
 
-#: portfolio-content.php:176
 msgctxt "Taxonomy General Name"
 msgid "Portfolio Categories"
 msgstr "Portfolio Kategorien"
 
-#: portfolio-content.php:177
 msgctxt "Taxonomy Singular Name"
 msgid "Portfolio Category"
 msgstr "Portfolio Kategorie"
 
-#: portfolio-content.php:178
 msgid "All Categories"
 msgstr "Alle Kategorien"
 
-#: portfolio-content.php:179
 msgid "Parent Category"
 msgstr "Übergeordnete Kategorie"
 
-#: portfolio-content.php:180
 msgid "Parent Category:"
 msgstr "Übergeordnete Kategorie:"
 
-#: portfolio-content.php:181
 msgid "New Category Name"
 msgstr "Neuer Kategoriename"
 
-#: portfolio-content.php:182
 msgid "Add New Category"
 msgstr "Neue Kategorie hinzufügen"
 
-#: portfolio-content.php:183
 msgid "Edit Category"
 msgstr "Kategorie bearbeiten"
 
-#: portfolio-content.php:184
 msgid "Update Category"
 msgstr "Kategorie aktualisieren"
 
-#: portfolio-content.php:185
 msgid "View Category"
 msgstr "Kategorie anzeigen"
 
-#: portfolio-content.php:186
 msgid "Separate Categories with commas"
 msgstr "Kategorien mit Kommas trennen"
 
-#: portfolio-content.php:187
 msgid "Add or remove Categories"
 msgstr "Kategorien hinzufügen oder entfernen"
 
-#: portfolio-content.php:188 portfolio-content.php:235
 msgid "Choose from the most used"
 msgstr "Aus meistbenutzten wählen"
 
-#: portfolio-content.php:189
 msgid "Popular Categories"
 msgstr "Beliebte Kategorien"
 
-#: portfolio-content.php:190
 msgid "Search Categories"
 msgstr "Kategorien durchsuchen"
 
-#: portfolio-content.php:191 portfolio-content.php:238
 msgid "Not Found"
 msgstr "Nichts gefunden"
 
-#: portfolio-content.php:192
 msgid "No Categories"
 msgstr "Keine Kategorien"
 
-#: portfolio-content.php:193
 msgid "Categories list"
 msgstr "Kategorienliste"
 
-#: portfolio-content.php:194
 msgid "Categories list navigation"
 msgstr "Kategorien-Listen Navigation"
 
-#: portfolio-content.php:223
 msgctxt "Taxonomy General Name"
 msgid "Portfolio Tags"
 msgstr "Portfolio Schlagwörter"
 
-#: portfolio-content.php:224
 msgctxt "Taxonomy Singular Name"
 msgid "Portfolio Tag"
 msgstr "Portfolio Schlagwort"
 
-#: portfolio-content.php:225
 msgid "All Tags"
 msgstr "Alle Schlagwörter"
 
-#: portfolio-content.php:226
 msgid "Parent Tag"
 msgstr "Übergeordnetes Schlagwort"
 
-#: portfolio-content.php:227
 msgid "Parent Tag:"
 msgstr "Übergeordnetes Schlagwort:"
 
-#: portfolio-content.php:228
 msgid "New Tag Name"
 msgstr "Neuer Schlagwort-Name"
 
-#: portfolio-content.php:229
 msgid "Add New Tag"
 msgstr "Neues Schlagwort hinzufügen"
 
-#: portfolio-content.php:230
 msgid "Edit Tag"
 msgstr "Schlagwort bearbeiten"
 
-#: portfolio-content.php:231
 msgid "Update Tag"
 msgstr "Schlagwort aktualisieren"
 
-#: portfolio-content.php:232
 msgid "View Tag"
 msgstr "Schlagwort anzeigen"
 
-#: portfolio-content.php:233
 msgid "Separate Tags with commas"
 msgstr "Schlagwörter durch Kommas trennen"
 
-#: portfolio-content.php:234
 msgid "Add or remove Tags"
 msgstr "Hinzufügen oder Entfernen von Stichworte"
 
-#: portfolio-content.php:236
 msgid "Popular Tags"
 msgstr "Beliebte Schlagwörter"
 
-#: portfolio-content.php:237
 msgid "Search Tags"
 msgstr "Schlagwörter suchen"
 
-#: portfolio-content.php:239
 msgid "No Tags"
 msgstr "Keine Schlagwörter"
 
-#: portfolio-content.php:240
 msgid "Tags list"
 msgstr "Schlagwortliste"
 
-#: portfolio-content.php:241
 msgid "Tags list navigation"
 msgstr "Navigation der Schlagwortliste"
 
-#: portfolio-content.php:318
-msgctxt "For Portfolio Content Plugin"
-msgid "Portfolio Content"
-msgstr "Portfolio-Inhalte"
+msgid "Portfolio projects, categories and tags with a quick start, project template and native block patterns."
+msgstr "Portfolio-Projekte, Kategorien und Schlagwörter mit Schnellstart, Projektvorlage und nativen Block-Vorlagen."
 
-#: portfolio-content.php:364
-msgctxt "Plugins page listing"
+msgid "The update filesystem is unavailable. Please try again."
+msgstr "Das Dateisystem für Updates ist nicht verfügbar. Bitte versuche es erneut."
+
+msgid "The GitHub package does not contain the Portfolio Content plugin file."
+msgstr "Das GitHub-Paket enthält nicht die Plugin-Datei von Portfolio Content."
+
+msgid "The GitHub package could not be prepared. The installed version has been kept."
+msgstr "Das GitHub-Paket konnte nicht vorbereitet werden. Die installierte Version bleibt erhalten."
+
+msgid "The update package could not be checked."
+msgstr "Das Update-Paket konnte nicht geprüft werden."
+
+msgid "The package identity or version does not match a newer Portfolio Content release."
+msgstr "Identität oder Version des Pakets stimmen nicht mit einer neueren Portfolio-Content-Version überein."
+
+msgid "The package version differs from the offered update. Please check for updates again."
+msgstr "Die Paketversion weicht vom angebotenen Update ab. Bitte prüfe erneut auf Updates."
+
+msgid "The update package has missing or invalid WordPress/PHP requirements."
+msgstr "Das Update-Paket enthält fehlende oder ungültige WordPress-/PHP-Anforderungen."
+
+msgid "This release requires a newer WordPress or PHP version. The installed version has been kept."
+msgstr "Diese Version benötigt eine neuere WordPress- oder PHP-Version. Die installierte Version bleibt erhalten."
+
+msgid "The challenge"
+msgstr "Die Aufgabe"
+
+msgid "What did the client need? Describe the goal and starting point."
+msgstr "Was wurde gebraucht? Beschreibe das Ziel und die Ausgangslage."
+
+msgid "The approach"
+msgstr "Die Umsetzung"
+
+msgid "Explain your contribution and the steps that made the project work."
+msgstr "Beschreibe deinen Beitrag und die Schritte, die das Projekt erfolgreich gemacht haben."
+
+msgid "The result"
+msgstr "Das Ergebnis"
+
+msgid "Show the outcome and what improved for the client."
+msgstr "Zeige das Ergebnis und die Verbesserungen für den Kunden."
+
+msgid "Portfolio Content"
+msgstr "Portfolio Content"
+
+msgid "Portfolio: project story"
+msgstr "Portfolio: Projektvorstellung"
+
+msgid "A project story with challenge, approach, result and a gallery."
+msgstr "Eine Projektvorstellung mit Aufgabe, Umsetzung, Ergebnis und Galerie."
+
+msgid "Your published projects will appear here."
+msgstr "Hier erscheinen deine veröffentlichten Projekte."
+
+msgid "Portfolio: project overview"
+msgstr "Portfolio: Projektübersicht"
+
+msgid "A responsive project grid using native WordPress blocks and your theme styles."
+msgstr "Ein responsives Projektraster mit WordPress-Blöcken und den Stilen deines Themes."
+
+msgid "Quick start"
+msgstr "Schnellstart"
+
+msgid "Image"
+msgstr "Bild"
+
+msgid "No featured image"
+msgstr "Kein Beitragsbild"
+
+msgid "All portfolio categories"
+msgstr "Alle Portfolio-Kategorien"
+
+msgid "Your projects. Ready to share."
+msgstr "Deine Projekte. Bereit zum Teilen."
+
+msgid "Your first portfolio in three steps"
+msgstr "Dein erstes Portfolio in drei Schritten"
+
+msgid "1. Add your first project"
+msgstr "1. Erstes Projekt anlegen"
+
+msgid "Add a title, featured image and a short excerpt. Categories help visitors find related work."
+msgstr "Ergänze Titel, Beitragsbild und einen kurzen Textauszug. Kategorien helfen Besuchern, ähnliche Arbeiten zu finden."
+
+msgid "Add project"
+msgstr "Projekt anlegen"
+
+msgid "2. Create your overview"
+msgstr "2. Übersicht erstellen"
+
+msgid "Create a page, open Patterns and choose Portfolio Content → Portfolio: project overview. The grid automatically shows your published projects."
+msgstr "Erstelle eine Seite, öffne die Vorlagen und wähle Portfolio Content → Portfolio: Projektübersicht. Das Raster zeigt automatisch deine veröffentlichten Projekte."
+
+msgid "In your page builder, add a post grid and select Portfolio Content as its content source. Choose your image, title and excerpt layout."
+msgstr "Füge in deinem Page Builder ein Beitragsraster ein und wähle Portfolio Content als Inhaltsquelle. Lege das Layout für Bild, Titel und Textauszug fest."
+
+msgid "Create page"
+msgstr "Seite erstellen"
+
+msgid "3. Review and share"
+msgstr "3. Prüfen und teilen"
+
+msgid "Publish your project and check its public view. The archive layout is provided by your theme; add your overview page to your navigation when ready."
+msgstr "Veröffentliche dein Projekt und prüfe die öffentliche Ansicht. Dein Theme gestaltet das Archiv. Füge deine Übersichtsseite zur Navigation hinzu, sobald sie fertig ist."
+
+msgid "View portfolio archive"
+msgstr "Portfolio-Archiv ansehen"
+
+msgid "View projects"
+msgstr "Projekte ansehen"
+
+msgid "Project starter template"
+msgstr "Projektvorlage"
+
+msgid "Start new projects with editable sections for the challenge, approach, result and images. Existing projects are never changed."
+msgstr "Beginne neue Projekte mit bearbeitbaren Abschnitten für Aufgabe, Umsetzung, Ergebnis und Bilder. Bestehende Projekte bleiben unverändert."
+
+msgid "Use the starter template for new projects"
+msgstr "Projektvorlage für neue Projekte verwenden"
+
+msgid "Save settings"
+msgstr "Einstellungen speichern"
+
+msgid "Make it yours"
+msgstr "Gestalte dein Portfolio"
+
+msgid "The block editor includes two Portfolio Content patterns: a project story and a project overview. Use your theme styles to adjust the design. With a classic editor or page builder, use the project content and its native post grid instead."
+msgstr "Im Block-Editor findest du zwei Portfolio-Content-Vorlagen: Projektvorstellung und Projektübersicht. Passe das Design mit den Stilen deines Themes an. Bei einem klassischen Editor oder Page Builder nutzt du die Projektinhalte und das dortige Beitragsraster."
+
+msgid "Custom fields can be added with your preferred field plugin. Portfolio Content keeps your content independent of its presentation."
+msgstr "Individuelle Felder kannst du mit deinem bevorzugten Feld-Plugin ergänzen. Portfolio Content hält deine Inhalte unabhängig von ihrer Darstellung."
+
+msgid "Plugin information"
+msgstr "Plugin-Informationen"
+
+msgid "Version"
+msgstr "Version"
+
+msgid "Changelog"
+msgstr "Änderungsprotokoll"
+
+msgid "Documentation"
+msgstr "Dokumentation"
+
+msgid "Plugin website"
+msgstr "Plugin-Website"
+
 msgid "Donate"
 msgstr "Spenden"
 
-#: portfolio-content.php:370
-msgctxt "Plugins page listing"
 msgid "Join our Newsletter"
-msgstr "Jetzt Newsletter"
+msgstr "Newsletter abonnieren"
 
-#. Plugin Name of the plugin/theme
-msgid "Portfolio Content"
-msgstr "Portfolio-Inhalte"
-
-#. Plugin URI of the plugin/theme
-msgid "https://github.com/deckerweb/portfolio-content"
-msgstr "https://github.com/deckerweb/portfolio-content"
-
-#. Description of the plugin/theme
-msgid ""
-"Simple Portfolio custom post type for custom content. Fully translateable. "
-"Install, put in your data and use it via your favorite Page Builder or with "
-"the default Block Editor."
-msgstr ""
-"Einfacher Portfolio-Beitragstyp für benutzerdefinierte Inhalte. Vollständig "
-"übersetzbar. Installieren, Daten eingeben und verwenden – via bevorzugtem "
-"Page Builder oder mit dem Standard-Block-Editor."
-
-#. Author of the plugin/theme
-msgid "David Decker - DECKERWEB"
-msgstr "David Decker - DECKERWEB.de"
-
-#. Author URI of the plugin/theme
-msgid "https://deckerweb.de/"
-msgstr "https://deckerweb.de/"
-
-#~ msgctxt "Admin menu name"
-#~ msgid "Portfolio Content"
-#~ msgstr "Portfolio-Inhalte"
-
-#~ msgctxt "Toolbar name"
-#~ msgid "Portfolio"
-#~ msgstr "Portfolio"
-
-#~ msgctxt "Admin menu name"
-#~ msgid "Categories"
-#~ msgstr "Kategorien"
-
-#~ msgctxt "Admin menu name"
-#~ msgid "Tags"
-#~ msgstr "Schlagwörter"
-
-#~ msgid "Simple Portfolio custom post type for custom content."
-#~ msgstr ""
-#~ "Einfacher individueller Inhaltstyp (Post Type) für benutzerdefinierte "
-#~ "Inhalte."
-
-#~ msgid "Taxonomy"
-#~ msgstr "Taxonomie"
-
-#~ msgid "Portfolio Tags"
-#~ msgstr "Portfolio Schlagwörter"
+msgid "Close"
+msgstr "Schließen"

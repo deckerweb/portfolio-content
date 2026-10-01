@@ -1,323 +1,525 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Portfolio Content package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Portfolio Content\n"
-"POT-Creation-Date: 2025-04-07 23:37+0200\n"
-"PO-Revision-Date: 2019-05-09 15:28+0200\n"
-"Last-Translator: David Decker DECKERWEB.de -- https://deckerweb.de/\n"
-"Language-Team: David Decker DECKERWEB.de -- https://deckerweb.de/\n"
+"Project-Id-Version: Portfolio Content 1.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-01 15:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Poedit 3.6\n"
-"X-Poedit-Basepath: ..\n"
-"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
-"X-Poedit-WPHeader: portfolio-content.php\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: "
-"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: portfolio-content.php:99
+#: includes/class-portfolio-content.php:64
 msgctxt "Post Type General Name"
 msgid "Portfolios"
 msgstr ""
 
-#: portfolio-content.php:100
+#: includes/class-portfolio-content.php:65
 msgctxt "Post Type Singular Name"
 msgid "Portfolio"
 msgstr ""
 
-#: portfolio-content.php:101
+#: includes/class-portfolio-content.php:66
 msgctxt "Admin Bar name"
 msgid "Portfolio"
 msgstr ""
 
-#: portfolio-content.php:102
+#: includes/class-portfolio-content.php:67
 msgid "Portfolio Archive"
 msgstr ""
 
-#: portfolio-content.php:103
+#: includes/class-portfolio-content.php:68
 msgid "Portfolio Attributes"
 msgstr ""
 
-#: portfolio-content.php:104
+#: includes/class-portfolio-content.php:69
 msgid "Parent Portfolio:"
 msgstr ""
 
-#: portfolio-content.php:105
-msgid "All Porfolios"
+#: includes/class-portfolio-content.php:70
+msgid "All Portfolios"
 msgstr ""
 
-#: portfolio-content.php:106
+#: includes/class-portfolio-content.php:71
 msgid "Add New Portfolio"
 msgstr ""
 
-#: portfolio-content.php:107
+#: includes/class-portfolio-content.php:72
 msgid "Add New"
 msgstr ""
 
-#: portfolio-content.php:108
+#: includes/class-portfolio-content.php:73
 msgid "New Portfolio"
 msgstr ""
 
-#: portfolio-content.php:109
+#: includes/class-portfolio-content.php:74
 msgid "Edit Portfolio"
 msgstr ""
 
-#: portfolio-content.php:110
+#: includes/class-portfolio-content.php:75
 msgid "Update Portfolio"
 msgstr ""
 
-#: portfolio-content.php:111
+#: includes/class-portfolio-content.php:76
 msgid "View Portfolio"
 msgstr ""
 
-#: portfolio-content.php:112
+#: includes/class-portfolio-content.php:77
 msgid "View Portfolios"
 msgstr ""
 
-#: portfolio-content.php:113
+#: includes/class-portfolio-content.php:78
 msgid "Search Portfolios"
 msgstr ""
 
-#: portfolio-content.php:114
+#: includes/class-portfolio-content.php:79
 msgid "Not found"
 msgstr ""
 
-#: portfolio-content.php:115
+#: includes/class-portfolio-content.php:80
 msgid "Not found in Trash"
 msgstr ""
 
-#: portfolio-content.php:116
+#: includes/class-portfolio-content.php:81
 msgid "Featured Image"
 msgstr ""
 
-#: portfolio-content.php:117
+#: includes/class-portfolio-content.php:82
 msgid "Set featured image"
 msgstr ""
 
-#: portfolio-content.php:118
+#: includes/class-portfolio-content.php:83
 msgid "Remove featured image"
 msgstr ""
 
-#: portfolio-content.php:119
+#: includes/class-portfolio-content.php:84
 msgid "Use as featured image"
 msgstr ""
 
-#: portfolio-content.php:120
+#: includes/class-portfolio-content.php:85
 msgid "Insert into Portfolio"
 msgstr ""
 
-#: portfolio-content.php:121
+#: includes/class-portfolio-content.php:86
 msgid "Uploaded to this Portfolio"
 msgstr ""
 
-#: portfolio-content.php:122
+#: includes/class-portfolio-content.php:87
 msgid "Portfolios list"
 msgstr ""
 
-#: portfolio-content.php:123
+#: includes/class-portfolio-content.php:88
 msgid "Portfolios list navigation"
 msgstr ""
 
-#: portfolio-content.php:124
+#: includes/class-portfolio-content.php:89
 msgid "Filter Portfolios list"
 msgstr ""
 
-#. translators: Title attribute for Post Author Taxonomy tax link
-#: portfolio-content.php:140 portfolio-content.php:317
+#: includes/class-portfolio-content.php:105
 msgid "Portfolio"
 msgstr ""
 
-#: portfolio-content.php:141
+#: includes/class-portfolio-content.php:106
 msgid "Custom portfolio content"
 msgstr ""
 
-#: portfolio-content.php:176
+#: includes/class-portfolio-content.php:141
 msgctxt "Taxonomy General Name"
 msgid "Portfolio Categories"
 msgstr ""
 
-#: portfolio-content.php:177
+#: includes/class-portfolio-content.php:142
 msgctxt "Taxonomy Singular Name"
 msgid "Portfolio Category"
 msgstr ""
 
-#: portfolio-content.php:178
+#: includes/class-portfolio-content.php:143
 msgid "All Categories"
 msgstr ""
 
-#: portfolio-content.php:179
+#: includes/class-portfolio-content.php:144
 msgid "Parent Category"
 msgstr ""
 
-#: portfolio-content.php:180
+#: includes/class-portfolio-content.php:145
 msgid "Parent Category:"
 msgstr ""
 
-#: portfolio-content.php:181
+#: includes/class-portfolio-content.php:146
 msgid "New Category Name"
 msgstr ""
 
-#: portfolio-content.php:182
+#: includes/class-portfolio-content.php:147
 msgid "Add New Category"
 msgstr ""
 
-#: portfolio-content.php:183
+#: includes/class-portfolio-content.php:148
 msgid "Edit Category"
 msgstr ""
 
-#: portfolio-content.php:184
+#: includes/class-portfolio-content.php:149
 msgid "Update Category"
 msgstr ""
 
-#: portfolio-content.php:185
+#: includes/class-portfolio-content.php:150
 msgid "View Category"
 msgstr ""
 
-#: portfolio-content.php:186
+#: includes/class-portfolio-content.php:151
 msgid "Separate Categories with commas"
 msgstr ""
 
-#: portfolio-content.php:187
+#: includes/class-portfolio-content.php:152
 msgid "Add or remove Categories"
 msgstr ""
 
-#: portfolio-content.php:188 portfolio-content.php:235
+#: includes/class-portfolio-content.php:153
+#: includes/class-portfolio-content.php:191
 msgid "Choose from the most used"
 msgstr ""
 
-#: portfolio-content.php:189
+#: includes/class-portfolio-content.php:154
 msgid "Popular Categories"
 msgstr ""
 
-#: portfolio-content.php:190
+#: includes/class-portfolio-content.php:155
 msgid "Search Categories"
 msgstr ""
 
-#: portfolio-content.php:191 portfolio-content.php:238
+#: includes/class-portfolio-content.php:156
+#: includes/class-portfolio-content.php:194
 msgid "Not Found"
 msgstr ""
 
-#: portfolio-content.php:192
+#: includes/class-portfolio-content.php:157
 msgid "No Categories"
 msgstr ""
 
-#: portfolio-content.php:193
+#: includes/class-portfolio-content.php:158
 msgid "Categories list"
 msgstr ""
 
-#: portfolio-content.php:194
+#: includes/class-portfolio-content.php:159
 msgid "Categories list navigation"
 msgstr ""
 
-#: portfolio-content.php:223
+#: includes/class-portfolio-content.php:179
 msgctxt "Taxonomy General Name"
 msgid "Portfolio Tags"
 msgstr ""
 
-#: portfolio-content.php:224
+#: includes/class-portfolio-content.php:180
 msgctxt "Taxonomy Singular Name"
 msgid "Portfolio Tag"
 msgstr ""
 
-#: portfolio-content.php:225
+#: includes/class-portfolio-content.php:181
 msgid "All Tags"
 msgstr ""
 
-#: portfolio-content.php:226
+#: includes/class-portfolio-content.php:182
 msgid "Parent Tag"
 msgstr ""
 
-#: portfolio-content.php:227
+#: includes/class-portfolio-content.php:183
 msgid "Parent Tag:"
 msgstr ""
 
-#: portfolio-content.php:228
+#: includes/class-portfolio-content.php:184
 msgid "New Tag Name"
 msgstr ""
 
-#: portfolio-content.php:229
+#: includes/class-portfolio-content.php:185
 msgid "Add New Tag"
 msgstr ""
 
-#: portfolio-content.php:230
+#: includes/class-portfolio-content.php:186
 msgid "Edit Tag"
 msgstr ""
 
-#: portfolio-content.php:231
+#: includes/class-portfolio-content.php:187
 msgid "Update Tag"
 msgstr ""
 
-#: portfolio-content.php:232
+#: includes/class-portfolio-content.php:188
 msgid "View Tag"
 msgstr ""
 
-#: portfolio-content.php:233
+#: includes/class-portfolio-content.php:189
 msgid "Separate Tags with commas"
 msgstr ""
 
-#: portfolio-content.php:234
+#: includes/class-portfolio-content.php:190
 msgid "Add or remove Tags"
 msgstr ""
 
-#: portfolio-content.php:236
+#: includes/class-portfolio-content.php:192
 msgid "Popular Tags"
 msgstr ""
 
-#: portfolio-content.php:237
+#: includes/class-portfolio-content.php:193
 msgid "Search Tags"
 msgstr ""
 
-#: portfolio-content.php:239
+#: includes/class-portfolio-content.php:195
 msgid "No Tags"
 msgstr ""
 
-#: portfolio-content.php:240
+#: includes/class-portfolio-content.php:196
 msgid "Tags list"
 msgstr ""
 
-#: portfolio-content.php:241
+#: includes/class-portfolio-content.php:197
 msgid "Tags list navigation"
 msgstr ""
 
-#: portfolio-content.php:318
-msgctxt "For Portfolio Content Plugin"
+#: includes/class-pfc-updates.php:32
+msgid ""
+"Portfolio projects, categories and tags with a quick start, project template "
+"and native block patterns."
+msgstr ""
+
+#: includes/class-pfc-updates.php:98
+msgid "The update filesystem is unavailable. Please try again."
+msgstr ""
+
+#: includes/class-pfc-updates.php:99
+msgid "The GitHub package does not contain the Portfolio Content plugin file."
+msgstr ""
+
+#: includes/class-pfc-updates.php:100
+msgid ""
+"The GitHub package could not be prepared. The installed version has been "
+"kept."
+msgstr ""
+
+#: includes/class-pfc-updates.php:107 includes/class-pfc-updates.php:111
+#: includes/class-pfc-updates.php:115
+msgid "The update package could not be checked."
+msgstr ""
+
+#: includes/class-pfc-updates.php:122
+msgid ""
+"The package identity or version does not match a newer Portfolio Content "
+"release."
+msgstr ""
+
+#: includes/class-pfc-updates.php:127
+msgid ""
+"The package version differs from the offered update. Please check for "
+"updates again."
+msgstr ""
+
+#: includes/class-pfc-updates.php:131
+msgid "The update package has missing or invalid WordPress/PHP requirements."
+msgstr ""
+
+#: includes/class-pfc-updates.php:135
+msgid ""
+"This release requires a newer WordPress or PHP version. The installed "
+"version has been kept."
+msgstr ""
+
+#: includes/class-pfc-editor.php:12
+msgid "The challenge"
+msgstr ""
+
+#: includes/class-pfc-editor.php:12
+msgid "What did the client need? Describe the goal and starting point."
+msgstr ""
+
+#: includes/class-pfc-editor.php:13
+msgid "The approach"
+msgstr ""
+
+#: includes/class-pfc-editor.php:13
+msgid "Explain your contribution and the steps that made the project work."
+msgstr ""
+
+#: includes/class-pfc-editor.php:14
+msgid "The result"
+msgstr ""
+
+#: includes/class-pfc-editor.php:14
+msgid "Show the outcome and what improved for the client."
+msgstr ""
+
+#: includes/class-pfc-editor.php:28 includes/class-pfc-admin.php:18
+#: includes/class-pfc-admin.php:60 includes/class-pfc-admin.php:84
 msgid "Portfolio Content"
 msgstr ""
 
-#: portfolio-content.php:364
-msgctxt "Plugins page listing"
+#: includes/class-pfc-editor.php:30
+msgid "Portfolio: project story"
+msgstr ""
+
+#: includes/class-pfc-editor.php:31
+msgid "A project story with challenge, approach, result and a gallery."
+msgstr ""
+
+#: includes/class-pfc-editor.php:37
+msgid "Your published projects will appear here."
+msgstr ""
+
+#: includes/class-pfc-editor.php:39
+msgid "Portfolio: project overview"
+msgstr ""
+
+#: includes/class-pfc-editor.php:40
+msgid ""
+"A responsive project grid using native WordPress blocks and your theme "
+"styles."
+msgstr ""
+
+#: includes/class-pfc-admin.php:19 includes/class-pfc-admin.php:86
+msgid "Quick start"
+msgstr ""
+
+#: includes/class-pfc-admin.php:38
+msgid "Image"
+msgstr ""
+
+#: includes/class-pfc-admin.php:45
+msgid "No featured image"
+msgstr ""
+
+#: includes/class-pfc-admin.php:50
+msgid "All portfolio categories"
+msgstr ""
+
+#: includes/class-pfc-admin.php:60 includes/class-pfc-admin.php:75
+msgid "Your projects. Ready to share."
+msgstr ""
+
+#: includes/class-pfc-admin.php:62
+msgid "Your first portfolio in three steps"
+msgstr ""
+
+#: includes/class-pfc-admin.php:63
+msgid "1. Add your first project"
+msgstr ""
+
+#: includes/class-pfc-admin.php:63
+msgid ""
+"Add a title, featured image and a short excerpt. Categories help visitors "
+"find related work."
+msgstr ""
+
+#: includes/class-pfc-admin.php:63
+msgid "Add project"
+msgstr ""
+
+#: includes/class-pfc-admin.php:64
+msgid "2. Create your overview"
+msgstr ""
+
+#: includes/class-pfc-admin.php:64
+msgid ""
+"Create a page, open Patterns and choose Portfolio Content → Portfolio: "
+"project overview. The grid automatically shows your published projects."
+msgstr ""
+
+#: includes/class-pfc-admin.php:64
+msgid ""
+"In your page builder, add a post grid and select Portfolio Content as its "
+"content source. Choose your image, title and excerpt layout."
+msgstr ""
+
+#: includes/class-pfc-admin.php:64
+msgid "Create page"
+msgstr ""
+
+#: includes/class-pfc-admin.php:66
+msgid "3. Review and share"
+msgstr ""
+
+#: includes/class-pfc-admin.php:66
+msgid ""
+"Publish your project and check its public view. The archive layout is "
+"provided by your theme; add your overview page to your navigation when ready."
+msgstr ""
+
+#: includes/class-pfc-admin.php:66
+msgid "View portfolio archive"
+msgstr ""
+
+#: includes/class-pfc-admin.php:66
+msgid "View projects"
+msgstr ""
+
+#: includes/class-pfc-admin.php:67
+msgid "Project starter template"
+msgstr ""
+
+#: includes/class-pfc-admin.php:67
+msgid ""
+"Start new projects with editable sections for the challenge, approach, "
+"result and images. Existing projects are never changed."
+msgstr ""
+
+#: includes/class-pfc-admin.php:69
+msgid "Use the starter template for new projects"
+msgstr ""
+
+#: includes/class-pfc-admin.php:70
+msgid "Save settings"
+msgstr ""
+
+#: includes/class-pfc-admin.php:71
+msgid "Make it yours"
+msgstr ""
+
+#: includes/class-pfc-admin.php:71
+msgid ""
+"The block editor includes two Portfolio Content patterns: a project story "
+"and a project overview. Use your theme styles to adjust the design. With a "
+"classic editor or page builder, use the project content and its native post "
+"grid instead."
+msgstr ""
+
+#: includes/class-pfc-admin.php:71
+msgid ""
+"Custom fields can be added with your preferred field plugin. Portfolio "
+"Content keeps your content independent of its presentation."
+msgstr ""
+
+#: includes/class-pfc-admin.php:75
+msgid "Plugin information"
+msgstr ""
+
+#: includes/class-pfc-admin.php:75
+msgid "Version"
+msgstr ""
+
+#: includes/class-pfc-admin.php:75 includes/class-pfc-documents.php:26
+msgid "Changelog"
+msgstr ""
+
+#: includes/class-pfc-admin.php:75 includes/class-pfc-documents.php:26
+msgid "Documentation"
+msgstr ""
+
+#: includes/class-pfc-admin.php:75
+msgid "Plugin website"
+msgstr ""
+
+#: includes/class-pfc-admin.php:102
 msgid "Donate"
 msgstr ""
 
-#: portfolio-content.php:370
-msgctxt "Plugins page listing"
+#: includes/class-pfc-admin.php:102
 msgid "Join our Newsletter"
 msgstr ""
 
-#. Plugin Name of the plugin/theme
-msgid "Portfolio Content"
-msgstr ""
-
-#. Plugin URI of the plugin/theme
-msgid "https://github.com/deckerweb/portfolio-content"
-msgstr ""
-
-#. Description of the plugin/theme
-msgid ""
-"Simple Portfolio custom post type for custom content. Fully translateable. "
-"Install, put in your data and use it via your favorite Page Builder or "
-"with the default Block Editor."
-msgstr ""
-
-#. Author of the plugin/theme
-msgid "David Decker - DECKERWEB"
-msgstr ""
-
-#. Author URI of the plugin/theme
-msgid "https://deckerweb.de/"
+#: includes/class-pfc-documents.php:33
+msgid "Close"
 msgstr ""
