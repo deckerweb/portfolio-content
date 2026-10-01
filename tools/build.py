@@ -7,7 +7,7 @@ parser=argparse.ArgumentParser();parser.add_argument('--output',type=Path,requir
 version=re.search(r'\* Version: (\S+)',(root/'portfolio-content.php').read_text()).group(1)
 with zipfile.ZipFile(out/f'portfolio-content-{version}.zip','w',zipfile.ZIP_DEFLATED) as archive:
  for file in sorted(root.rglob('*')):
-  if not file.is_file():continue
+  if not file.is_file() or out.resolve() in file.resolve().parents:continue
   rel=file.relative_to(root)
   if any(part.startswith('.') for part in rel.parts) or rel.parts[0] in ['tests','tools','vendor','node_modules']:continue
   if file.suffix in ['.scss']:continue
