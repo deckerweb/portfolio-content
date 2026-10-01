@@ -1,0 +1,29 @@
+name: Check and build
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        php: ['7.4', '8.0', '8.3', '8.4']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          coverage: none
+      - name: Check PHP syntax
+        shell: bash
+        run: |
+          if [ '${{ matrix.php }}' = '7.4' ]; then
+            find . -name '*.php' -not -path './includes/deckerweb-plugin-library/*' -print0 | xargs -0 -n1 php -l
+          else
+            find . -name '*.php' -print0 | xargs -0 -n1 php -l
+          fi
+      - name: Build distribution
+        run: python3 tools/build.py --output dist
+      - uses: actions/upload-artifact@v4
+        if: matrix.php == '8.4'
+        with:
+          name: portfolio-content-distribution
+          path: dist/*
