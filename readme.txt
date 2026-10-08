@@ -3,33 +3,16 @@ Contributors: deckerweb
 Tags: portfolio, projects, custom post type, block patterns
 Requires at least: 6.7
 Requires PHP: 7.4
-Tested up to: 7.1.2
-Stable tag: 1.2.0
+Tested up to: 7.1.3
+Stable tag: 1.3.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-
 Your projects. Ready to share.
 
-Version: 1.2.0 · Requires: WordPress 6.7+ / PHP 7.4+ · License: GPL v2 or later
+== Description ==
 
-A lightweight portfolio content plugin by David Decker – DECKERWEB (https://deckerweb.de/).
-Download (https://github.com/deckerweb/portfolio-content/releases/latest) · User guide (https://github.com/deckerweb/portfolio-content/wiki/English) · Deutsch (README-de.md) · Changelog (CHANGELOG.md) · Support (https://github.com/deckerweb/portfolio-content/issues)
-
-== Contents ==
-
-- What it does (#what-it-does)
-- Requirements (#requirements)
-- Install and start (#install-and-start)
-- Project starter (#project-starter)
-- Updates and Library (#updates-and-library)
-- Alternative: code snippet (#alternative-code-snippet)
-- FAQ (#faq)
-- Compatibility contract (#compatibility-contract)
-- Development (#development)
-- Changelog (#changelog)
-
-== What it does ==
+A lightweight portfolio plugin by David Decker – DECKERWEB: create projects, organize your work and present it with your theme or builder.
 
 Portfolio projects with categories and tags, ready for the block editor or your preferred page builder. Your theme controls presentation. No custom front-end scripts, gallery engine or required field plugin.
 
@@ -37,16 +20,39 @@ Portfolio projects with categories and tags, ready for the block editor or your 
 - Featured-image previews and a category filter in the project list.
 - Optional editable project starter: challenge, approach, result and gallery.
 - Two native block patterns: project story and responsive project overview with pagination.
-- Bundled deckerweb GitHub Release Updater v2 and deckerweb Plugin Library 0.2.0.
+- Bundled deckerweb GitHub Release Updater 2.1.0 and deckerweb Plugin Library 0.8.1.
 - English, German and formal German interfaces and localized update banners.
+- Setup check, manual starter insertion into empty drafts, clickable native category filters, filter reset and helpful empty states.
 
-== Requirements ==
+Disabled by default. Enable it in settings to populate new empty auto-drafts only. Existing projects and non-empty defaults remain untouched. It is ordinary editable content, not a locked template. The classic WordPress editor receives headings and paragraphs instead of block markup. The project editor also offers Insert project template for empty drafts, independently of the automatic setting. Current unsaved content is protected; insertion only changes the editor until you save.
 
-WordPress 6.7+, PHP 7.4+. The embedded Library runs on PHP 8.0+; on PHP 7.4 the portfolio and updater remain available without the Library. ClassicPress is not an official support or test target.
+Updates from public stable GitHub releases appear in the regular WordPress plugin update system. Automatic updates remain your choice. The bundled deckerweb Updater 2.1.0 and plugin validate package identity, offered version and actual WordPress/PHP requirements. Icons and banners are served locally.
 
-== Install and start ==
+The deckerweb Library 0.8.1 adds a catalog under Plugins → Add New. Installation and activation are separate decisions. WordPress.org remains the default. Online catalog retrieval is optional and off by default. On PHP 7.4, portfolio features remain available without the Library.
 
-1. Upload portfolio-content.zip under Plugins → Add New → Upload Plugin; activate it.
+Projects, categories, tags, images and preferences belong to each website. Network activation registers portfolio content on all sites in the network, including newly created sites. The starter and deletion preference are configured separately per website; there is no shared portfolio network setting.
+
+Deactivation preserves all data. Uninstall clears plugin-owned temporary update data. Projects, terms and images always remain. Plugin preferences also remain unless that website explicitly enabled the deletion option. Shared Library data remains while another Library host is installed, including inactive hosts. The final host clears temporary Library data; the Library’s separate, default-off deletion preference applies only to Library settings.
+
+No telemetry. WordPress update checks request public release metadata from api.github.com. Updates download packages from GitHub. The optional online catalog requests JSON from raw.githubusercontent.com/deckerweb; package actions recheck approval. These services receive the IP address and standard HTTP request data, not portfolio content or personal preferences. Documentation, support and donation links are contacted only when opened. For native WordPress package downloads, the default User-Agent may include the WordPress version and site address.
+
+Bugs and questions (https://github.com/deckerweb/portfolio-content/issues) · Discussions (https://github.com/deckerweb/portfolio-content/discussions)
+
+Report vulnerabilities privately: Security reporting (https://github.com/deckerweb/portfolio-content/security/advisories/new). Do not send credentials or private customer content. See security policy (SECURITY.md).
+
+Ko-fi (https://ko-fi.com/deckerweb) · Buy Me a Coffee (https://buymeacoffee.com/daveshine) · PayPal (https://paypal.me/deckerweb)
+
+© 2019–2026 David Decker – DECKERWEB · GPL v2 or later (LICENSE).
+
+Includes deckerweb Library 0.8.1 and deckerweb Updater 2.1.0 by David Decker, both GPL-2.0-or-later. Administration styles and dialog behavior are adapted from Brand Admin Schemes by David Decker, GPL-2.0-or-later. Artwork: approved Portfolio Content Design A by DECKERWEB; SVG sources and PNG exports are provided under GPL-2.0-or-later. System fonts are referenced; no font files are bundled.
+
+GitHub Pages uses the Cayman theme (CC0-1.0); the local layout uses system fonts.
+
+Library (https://github.com/deckerweb/deckerweb-plugin-library) · Updater (https://github.com/deckerweb/deckerweb-updater) · Brand Admin Schemes (https://github.com/deckerweb/brand-admin-schemes) · Cayman (https://github.com/pages-themes/cayman)
+
+== Installation ==
+
+1. Upload portfolio-content-1.3.0.zip under Plugins → Add New → Upload Plugin; activate it.
 2. Open Settings → Portfolio Content. Optionally enable the project starter.
 3. Add a project with title, featured image and excerpt; publish it.
 4. Create a page. In the block inserter's Patterns tab choose Portfolio Content → Portfolio: project overview.
@@ -56,76 +62,67 @@ The overview uses a native Query Loop: six projects, newest first, three columns
 
 For page builders, select portfolio-content as the post grid content source and configure image, title and excerpt. Custom fields remain the responsibility of your chosen field plugin. No specific commercial builder integration is included or claimed as tested.
 
-== Project starter ==
+== Frequently Asked Questions ==
 
-Disabled by default. Enable it in settings to populate new empty auto-drafts only. Existing projects and non-empty defaults remain untouched. It is ordinary editable content, not a locked template. The classic WordPress editor receives headings and paragraphs instead of block markup.
+= Do I need a page builder? =
 
-== Updates and Library ==
+No. The native block patterns work with the WordPress block editor. A builder can use the portfolio post type as a grid source.
 
-The bundled updater checks public stable GitHub releases through WordPress's native update system. It does not enable automatic updates. A release ZIP must contain the plugin, a newer stable version and matching requirements. Artwork is served locally in your administrator's language.
+= Will it change my website design? =
 
-The Library adds the deckerweb catalog to Plugins → Add New, with its own settings, capabilities, verified packages and network handling. The bundled approval catalog is preserved from Library 0.2.0; catalog entries are approved separately against the public release ZIP and its checksum. Optional online catalog updates stay opt-in. This direct-distribution package is not intended for submission to WordPress.org with its external installer.
+Your theme or builder controls the appearance. The plugin registers content and provides editable native patterns.
 
-== Alternative: code snippet ==
+= Does the starter change existing projects? =
 
-Import ddw-portfolio-content.code-snippets.json in Code Snippets and run it everywhere. Use either plugin or snippet, not both. The snippet includes registration, quick start, editor patterns and inline admin styles, but deliberately excludes the plugin updater and Library. German translations are embedded in the generated snippet. After enabling or disabling it, save Settings → Permalinks once. The plugin refreshes rewrites on activation only.
+No. It is optional and only fills new empty automatic drafts.
 
-== FAQ ==
+= How do I show my projects? =
 
-Do I need a page builder? No. The native block patterns work with the WordPress block editor. A builder can use the portfolio post type as a grid source.
+Create a page and insert Portfolio: project overview from the Patterns tab, or use the theme archive at /portfolio/.
 
-Will it change my website design? Your theme or builder controls the appearance. The plugin registers content and provides editable native patterns.
+= Do I need a custom field plugin? =
 
-Does the starter change existing projects? No. It is optional and only fills new empty automatic drafts.
+No. Title, content, excerpt, featured image, categories and tags are included. Additional fields are optional.
 
-How do I show my projects? Create a page and insert Portfolio: project overview from the Patterns tab, or use the theme archive at /portfolio/.
+= How do updates work? =
 
-Do I need a custom field plugin? No. Title, content, excerpt, featured image, categories and tags are included. Additional fields are optional.
+Public stable GitHub releases appear in the regular WordPress plugin update system. No separate updater plugin is needed.
 
-How do updates work? Public stable GitHub releases appear in the regular WordPress plugin update system. No separate updater plugin is needed.
+= What remains when I deactivate or uninstall? =
 
-Can I use the snippet instead? Yes. Import the release JSON in Code Snippets and run it everywhere. Choose either plugin or snippet; the snippet has no updater or Library.
+Projects, categories, tags and images always remain. Preferences remain by default; the deletion option affects only that website’s settings.
 
-More answers by topic (https://github.com/deckerweb/portfolio-content/wiki/FAQ-English)
-
-== Compatibility contract ==
-
-Internal identifiers stay portfolio-content, portfolio-category, portfolio-tag. Project URLs and archive remain /portfolio/; REST support and post capabilities stay unchanged. Existing filters:
-
-- pfc/post-type/params
-- pfc/taxonomy/params-category
-- pfc/taxonomy/params-tag
-- pfc/plugins-page/cpt-links
-- pfc/plugins-page/meta-links
-
-The meta-links filter is now scoped to this plugin's row. Custom translations under wp-content/languages/portfolio-content/ remain supported; normal WordPress plugin translations and bundled fallbacks are supported as well.
-
-== Development ==
-
-python3 tools/build.py --output /path/to/output builds the clean installable ZIP and snippet JSON from one source. Development files and artwork alternatives are excluded. Run PHP lint and the WordPress integration checks described in docs/TESTING.md before release. Release version: 1.2.0, dated 2026-10-01.
-
-GPL-2.0-or-later. Donate (https://ko-fi.com/deckerweb) · Newsletter (https://deckerweb.us2.list-manage.com/subscribe?u=e09bef034abf80704e5ff9809&id=380976af88)
+FAQ by topic: https://github.com/deckerweb/portfolio-content/wiki/FAQ-English
 
 == Changelog ==
+
+= 1.3.0 — 2026-10-08 =
+
+- New: Added a setup check with direct project and archive actions, plus guidance for native patterns.
+- New: Added manual starter-template insertion into empty drafts in the block and classic editors, with protection for unsaved content.
+- Improved: Added filter reset, clear missing-image labels and useful actions for empty project lists and searches.
+- Improved: Updated deckerweb Plugin Library to 0.8.1 and Updater to 2.1.0 with host translations and compatibility handling.
+- Improved: Refreshed English/German documentation, FAQ, graphics and all German interface translations.
+- Fixed: Network activation and newly created sites now receive portfolio rewrite rules without changing site preferences.
+- Fixed: Hardened update-package checks, including native bulk updates, and preserved host translations when component locales load.
+- Misc: Added optional deletion of plugin settings on uninstall; portfolio content and media are always retained.
 
 = 1.2.0 — 2026-10-01 =
 
 - New: Added quick start, featured-image column and portfolio category filter.
 - New: Added optional starter content and two native block patterns.
 - New: Added deckerweb updater v2 and optional Library 0.2.0.
-- Improved: Refactored registration, administration and editor responsibilities; preserved content identifiers and filters.
+- Improved: Preserves existing content identifiers and extension filters.
+- Improved: Updated English/German documentation and German translations.
 - Fixed: Corrected minimum WordPress header, translation locale handling, spelling and plugin-row link scope.
 - Fixed: Removed personal data prefill from the newsletter URL.
-- Improved: Updated English/German documentation and German translations.
 
 = 1.1.0 — 2025-04-07 =
 
-- Improved: Restarted development with a class-based registration.
-- Improved: Refresh rewrite rules on activation only.
 - New: Added plugin links and snippet distribution.
+- Improved: Portfolio projects use standard WordPress editing and permissions.
+- Improved: Refresh rewrite rules on activation only.
 
 = 1.0.0 — 2019-05-09 =
 
 - New: Initial public release.
-
-Complete changelog (https://github.com/deckerweb/portfolio-content/wiki/Changelog-English)

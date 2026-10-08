@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640"><defs>
+ <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8629ed"/><stop offset=".55" stop-color="#3023ae"/><stop offset="1" stop-color="#6720d2"/></linearGradient>
+ <linearGradient id="card" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#e9e3ff"/></linearGradient>
+ <linearGradient id="orange" x1="0" y1="0" x2=".5" y2="1"><stop stop-color="#ffa223"/><stop offset="1" stop-color="#ff643e"/></linearGradient>
+ <linearGradient id="folder" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7829e8"/><stop offset=".52" stop-color="#3023ae"/><stop offset="1" stop-color="#6c26cf"/></linearGradient>
+</defs><rect width="1280" height="640" fill="url(#background)"/><path d="M870 640C1040 604 1135 390 1280 330v310z" fill="url(#orange)"/><g transform="translate(0 112) scale(0.829015544)">
+ <path d="M0 0h560C303 108 455 325 0 430z" fill="#231991" opacity=".21"/>
+ <path d="M0 355c168 62 210 131 437 145H0z" fill="#9029f0" opacity=".42"/>
+
+ <g transform="translate(75 19) scale(1.9)"><g id="portfolio-mark">
+  <g transform="rotate(-14 80 111)">
+    <rect x="48" y="64" width="63" height="99" rx="9" fill="url(#card)"/>
+    <circle cx="90" cy="83" r="7" fill="#6524d6"/>
+    <path d="M55 120l15-24 16 15 12-11 8 20v23H55z" fill="#6524d6"/>
+  </g>
+  <g transform="rotate(14 178 112)">
+    <rect x="147" y="64" width="63" height="99" rx="9" fill="url(#card)"/>
+    <g fill="#6824d8">
+      <rect x="157" y="81" width="17" height="17" rx="2"/>
+      <rect x="179" y="81" width="17" height="17" rx="2"/>
+      <rect x="157" y="103" width="17" height="17" rx="2"/>
+      <rect x="179" y="103" width="17" height="17" rx="2"/>
+    </g>
+  </g>
+  <rect x="98" y="46" width="61" height="117" rx="9" fill="url(#card)"/>
+  <circle cx="128.5" cy="76" r="15" fill="url(#orange)"/>
+  <g stroke="#cdc5ee" stroke-width="6" stroke-linecap="round">
+    <path d="M113 105h31"/><path d="M113 118h31"/>
+  </g>
+  <path d="M45 123h38a10 10 0 0 1 7 3l14 15h101a9 9 0 0 1 9 11l-14 58a9 9 0 0 1-9 7H62a9 9 0 0 1-9-7l-17-76a9 9 0 0 1 9-11z" fill="url(#folder)" stroke="#ffffff" stroke-width="9" stroke-linejoin="round"/>
+</g></g>
+ <g stroke="url(#orange)" stroke-width="14" stroke-linecap="round"><path d="M488 72l-12 31"/><path d="M531 108l-30 19"/><path d="M540 156l-32-3"/></g>
+ <text x="615" y="217" font-family="Arial,Helvetica,sans-serif" font-size="86" font-weight="700" fill="#ffffff">Portfolio Content</text>
+ <text x="620" y="283" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="700" letter-spacing="7" fill="#b79bec">DECKERWEB</text>
+ <text x="620" y="369" font-family="Arial,Helvetica,sans-serif" font-size="36" fill="#ffffff">Your projects. Ready to share.</text></g></svg>

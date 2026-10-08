@@ -1,14 +1,19 @@
 {
   "name": "deckerweb/portfolio-content",
-  "description": "Simple Portfolio custom post type for custom content.",
-  "keywords": ["portfolio", "content", "cpt", "post type"],
+  "description": "Portfolio projects, categories and tags with quick start and native block patterns.",
+  "keywords": [
+    "portfolio",
+    "content",
+    "cpt",
+    "post type"
+  ],
   "type": "wordpress-plugin",
   "homepage": "https://github.com/deckerweb/portfolio-content",
   "license": "GPL-2.0-or-later",
   "authors": [
     {
       "name": "David Decker",
-      "homepage": "https://deckerweb-plugins.com/",
+      "homepage": "https://github.com/deckerweb",
       "role": "Developer"
     }
   ],

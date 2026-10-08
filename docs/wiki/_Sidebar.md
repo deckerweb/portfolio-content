@@ -1,5 +1,13 @@
+**Portfolio Content**
+
 [Home](Home)
 
-[English](English) · [FAQ](FAQ-English) · [Changelog](Changelog-English)
+**English**
+- [User guide](English)
+- [FAQ by topic](FAQ-English)
+- [Changelog](Changelog-English)
 
-[Deutsch](Deutsch) · [FAQ](FAQ-Deutsch) · [Änderungsprotokoll](Changelog-Deutsch)
+**Deutsch**
+- [Anleitung](Deutsch)
+- [Fragen nach Themen](FAQ-Deutsch)
+- [Änderungsverlauf](Changelog-Deutsch)

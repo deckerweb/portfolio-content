@@ -2,10 +2,53 @@
 /** Native editor starter content; no custom blocks or front-end assets. */
 defined( 'ABSPATH' ) || exit;
 final class PFC_Editor {
+    /**
+     * Register native patterns and the optional new-project starter.
+     *
+     * @return void No custom blocks or frontend assets are registered.
+     */
     public static function register() {
+        add_action( 'add_meta_boxes_portfolio-content', array( __CLASS__, 'template_box' ) );
+        add_action( 'admin_enqueue_scripts', array( __CLASS__, 'template_assets' ) );
         add_action( 'init', array( __CLASS__, 'patterns' ), 20 );
         add_filter( 'default_content', array( __CLASS__, 'starter' ), 10, 2 );
     }
+    /**
+     * Add a small manual-template action to the native project editor.
+     * @param WP_Post $post Current portfolio project.
+     * @return void Only editable drafts receive the action.
+     */
+    public static function template_box( $post ) {
+        if ( in_array( $post->post_status, array( 'draft', 'auto-draft' ), true ) && current_user_can( 'edit_post', $post->ID ) ) {
+            add_meta_box( 'pfc-template', __( 'Project starter template', 'portfolio-content' ), array( __CLASS__, 'template_button' ), 'portfolio-content', 'side' );
+        }
+    }
+    /**
+     * Render the manual action with an accessible status message.
+     * @return void The editor decides whether its current unsaved content is empty.
+     */
+    public static function template_button() {
+        echo '<p>' . esc_html__( 'Insert the template into an empty draft. Save the project when ready.', 'portfolio-content' ) . '</p><button type="button" class="button" id="pfc-insert-template">' . esc_html__( 'Insert project template', 'portfolio-content' ) . '</button><p id="pfc-template-status" role="status" aria-live="polite"></p>';
+    }
+    /**
+     * Load the manual insertion action only in native portfolio draft editors.
+     * @param string $hook Current administration page hook.
+     * @return void Uses editor state; no server-side write or redirect occurs.
+     */
+    public static function template_assets( $hook ) {
+        if ( ! in_array( $hook, array( 'post.php', 'post-new.php' ), true ) ) { return; }
+        $screen = get_current_screen();
+        global $post;
+        if ( ! $screen || 'portfolio-content' !== $screen->post_type || ! $post || ! in_array( $post->post_status, array( 'draft', 'auto-draft' ), true ) || ! current_user_can( 'edit_post', $post->ID ) ) { return; }
+        $block = use_block_editor_for_post( $post );
+        wp_enqueue_script( 'pfc-template', plugins_url( 'assets/template.js', PFC_PLUGIN_FILE ), $block ? array( 'wp-data', 'wp-blocks', 'wp-edit-post' ) : array(), DDW_Portfolio_Content::VERSION, true );
+        wp_add_inline_script( 'pfc-template', 'window.pfcTemplate = ' . wp_json_encode( array( 'content' => $block ? self::project_content() : strip_tags( self::project_content(), '<h2><p>' ), 'block' => $block, 'success' => __( 'Template inserted. You can edit and save it.', 'portfolio-content' ), 'occupied' => __( 'The draft already contains content. Nothing was changed.', 'portfolio-content' ) ) ) . ';', 'before' );
+    }
+    /**
+     * Build translated, editable challenge, approach, result and gallery blocks.
+     *
+     * @return string Native block markup with escaped text.
+     */
     public static function project_content() {
         $content = '';
         foreach ( array(
@@ -18,11 +61,23 @@ final class PFC_Editor {
         }
         return $content . '<!-- wp:gallery {"linkTo":"none"} --><figure class="wp-block-gallery has-nested-images columns-default is-cropped"></figure><!-- /wp:gallery -->';
     }
+    /**
+     * Populate only new empty portfolio auto-drafts when the site opted in.
+     *
+     * @param string $content Existing default editor content.
+     * @param WP_Post|null $post Current editor post.
+     * @return string Original content or starter markup; classic editors receive ordinary HTML.
+     */
     public static function starter( $content, $post ) {
         if ( '' !== $content || ! ( $post instanceof WP_Post ) || 'portfolio-content' !== $post->post_type || 'auto-draft' !== $post->post_status || empty( get_option( 'pfc_project_template', false ) ) ) { return $content; }
         $block_editor = function_exists( 'use_block_editor_for_post_type' ) && use_block_editor_for_post_type( 'portfolio-content' );
         return $block_editor ? self::project_content() : strip_tags( self::project_content(), '<h2><p>' );
     }
+    /**
+     * Register a project story and portfolio-only paginated Query Loop.
+     *
+     * @return void Uses theme styles and native WordPress block rendering.
+     */
     public static function patterns() {
         if ( ! function_exists( 'register_block_pattern' ) || ! function_exists( 'register_block_pattern_category' ) ) { return; }
         register_block_pattern_category( 'portfolio-content', array( 'label' => __( 'Portfolio Content', 'portfolio-content' ) ) );

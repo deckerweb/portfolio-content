@@ -1,0 +1,5 @@
+theme: jekyll-theme-cayman
+title: Portfolio Content
+description: Your projects. Ready to share. / Deine Projekte. Bereit zum Teilen.
+show_downloads: false
+exclude: [includes, languages, tests, tools, docs, assets-design, composer.json, README.md, README-de.md, readme.txt, readme-de.txt, SECURITY.md, SECURITY-de.md, CHANGELOG.md, CHANGELOG-de.md, LICENSE, portfolio-content.php, index.php, uninstall.php]

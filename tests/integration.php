@@ -1,6 +1,7 @@
 <?php
 /** Run against an isolated WordPress installation: php tests/integration.php /path/to/wp-load.php */
 if ( PHP_SAPI !== 'cli' || empty( $argv[1] ) ) { exit(1); }
+if ( ! defined( 'WP_DISABLE_FATAL_ERROR_HANDLER' ) ) { define( 'WP_DISABLE_FATAL_ERROR_HANDLER', true ); }
 require $argv[1];
 require_once ABSPATH . 'wp-admin/includes/plugin.php';
 require_once ABSPATH . 'wp-admin/includes/post.php';
@@ -8,6 +9,12 @@ require_once ABSPATH . 'wp-admin/includes/template.php';
 add_filter( 'get_available_languages', function( $languages ) { return array_merge( $languages, ['de_DE', 'de_DE_formal'] ); } );
 wp_set_current_user(1);
 $checks = 0;
+/**
+ * Assert one portfolio integration contract.
+ * @param bool $ok Observed result.
+ * @param string $message Check description.
+ * @return void Throws on a failed contract.
+ */
 function pfc_assert( $ok, $message ) { global $checks; ++$checks; if (!$ok) { throw new RuntimeException($message); } echo "PASS: $message\n"; }
 $type=get_post_type_object('portfolio-content');
 pfc_assert($type && $type->public && $type->show_in_rest,'Public REST post type');

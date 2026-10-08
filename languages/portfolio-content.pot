@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Portfolio Content 1.2.0\n"
+"Project-Id-Version: Portfolio Content 1.3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-01 15:50+0200\n"
+"POT-Creation-Date: 2026-10-08 23:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,468 +17,557 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: includes/class-portfolio-content.php:64
+#: includes/class-portfolio-content.php:85
 msgctxt "Post Type General Name"
 msgid "Portfolios"
 msgstr ""
 
-#: includes/class-portfolio-content.php:65
+#: includes/class-portfolio-content.php:86
 msgctxt "Post Type Singular Name"
 msgid "Portfolio"
 msgstr ""
 
-#: includes/class-portfolio-content.php:66
+#: includes/class-portfolio-content.php:87
 msgctxt "Admin Bar name"
 msgid "Portfolio"
 msgstr ""
 
-#: includes/class-portfolio-content.php:67
+#: includes/class-portfolio-content.php:88
 msgid "Portfolio Archive"
 msgstr ""
 
-#: includes/class-portfolio-content.php:68
+#: includes/class-portfolio-content.php:89
 msgid "Portfolio Attributes"
 msgstr ""
 
-#: includes/class-portfolio-content.php:69
+#: includes/class-portfolio-content.php:90
 msgid "Parent Portfolio:"
 msgstr ""
 
-#: includes/class-portfolio-content.php:70
+#: includes/class-portfolio-content.php:91
 msgid "All Portfolios"
 msgstr ""
 
-#: includes/class-portfolio-content.php:71
+#: includes/class-portfolio-content.php:92
 msgid "Add New Portfolio"
 msgstr ""
 
-#: includes/class-portfolio-content.php:72
+#: includes/class-portfolio-content.php:93
 msgid "Add New"
 msgstr ""
 
-#: includes/class-portfolio-content.php:73
+#: includes/class-portfolio-content.php:94
 msgid "New Portfolio"
 msgstr ""
 
-#: includes/class-portfolio-content.php:74
+#: includes/class-portfolio-content.php:95
 msgid "Edit Portfolio"
 msgstr ""
 
-#: includes/class-portfolio-content.php:75
+#: includes/class-portfolio-content.php:96
 msgid "Update Portfolio"
 msgstr ""
 
-#: includes/class-portfolio-content.php:76
+#: includes/class-portfolio-content.php:97
 msgid "View Portfolio"
 msgstr ""
 
-#: includes/class-portfolio-content.php:77
+#: includes/class-portfolio-content.php:98
 msgid "View Portfolios"
 msgstr ""
 
-#: includes/class-portfolio-content.php:78
+#: includes/class-portfolio-content.php:99
 msgid "Search Portfolios"
 msgstr ""
 
-#: includes/class-portfolio-content.php:79
+#: includes/class-portfolio-content.php:100
 msgid "Not found"
 msgstr ""
 
-#: includes/class-portfolio-content.php:80
+#: includes/class-portfolio-content.php:101
 msgid "Not found in Trash"
 msgstr ""
 
-#: includes/class-portfolio-content.php:81
+#: includes/class-portfolio-content.php:102
 msgid "Featured Image"
 msgstr ""
 
-#: includes/class-portfolio-content.php:82
+#: includes/class-portfolio-content.php:103
 msgid "Set featured image"
 msgstr ""
 
-#: includes/class-portfolio-content.php:83
+#: includes/class-portfolio-content.php:104
 msgid "Remove featured image"
 msgstr ""
 
-#: includes/class-portfolio-content.php:84
+#: includes/class-portfolio-content.php:105
 msgid "Use as featured image"
 msgstr ""
 
-#: includes/class-portfolio-content.php:85
+#: includes/class-portfolio-content.php:106
 msgid "Insert into Portfolio"
 msgstr ""
 
-#: includes/class-portfolio-content.php:86
+#: includes/class-portfolio-content.php:107
 msgid "Uploaded to this Portfolio"
 msgstr ""
 
-#: includes/class-portfolio-content.php:87
+#: includes/class-portfolio-content.php:108
 msgid "Portfolios list"
 msgstr ""
 
-#: includes/class-portfolio-content.php:88
+#: includes/class-portfolio-content.php:109
 msgid "Portfolios list navigation"
 msgstr ""
 
-#: includes/class-portfolio-content.php:89
+#: includes/class-portfolio-content.php:110
 msgid "Filter Portfolios list"
 msgstr ""
 
-#: includes/class-portfolio-content.php:105
+#: includes/class-portfolio-content.php:126
 msgid "Portfolio"
 msgstr ""
 
-#: includes/class-portfolio-content.php:106
+#: includes/class-portfolio-content.php:127
 msgid "Custom portfolio content"
 msgstr ""
 
-#: includes/class-portfolio-content.php:141
+#: includes/class-portfolio-content.php:168
 msgctxt "Taxonomy General Name"
 msgid "Portfolio Categories"
 msgstr ""
 
-#: includes/class-portfolio-content.php:142
+#: includes/class-portfolio-content.php:169
 msgctxt "Taxonomy Singular Name"
 msgid "Portfolio Category"
 msgstr ""
 
-#: includes/class-portfolio-content.php:143
+#: includes/class-portfolio-content.php:170
 msgid "All Categories"
 msgstr ""
 
-#: includes/class-portfolio-content.php:144
+#: includes/class-portfolio-content.php:171
 msgid "Parent Category"
 msgstr ""
 
-#: includes/class-portfolio-content.php:145
+#: includes/class-portfolio-content.php:172
 msgid "Parent Category:"
 msgstr ""
 
-#: includes/class-portfolio-content.php:146
+#: includes/class-portfolio-content.php:173
 msgid "New Category Name"
 msgstr ""
 
-#: includes/class-portfolio-content.php:147
+#: includes/class-portfolio-content.php:174
 msgid "Add New Category"
 msgstr ""
 
-#: includes/class-portfolio-content.php:148
+#: includes/class-portfolio-content.php:175
 msgid "Edit Category"
 msgstr ""
 
-#: includes/class-portfolio-content.php:149
+#: includes/class-portfolio-content.php:176
 msgid "Update Category"
 msgstr ""
 
-#: includes/class-portfolio-content.php:150
+#: includes/class-portfolio-content.php:177
 msgid "View Category"
 msgstr ""
 
-#: includes/class-portfolio-content.php:151
+#: includes/class-portfolio-content.php:178
 msgid "Separate Categories with commas"
 msgstr ""
 
-#: includes/class-portfolio-content.php:152
+#: includes/class-portfolio-content.php:179
 msgid "Add or remove Categories"
 msgstr ""
 
-#: includes/class-portfolio-content.php:153
-#: includes/class-portfolio-content.php:191
+#: includes/class-portfolio-content.php:180
+#: includes/class-portfolio-content.php:224
 msgid "Choose from the most used"
 msgstr ""
 
-#: includes/class-portfolio-content.php:154
+#: includes/class-portfolio-content.php:181
 msgid "Popular Categories"
 msgstr ""
 
-#: includes/class-portfolio-content.php:155
+#: includes/class-portfolio-content.php:182
 msgid "Search Categories"
 msgstr ""
 
-#: includes/class-portfolio-content.php:156
-#: includes/class-portfolio-content.php:194
+#: includes/class-portfolio-content.php:183
+#: includes/class-portfolio-content.php:227
 msgid "Not Found"
 msgstr ""
 
-#: includes/class-portfolio-content.php:157
+#: includes/class-portfolio-content.php:184
 msgid "No Categories"
 msgstr ""
 
-#: includes/class-portfolio-content.php:158
+#: includes/class-portfolio-content.php:185
 msgid "Categories list"
 msgstr ""
 
-#: includes/class-portfolio-content.php:159
+#: includes/class-portfolio-content.php:186
 msgid "Categories list navigation"
 msgstr ""
 
-#: includes/class-portfolio-content.php:179
+#: includes/class-portfolio-content.php:212
 msgctxt "Taxonomy General Name"
 msgid "Portfolio Tags"
 msgstr ""
 
-#: includes/class-portfolio-content.php:180
+#: includes/class-portfolio-content.php:213
 msgctxt "Taxonomy Singular Name"
 msgid "Portfolio Tag"
 msgstr ""
 
-#: includes/class-portfolio-content.php:181
+#: includes/class-portfolio-content.php:214
 msgid "All Tags"
 msgstr ""
 
-#: includes/class-portfolio-content.php:182
+#: includes/class-portfolio-content.php:215
 msgid "Parent Tag"
 msgstr ""
 
-#: includes/class-portfolio-content.php:183
+#: includes/class-portfolio-content.php:216
 msgid "Parent Tag:"
 msgstr ""
 
-#: includes/class-portfolio-content.php:184
+#: includes/class-portfolio-content.php:217
 msgid "New Tag Name"
 msgstr ""
 
-#: includes/class-portfolio-content.php:185
+#: includes/class-portfolio-content.php:218
 msgid "Add New Tag"
 msgstr ""
 
-#: includes/class-portfolio-content.php:186
+#: includes/class-portfolio-content.php:219
 msgid "Edit Tag"
 msgstr ""
 
-#: includes/class-portfolio-content.php:187
+#: includes/class-portfolio-content.php:220
 msgid "Update Tag"
 msgstr ""
 
-#: includes/class-portfolio-content.php:188
+#: includes/class-portfolio-content.php:221
 msgid "View Tag"
 msgstr ""
 
-#: includes/class-portfolio-content.php:189
+#: includes/class-portfolio-content.php:222
 msgid "Separate Tags with commas"
 msgstr ""
 
-#: includes/class-portfolio-content.php:190
+#: includes/class-portfolio-content.php:223
 msgid "Add or remove Tags"
 msgstr ""
 
-#: includes/class-portfolio-content.php:192
+#: includes/class-portfolio-content.php:225
 msgid "Popular Tags"
 msgstr ""
 
-#: includes/class-portfolio-content.php:193
+#: includes/class-portfolio-content.php:226
 msgid "Search Tags"
 msgstr ""
 
-#: includes/class-portfolio-content.php:195
+#: includes/class-portfolio-content.php:228
 msgid "No Tags"
 msgstr ""
 
-#: includes/class-portfolio-content.php:196
+#: includes/class-portfolio-content.php:229
 msgid "Tags list"
 msgstr ""
 
-#: includes/class-portfolio-content.php:197
+#: includes/class-portfolio-content.php:230
 msgid "Tags list navigation"
 msgstr ""
 
-#: includes/class-pfc-updates.php:32
+#: includes/class-pfc-updates.php:37
 msgid ""
 "Portfolio projects, categories and tags with a quick start, project template "
 "and native block patterns."
 msgstr ""
 
-#: includes/class-pfc-updates.php:98
+#: includes/class-pfc-updates.php:95 tools/component-messages.php:202
+msgid ""
+"Portfolio Content updates require deckerweb Updater 2.1 or newer. Another "
+"active plugin loaded an older copy. Update the deckerweb plugins together; "
+"portfolio content remains available."
+msgstr ""
+
+#: includes/class-pfc-updates.php:131
 msgid "The update filesystem is unavailable. Please try again."
 msgstr ""
 
-#: includes/class-pfc-updates.php:99
+#: includes/class-pfc-updates.php:132
 msgid "The GitHub package does not contain the Portfolio Content plugin file."
 msgstr ""
 
-#: includes/class-pfc-updates.php:100
+#: includes/class-pfc-updates.php:133
 msgid ""
 "The GitHub package could not be prepared. The installed version has been "
 "kept."
 msgstr ""
 
-#: includes/class-pfc-updates.php:107 includes/class-pfc-updates.php:111
-#: includes/class-pfc-updates.php:115
+#: includes/class-pfc-updates.php:140 includes/class-pfc-updates.php:144
+#: includes/class-pfc-updates.php:148
 msgid "The update package could not be checked."
 msgstr ""
 
-#: includes/class-pfc-updates.php:122
+#: includes/class-pfc-updates.php:155
 msgid ""
 "The package identity or version does not match a newer Portfolio Content "
 "release."
 msgstr ""
 
-#: includes/class-pfc-updates.php:127
+#: includes/class-pfc-updates.php:160
 msgid ""
 "The package version differs from the offered update. Please check for "
 "updates again."
 msgstr ""
 
-#: includes/class-pfc-updates.php:131
+#: includes/class-pfc-updates.php:164
 msgid "The update package has missing or invalid WordPress/PHP requirements."
 msgstr ""
 
-#: includes/class-pfc-updates.php:135
+#: includes/class-pfc-updates.php:168
 msgid ""
 "This release requires a newer WordPress or PHP version. The installed "
 "version has been kept."
 msgstr ""
 
-#: includes/class-pfc-editor.php:12
-msgid "The challenge"
-msgstr ""
-
-#: includes/class-pfc-editor.php:12
-msgid "What did the client need? Describe the goal and starting point."
-msgstr ""
-
-#: includes/class-pfc-editor.php:13
-msgid "The approach"
-msgstr ""
-
-#: includes/class-pfc-editor.php:13
-msgid "Explain your contribution and the steps that made the project work."
-msgstr ""
-
-#: includes/class-pfc-editor.php:14
-msgid "The result"
-msgstr ""
-
-#: includes/class-pfc-editor.php:14
-msgid "Show the outcome and what improved for the client."
-msgstr ""
-
-#: includes/class-pfc-editor.php:28 includes/class-pfc-admin.php:18
-#: includes/class-pfc-admin.php:60 includes/class-pfc-admin.php:84
-msgid "Portfolio Content"
-msgstr ""
-
-#: includes/class-pfc-editor.php:30
-msgid "Portfolio: project story"
+#: includes/class-pfc-editor.php:23 includes/class-pfc-admin.php:171
+msgid "Project starter template"
 msgstr ""
 
 #: includes/class-pfc-editor.php:31
+msgid "Insert the template into an empty draft. Save the project when ready."
+msgstr ""
+
+#: includes/class-pfc-editor.php:31
+msgid "Insert project template"
+msgstr ""
+
+#: includes/class-pfc-editor.php:45
+msgid "Template inserted. You can edit and save it."
+msgstr ""
+
+#: includes/class-pfc-editor.php:45
+msgid "The draft already contains content. Nothing was changed."
+msgstr ""
+
+#: includes/class-pfc-editor.php:55
+msgid "The challenge"
+msgstr ""
+
+#: includes/class-pfc-editor.php:55
+msgid "What did the client need? Describe the goal and starting point."
+msgstr ""
+
+#: includes/class-pfc-editor.php:56
+msgid "The approach"
+msgstr ""
+
+#: includes/class-pfc-editor.php:56
+msgid "Explain your contribution and the steps that made the project work."
+msgstr ""
+
+#: includes/class-pfc-editor.php:57
+msgid "The result"
+msgstr ""
+
+#: includes/class-pfc-editor.php:57
+msgid "Show the outcome and what improved for the client."
+msgstr ""
+
+#: includes/class-pfc-editor.php:83 includes/class-pfc-admin.php:29
+#: includes/class-pfc-admin.php:163 includes/class-pfc-admin.php:200
+msgid "Portfolio Content"
+msgstr ""
+
+#: includes/class-pfc-editor.php:85
+msgid "Portfolio: project story"
+msgstr ""
+
+#: includes/class-pfc-editor.php:86
 msgid "A project story with challenge, approach, result and a gallery."
 msgstr ""
 
-#: includes/class-pfc-editor.php:37
+#: includes/class-pfc-editor.php:92
 msgid "Your published projects will appear here."
 msgstr ""
 
-#: includes/class-pfc-editor.php:39
+#: includes/class-pfc-editor.php:94
 msgid "Portfolio: project overview"
 msgstr ""
 
-#: includes/class-pfc-editor.php:40
+#: includes/class-pfc-editor.php:95
 msgid ""
 "A responsive project grid using native WordPress blocks and your theme "
 "styles."
 msgstr ""
 
-#: includes/class-pfc-admin.php:19 includes/class-pfc-admin.php:86
+#: includes/class-pfc-admin.php:30
 msgid "Quick start"
 msgstr ""
 
-#: includes/class-pfc-admin.php:38
+#: includes/class-pfc-admin.php:73
 msgid "Image"
 msgstr ""
 
-#: includes/class-pfc-admin.php:45
+#: includes/class-pfc-admin.php:87
 msgid "No featured image"
 msgstr ""
 
-#: includes/class-pfc-admin.php:50
+#: includes/class-pfc-admin.php:99
+msgid "Filter by portfolio category"
+msgstr ""
+
+#: includes/class-pfc-admin.php:100
 msgid "All portfolio categories"
 msgstr ""
 
-#: includes/class-pfc-admin.php:60 includes/class-pfc-admin.php:75
+#: includes/class-pfc-admin.php:101 includes/class-pfc-admin.php:124
+#: tools/component-messages.php:158
+msgid "Reset filters"
+msgstr ""
+
+#: includes/class-pfc-admin.php:122
+msgid "No projects match this view."
+msgstr ""
+
+#: includes/class-pfc-admin.php:122
+msgid "Your portfolio starts with your first project."
+msgstr ""
+
+#: includes/class-pfc-admin.php:124 includes/class-pfc-admin.php:137
+msgid "Create project"
+msgstr ""
+
+#: includes/class-pfc-admin.php:137
+msgid "Setup check"
+msgstr ""
+
+#: includes/class-pfc-admin.php:137
+msgid "Projects are available."
+msgstr ""
+
+#: includes/class-pfc-admin.php:137
+msgid "No projects yet. Create your first project."
+msgstr ""
+
+#: includes/class-pfc-admin.php:137
+msgid "Automatic project template: enabled."
+msgstr ""
+
+#: includes/class-pfc-admin.php:137
+msgid "Automatic project template: optional, currently disabled."
+msgstr ""
+
+#: includes/class-pfc-admin.php:137
+msgid "Archive: open it to check how your theme displays published projects."
+msgstr ""
+
+#: includes/class-pfc-admin.php:138 includes/class-pfc-admin.php:170
+msgid "View portfolio archive"
+msgstr ""
+
+#: includes/class-pfc-admin.php:139
+msgid ""
+"Portfolio Content organizes your projects. Your theme, native block patterns "
+"or builder determine their appearance."
+msgstr ""
+
+#: includes/class-pfc-admin.php:139
+msgid "Use the portfolio patterns: create a page and open the Patterns tab."
+msgstr ""
+
+#: includes/class-pfc-admin.php:163 includes/class-pfc-admin.php:185
 msgid "Your projects. Ready to share."
 msgstr ""
 
-#: includes/class-pfc-admin.php:62
+#: includes/class-pfc-admin.php:166
 msgid "Your first portfolio in three steps"
 msgstr ""
 
-#: includes/class-pfc-admin.php:63
+#: includes/class-pfc-admin.php:167
 msgid "1. Add your first project"
 msgstr ""
 
-#: includes/class-pfc-admin.php:63
+#: includes/class-pfc-admin.php:167
 msgid ""
 "Add a title, featured image and a short excerpt. Categories help visitors "
 "find related work."
 msgstr ""
 
-#: includes/class-pfc-admin.php:63
+#: includes/class-pfc-admin.php:167
 msgid "Add project"
 msgstr ""
 
-#: includes/class-pfc-admin.php:64
+#: includes/class-pfc-admin.php:168
 msgid "2. Create your overview"
 msgstr ""
 
-#: includes/class-pfc-admin.php:64
+#: includes/class-pfc-admin.php:168
 msgid ""
 "Create a page, open Patterns and choose Portfolio Content → Portfolio: "
 "project overview. The grid automatically shows your published projects."
 msgstr ""
 
-#: includes/class-pfc-admin.php:64
+#: includes/class-pfc-admin.php:168
 msgid ""
 "In your page builder, add a post grid and select Portfolio Content as its "
 "content source. Choose your image, title and excerpt layout."
 msgstr ""
 
-#: includes/class-pfc-admin.php:64
+#: includes/class-pfc-admin.php:168
 msgid "Create page"
 msgstr ""
 
-#: includes/class-pfc-admin.php:66
+#: includes/class-pfc-admin.php:170
 msgid "3. Review and share"
 msgstr ""
 
-#: includes/class-pfc-admin.php:66
+#: includes/class-pfc-admin.php:170
 msgid ""
 "Publish your project and check its public view. The archive layout is "
 "provided by your theme; add your overview page to your navigation when ready."
 msgstr ""
 
-#: includes/class-pfc-admin.php:66
-msgid "View portfolio archive"
-msgstr ""
-
-#: includes/class-pfc-admin.php:66
+#: includes/class-pfc-admin.php:170
 msgid "View projects"
 msgstr ""
 
-#: includes/class-pfc-admin.php:67
-msgid "Project starter template"
-msgstr ""
-
-#: includes/class-pfc-admin.php:67
+#: includes/class-pfc-admin.php:171
 msgid ""
 "Start new projects with editable sections for the challenge, approach, "
 "result and images. Existing projects are never changed."
 msgstr ""
 
-#: includes/class-pfc-admin.php:69
+#: includes/class-pfc-admin.php:173
 msgid "Use the starter template for new projects"
 msgstr ""
 
-#: includes/class-pfc-admin.php:70
+#: includes/class-pfc-admin.php:174 tools/component-messages.php:200
+msgid "Delete plugin settings when uninstalling"
+msgstr ""
+
+#: includes/class-pfc-admin.php:174 tools/component-messages.php:201
+msgid ""
+"Off by default. Deletes only this website’s Portfolio Content settings. "
+"Projects, categories, tags and images are always kept. In Multisite, each "
+"website chooses separately."
+msgstr ""
+
+#: includes/class-pfc-admin.php:175 tools/component-messages.php:91
 msgid "Save settings"
 msgstr ""
 
-#: includes/class-pfc-admin.php:71
+#: includes/class-pfc-admin.php:176
 msgid "Make it yours"
 msgstr ""
 
-#: includes/class-pfc-admin.php:71
+#: includes/class-pfc-admin.php:176
 msgid ""
 "The block editor includes two Portfolio Content patterns: a project story "
 "and a project overview. Use your theme styles to adjust the design. With a "
@@ -486,40 +575,848 @@ msgid ""
 "grid instead."
 msgstr ""
 
-#: includes/class-pfc-admin.php:71
+#: includes/class-pfc-admin.php:176
 msgid ""
 "Custom fields can be added with your preferred field plugin. Portfolio "
 "Content keeps your content independent of its presentation."
 msgstr ""
 
-#: includes/class-pfc-admin.php:75
+#: includes/class-pfc-admin.php:185
 msgid "Plugin information"
 msgstr ""
 
-#: includes/class-pfc-admin.php:75
+#: includes/class-pfc-admin.php:185
 msgid "Version"
 msgstr ""
 
-#: includes/class-pfc-admin.php:75 includes/class-pfc-documents.php:26
+#: includes/class-pfc-admin.php:185 includes/class-pfc-documents.php:59
+#: tools/component-messages.php:22
 msgid "Changelog"
 msgstr ""
 
-#: includes/class-pfc-admin.php:75 includes/class-pfc-documents.php:26
+#: includes/class-pfc-admin.php:185
 msgid "Documentation"
 msgstr ""
 
-#: includes/class-pfc-admin.php:75
+#: includes/class-pfc-admin.php:185
 msgid "Plugin website"
 msgstr ""
 
-#: includes/class-pfc-admin.php:102
+#: includes/class-pfc-admin.php:202 tools/component-messages.php:199
+msgid "Settings"
+msgstr ""
+
+#: includes/class-pfc-admin.php:236
 msgid "Donate"
 msgstr ""
 
-#: includes/class-pfc-admin.php:102
+#: includes/class-pfc-admin.php:236
 msgid "Join our Newsletter"
 msgstr ""
 
-#: includes/class-pfc-documents.php:33
+#: includes/class-pfc-documents.php:66 tools/component-messages.php:23
 msgid "Close"
+msgstr ""
+
+#: includes/updater-translations.php:18 tools/component-messages.php:188
+msgid "Private mode must be boolean."
+msgstr ""
+
+#: includes/updater-translations.php:20 tools/component-messages.php:189
+msgid "Invalid authentication provider."
+msgstr ""
+
+#: includes/updater-translations.php:22 tools/component-messages.php:190
+msgid "The plugin must be installed in a stable slug directory."
+msgstr ""
+
+#: includes/updater-translations.php:24 tools/component-messages.php:191
+msgid "Invalid GitHub repository URL."
+msgstr ""
+
+#: includes/updater-translations.php:26 tools/component-messages.php:192
+msgid ""
+"The private update could not be authorized. Check the repository credentials "
+"and refresh updates."
+msgstr ""
+
+#: includes/updater-translations.php:28 tools/component-messages.php:193
+msgid "Could not create the update download file."
+msgstr ""
+
+#: includes/updater-translations.php:30 tools/component-messages.php:194
+msgid "The private update download failed. Check credentials and try again."
+msgstr ""
+
+#: includes/updater-translations.php:32 tools/component-messages.php:195
+msgid "Could not access the update filesystem."
+msgstr ""
+
+#: includes/updater-translations.php:34 tools/component-messages.php:196
+msgid "GitHub release does not contain the plugin main file."
+msgstr ""
+
+#: includes/updater-translations.php:36 tools/component-messages.php:197
+msgid "Could not prepare the GitHub release package."
+msgstr ""
+
+#: includes/updater-translations.php:38 tools/component-messages.php:198
+msgid "See the release on GitHub."
+msgstr ""
+
+#: tools/component-messages.php:3
+#, php-format
+msgid "%s is installed but inactive. Activate it first."
+msgstr ""
+
+#: tools/component-messages.php:4
+#, php-format
+msgid "%s is missing. Install and activate it first."
+msgstr ""
+
+#: tools/component-messages.php:5
+#, php-format
+msgid "%s must be network activated first."
+msgstr ""
+
+#: tools/component-messages.php:6
+#, php-format
+msgid "%s supports activation per site only."
+msgstr ""
+
+#: tools/component-messages.php:7
+msgid "Activate"
+msgstr ""
+
+#: tools/component-messages.php:8
+msgid ""
+"Activate Bricks QuickNav per site after selecting the Bricks parent or child "
+"theme."
+msgstr ""
+
+#: tools/component-messages.php:9
+msgid "Admin"
+msgstr ""
+
+#: tools/component-messages.php:10
+msgid "Already active"
+msgstr ""
+
+#: tools/component-messages.php:11
+msgid "Archive contains too many files."
+msgstr ""
+
+#: tools/component-messages.php:12
+msgid "Archive symlinks are not permitted."
+msgstr ""
+
+#: tools/component-messages.php:13
+msgid "As of "
+msgstr ""
+
+#: tools/component-messages.php:14
+msgid "Back to deckerweb"
+msgstr ""
+
+#: tools/component-messages.php:15
+msgid "Builder"
+msgstr ""
+
+#: tools/component-messages.php:16
+msgid "Cannot create temporary file."
+msgstr ""
+
+#: tools/component-messages.php:17
+msgid "Cannot create verified archive."
+msgstr ""
+
+#: tools/component-messages.php:18
+msgid "Cannot finalize archive."
+msgstr ""
+
+#: tools/component-messages.php:19
+msgid "Cannot normalize archive."
+msgstr ""
+
+#: tools/component-messages.php:20
+msgid "Cannot read archive entry."
+msgstr ""
+
+#: tools/component-messages.php:21
+msgid "Catalog URL"
+msgstr ""
+
+#: tools/component-messages.php:24
+msgid "Compatible additions only"
+msgstr ""
+
+#: tools/component-messages.php:25
+msgid "Content"
+msgstr ""
+
+#: tools/component-messages.php:26
+msgid "Delete Library settings when removing the last host plugin"
+msgstr ""
+
+#: tools/component-messages.php:27
+msgid "Details & requirements"
+msgstr ""
+
+#: tools/component-messages.php:28
+msgid "Discover more plugins by deckerweb"
+msgstr ""
+
+#: tools/component-messages.php:29
+msgid "Dismiss permanently"
+msgstr ""
+
+#: tools/component-messages.php:30
+msgid "Done. The plugin is active."
+msgstr ""
+
+#: tools/component-messages.php:31
+msgid "Enter a catalog URL first."
+msgstr ""
+
+#: tools/component-messages.php:32
+msgid "Expanded archive is too large."
+msgstr ""
+
+#: tools/component-messages.php:33
+msgid "Filter"
+msgstr ""
+
+#: tools/component-messages.php:34
+msgid "GitHub Stars"
+msgstr ""
+
+#: tools/component-messages.php:35
+msgid "Hide catalog"
+msgstr ""
+
+#: tools/component-messages.php:36
+msgid "Improved"
+msgstr ""
+
+#: tools/component-messages.php:37
+msgid "Install and activate this plugin in the network admin."
+msgstr ""
+
+#: tools/component-messages.php:38
+msgid "Install deckerweb plugin"
+msgstr ""
+
+#: tools/component-messages.php:39
+msgid "Install now"
+msgstr ""
+
+#: tools/component-messages.php:40
+msgid "Installed"
+msgstr ""
+
+#: tools/component-messages.php:41
+msgid "Installed: "
+msgstr ""
+
+#: tools/component-messages.php:42
+msgid "Invalid ZIP archive."
+msgstr ""
+
+#: tools/component-messages.php:43
+msgid "Invalid approval flag."
+msgstr ""
+
+#: tools/component-messages.php:44
+msgid "Invalid catalog field: "
+msgstr ""
+
+#: tools/component-messages.php:45
+msgid "Invalid catalog schema."
+msgstr ""
+
+#: tools/component-messages.php:46
+msgid "Invalid dependencies."
+msgstr ""
+
+#: tools/component-messages.php:47
+msgid "Invalid dependency URL."
+msgstr ""
+
+#: tools/component-messages.php:48
+msgid "Invalid dependency metadata."
+msgstr ""
+
+#: tools/component-messages.php:49
+msgid "Invalid display field."
+msgstr ""
+
+#: tools/component-messages.php:50
+msgid "Invalid icon color."
+msgstr ""
+
+#: tools/component-messages.php:51
+msgid "Invalid icon label."
+msgstr ""
+
+#: tools/component-messages.php:52
+msgid "Invalid identity or release metadata."
+msgstr ""
+
+#: tools/component-messages.php:53
+msgid "Invalid local icon."
+msgstr ""
+
+#: tools/component-messages.php:54
+msgid "Invalid network policy."
+msgstr ""
+
+#: tools/component-messages.php:55
+msgid "Invalid network requirement."
+msgstr ""
+
+#: tools/component-messages.php:56
+msgid "Invalid platform version."
+msgstr ""
+
+#: tools/component-messages.php:57
+msgid "Invalid star count."
+msgstr ""
+
+#: tools/component-messages.php:58
+msgid "Invalid stars date."
+msgstr ""
+
+#: tools/component-messages.php:59
+msgid "Library"
+msgstr ""
+
+#: tools/component-messages.php:60
+msgid "Library changelog"
+msgstr ""
+
+#: tools/component-messages.php:61
+msgid "Library settings"
+msgstr ""
+
+#: tools/component-messages.php:62
+msgid "Library settings saved."
+msgstr ""
+
+#: tools/component-messages.php:63
+msgid "Manage installed plugins"
+msgstr ""
+
+#: tools/component-messages.php:64
+msgid "Misc"
+msgstr ""
+
+#: tools/component-messages.php:65
+msgid "Missing display text."
+msgstr ""
+
+#: tools/component-messages.php:66
+msgid "Missing plugin header."
+msgstr ""
+
+#: tools/component-messages.php:67
+msgid "More by deckerweb"
+msgstr ""
+
+#: tools/component-messages.php:68
+msgid "Multisite"
+msgstr ""
+
+#: tools/component-messages.php:69
+msgid "Network activate"
+msgstr ""
+
+#: tools/component-messages.php:70
+msgid "Network permission denied."
+msgstr ""
+
+#: tools/component-messages.php:71
+msgid "New"
+msgstr ""
+
+#: tools/component-messages.php:72
+msgid "No approved plugins match this selection."
+msgstr ""
+
+#: tools/component-messages.php:73
+msgid ""
+"Off by default. Applies only when no other host is installed, including "
+"inactive hosts. Removes Library settings, installation records and "
+"introduction status. Installed plugins, their content and other plugin "
+"settings remain unchanged. Network data is shared across sites."
+msgstr ""
+
+#: tools/component-messages.php:74
+msgid "Online catalog"
+msgstr ""
+
+#: tools/component-messages.php:75
+msgid "Only approved releases"
+msgstr ""
+
+#: tools/component-messages.php:76
+msgid "Open catalog"
+msgstr ""
+
+#: tools/component-messages.php:77
+msgid "PHP ZIP support is required."
+msgstr ""
+
+#: tools/component-messages.php:78
+msgid "POST required."
+msgstr ""
+
+#: tools/component-messages.php:79
+msgid "Permission denied."
+msgstr ""
+
+#: tools/component-messages.php:80
+msgid "Plugin identity or version does not match the catalog."
+msgstr ""
+
+#: tools/component-messages.php:81
+msgid "Plugin is not installed."
+msgstr ""
+
+#: tools/component-messages.php:82
+msgid "Product website"
+msgstr ""
+
+#: tools/component-messages.php:83
+msgid "Refresh catalog"
+msgstr ""
+
+#: tools/component-messages.php:84
+msgid ""
+"Release checksum is verified before installation. Activation is a separate "
+"step."
+msgstr ""
+
+#: tools/component-messages.php:85
+msgid "Release must contain exactly the approved plugin directory."
+msgstr ""
+
+#: tools/component-messages.php:86
+msgid "Repository & documentation"
+msgstr ""
+
+#: tools/component-messages.php:87
+#, php-format
+msgid "Requires PHP %s or newer."
+msgstr ""
+
+#: tools/component-messages.php:88
+#, php-format
+msgid "Requires WordPress %s or newer."
+msgstr ""
+
+#: tools/component-messages.php:89
+msgid "Requires a WordPress Multisite network."
+msgstr ""
+
+#: tools/component-messages.php:90
+msgid "Retrieve approved catalog updates online"
+msgstr ""
+
+#: tools/component-messages.php:92
+msgid "Scripts"
+msgstr ""
+
+#: tools/component-messages.php:93
+msgid "Search this catalog"
+msgstr ""
+
+#: tools/component-messages.php:94
+msgid "Selected by deckerweb · Installed from GitHub releases"
+msgstr ""
+
+#: tools/component-messages.php:95
+msgid "Show deckerweb under Add Plugins"
+msgstr ""
+
+#: tools/component-messages.php:96
+msgid "Small plugins. Practical improvements."
+msgstr ""
+
+#: tools/component-messages.php:97
+msgid "Source: GitHub"
+msgstr ""
+
+#: tools/component-messages.php:98
+msgid "The GitHub release could not be downloaded."
+msgstr ""
+
+#: tools/component-messages.php:99
+msgid "The approved release changed. Refresh updates first."
+msgstr ""
+
+#: tools/component-messages.php:100
+msgid "The catalog URL is not an allowed first-party HTTPS endpoint."
+msgstr ""
+
+#: tools/component-messages.php:101
+msgid "The catalog could not be verified. Please try again later."
+msgstr ""
+
+#: tools/component-messages.php:102
+msgid "The catalog is disabled."
+msgstr ""
+
+#: tools/component-messages.php:103
+msgid "The catalog is hidden."
+msgstr ""
+
+#: tools/component-messages.php:104
+msgid ""
+"The online catalog is unavailable. Showing cached or bundled entries; online "
+"approval is checked again before installation."
+msgstr ""
+
+#: tools/component-messages.php:105
+msgid "The online catalog source is not trusted."
+msgstr ""
+
+#: tools/component-messages.php:106
+msgid "The release checksum does not match. Installation stopped."
+msgstr ""
+
+#: tools/component-messages.php:107
+msgid ""
+"This plugin directory already exists. Use the installed plugin; it will not "
+"be overwritten."
+msgstr ""
+
+#: tools/component-messages.php:108
+msgid "This release is no longer approved."
+msgstr ""
+
+#: tools/component-messages.php:109
+msgid "This release is not approved."
+msgstr ""
+
+#: tools/component-messages.php:110
+msgid "Unsafe archive path."
+msgstr ""
+
+#: tools/component-messages.php:111
+msgid "Untrusted release URL."
+msgstr ""
+
+#: tools/component-messages.php:112
+#, php-format
+msgid "Update %1$s to version %2$s or newer."
+msgstr ""
+
+#: tools/component-messages.php:113
+msgid "View plugins"
+msgstr ""
+
+#: tools/component-messages.php:114
+msgid "Visibility"
+msgstr ""
+
+#: tools/component-messages.php:115
+msgid "WordPress"
+msgstr ""
+
+#: tools/component-messages.php:116
+msgid ""
+"You already use one of my plugins. Find selected additions in the deckerweb "
+"tab."
+msgstr ""
+
+#: tools/component-messages.php:117
+msgid "January"
+msgstr ""
+
+#: tools/component-messages.php:118
+msgid "February"
+msgstr ""
+
+#: tools/component-messages.php:119
+msgid "March"
+msgstr ""
+
+#: tools/component-messages.php:120
+msgid "April"
+msgstr ""
+
+#: tools/component-messages.php:121
+msgid "May"
+msgstr ""
+
+#: tools/component-messages.php:122
+msgid "June"
+msgstr ""
+
+#: tools/component-messages.php:123
+msgid "July"
+msgstr ""
+
+#: tools/component-messages.php:124
+msgid "August"
+msgstr ""
+
+#: tools/component-messages.php:125
+msgid "September"
+msgstr ""
+
+#: tools/component-messages.php:126
+msgid "October"
+msgstr ""
+
+#: tools/component-messages.php:127
+msgid "November"
+msgstr ""
+
+#: tools/component-messages.php:128
+msgid "December"
+msgstr ""
+
+#: tools/component-messages.php:129
+msgid "Jan"
+msgstr ""
+
+#: tools/component-messages.php:130
+msgid "Feb"
+msgstr ""
+
+#: tools/component-messages.php:131
+msgid "Mar"
+msgstr ""
+
+#: tools/component-messages.php:132
+msgid "Apr"
+msgstr ""
+
+#: tools/component-messages.php:133
+msgid "Jun"
+msgstr ""
+
+#: tools/component-messages.php:134
+msgid "Jul"
+msgstr ""
+
+#: tools/component-messages.php:135
+msgid "Aug"
+msgstr ""
+
+#: tools/component-messages.php:136
+msgid "Sep"
+msgstr ""
+
+#: tools/component-messages.php:137
+msgid "Oct"
+msgstr ""
+
+#: tools/component-messages.php:138
+msgid "Nov"
+msgstr ""
+
+#: tools/component-messages.php:139
+msgid "Dec"
+msgstr ""
+
+#: tools/component-messages.php:140
+msgid "Monday"
+msgstr ""
+
+#: tools/component-messages.php:141
+msgid "Tuesday"
+msgstr ""
+
+#: tools/component-messages.php:142
+msgid "Wednesday"
+msgstr ""
+
+#: tools/component-messages.php:143
+msgid "Thursday"
+msgstr ""
+
+#: tools/component-messages.php:144
+msgid "Friday"
+msgstr ""
+
+#: tools/component-messages.php:145
+msgid "Saturday"
+msgstr ""
+
+#: tools/component-messages.php:146
+msgid "Sunday"
+msgstr ""
+
+#: tools/component-messages.php:147
+msgid "Mon"
+msgstr ""
+
+#: tools/component-messages.php:148
+msgid "Tue"
+msgstr ""
+
+#: tools/component-messages.php:149
+msgid "Wed"
+msgstr ""
+
+#: tools/component-messages.php:150
+msgid "Thu"
+msgstr ""
+
+#: tools/component-messages.php:151
+msgid "Fri"
+msgstr ""
+
+#: tools/component-messages.php:152
+msgid "Sat"
+msgstr ""
+
+#: tools/component-messages.php:153
+msgid "Sun"
+msgstr ""
+
+#: tools/component-messages.php:154
+msgid "F j, Y"
+msgstr ""
+
+#: tools/component-messages.php:155
+msgid "Plugin series"
+msgstr ""
+
+#: tools/component-messages.php:156
+msgid "All"
+msgstr ""
+
+#: tools/component-messages.php:157
+msgid "Fits my installation"
+msgstr ""
+
+#: tools/component-messages.php:159
+msgid "Invalid plugin series."
+msgstr ""
+
+#: tools/component-messages.php:160
+msgid ""
+"Shows plugins whose platform and dependency requirements are met in this "
+"site or network. Without this filter, plugins with missing requirements "
+"remain visible."
+msgstr ""
+
+#: tools/component-messages.php:161
+msgid "Fixed"
+msgstr ""
+
+#: tools/component-messages.php:162
+msgid "Invalid catalog revision."
+msgstr ""
+
+#: tools/component-messages.php:163
+msgid "This catalog requires a newer Library."
+msgstr ""
+
+#: tools/component-messages.php:164
+msgid ""
+"Optional. The bundled catalog works immediately. Catalog requests are cached "
+"for 24 hours. No site URL, plugin list or usage data is sent."
+msgstr ""
+
+#: tools/component-messages.php:165
+msgid "Invalid catalog timestamp."
+msgstr ""
+
+#: tools/component-messages.php:166
+msgid "The approved release could not be verified."
+msgstr ""
+
+#: tools/component-messages.php:167
+msgid ""
+"Only HTTPS on raw.githubusercontent.com/deckerweb. The server receives the "
+"requesting IP address. GitHub is contacted when installing a release."
+msgstr ""
+
+#: tools/component-messages.php:168
+msgid "Manage Content"
+msgstr ""
+
+#: tools/component-messages.php:169
+msgid "Commerce"
+msgstr ""
+
+#: tools/component-messages.php:170
+msgid "Release in preparation"
+msgstr ""
+
+#: tools/component-messages.php:171
+msgid "Planned: "
+msgstr ""
+
+#: tools/component-messages.php:172
+msgid ""
+"Release 1.0.0 is being prepared. Installation will be available after "
+"package verification."
+msgstr ""
+
+#: tools/component-messages.php:173
+msgid ""
+"Requirements shown are preliminary until the stable release is verified."
+msgstr ""
+
+#: tools/component-messages.php:174
+msgid "Installing…"
+msgstr ""
+
+#: tools/component-messages.php:175
+msgid "Activating…"
+msgstr ""
+
+#: tools/component-messages.php:176
+msgid ""
+"The request could not be completed. Check the plugin status before trying "
+"again."
+msgstr ""
+
+#: tools/component-messages.php:177
+msgid "Installation cancelled."
+msgstr ""
+
+#: tools/component-messages.php:178
+msgid "Another action for this plugin is running. Please wait."
+msgstr ""
+
+#: tools/component-messages.php:179
+msgid "Filesystem credentials are required."
+msgstr ""
+
+#: tools/component-messages.php:180
+msgid "Installation failed."
+msgstr ""
+
+#: tools/component-messages.php:181
+msgid "Tools"
+msgstr ""
+
+#: tools/component-messages.php:182
+msgid "Shop"
+msgstr ""
+
+#: tools/component-messages.php:183
+msgid "Check status"
+msgstr ""
+
+#: tools/component-messages.php:184
+msgid "The action is still running. Check its status again."
+msgstr ""
+
+#: tools/component-messages.php:185
+msgid "Not installed. You can try again."
+msgstr ""
+
+#: tools/component-messages.php:186
+msgid "Checking status…"
+msgstr ""
+
+#: tools/component-messages.php:187
+msgid "The requirements below describe the offered release."
 msgstr ""

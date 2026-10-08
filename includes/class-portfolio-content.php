@@ -4,43 +4,64 @@ defined( 'ABSPATH' ) || exit;
 
 if ( ! class_exists( 'DDW_Portfolio_Content' ) ) :
 
+/** Register the public content model while retaining legacy integration contracts. */
 class DDW_Portfolio_Content {
 
 	/** Class constants & variables */
-	public const VERSION = '1.2.0';
+	public const VERSION = '1.3.0';
 
-	/**
-	 * Constructor
+		/**
+	 * Register translation, content and activation callbacks.
+	 *
+	 * @return void Does not flush rewrite rules during ordinary requests.
 	 */
-	public function __construct() {
-		add_action( 'init', array( $this, 'load_translations' ), 0 );
+    public function __construct() {
+		add_filter( 'load_textdomain_mofile', array( $this, 'component_translation_file' ), 10, 2 );
+        add_action( 'init', array( $this, 'load_translations' ), 0 );
 		add_action( 'init', array( $this, 'register_content' ), 0 );
 		if ( defined( 'PFC_PLUGIN_FILE' ) && ! defined( 'PFC_SNIPPET' ) ) {
 			register_activation_hook( PFC_PLUGIN_FILE, array( $this, 'flush_rewrite_rules' ) );
 		}
 	}
 
-    /** Register the post type and both taxonomies through the existing filters. */
+        /**
+     * Register the existing post type and both taxonomies.
+     *
+     * @return void Preserves public identifiers, capabilities and extension filters.
+     */
     public function register_content() {
         $this->register_post_type();
         $this->register_taxonomy_category();
         $this->register_taxonomy_tag();
     }
 
-	/** Refresh rewrite rules on plugin activation only. */
-	public function flush_rewrite_rules() {
+		/**
+	 * Refresh portfolio routes during activation or site initialization.
+	 *
+	 * @param bool $network_wide Whether all sites of the current network are affected.
+	 * @return void Preserves posts, terms and site preferences.
+	 */
+    public function flush_rewrite_rules( $network_wide = false ) {
 
-		$this->register_content();
-
-		flush_rewrite_rules();
+		PFC_Lifecycle::each_site( $network_wide, array( $this, 'refresh_site_rewrites' ) );
 	}
 
-	/**
-	 * Load the text domain for translation of the plugin.
+    /**
+     * Register current-site portfolio routes and refresh native rewrite rules.
+     *
+     * @return void Called only during activation or new-site initialization.
+     */
+    public function refresh_site_rewrites() {
+        $this->register_content();
+        flush_rewrite_rules( false );
+    }
+
+		/**
+	 * Load custom translations before standard WordPress and bundled fallbacks.
 	 *
-	 * @since 1.0.0
+	 * @return void Uses the current user or site locale; locale filenames are validated.
 	 */
-	public function load_translations() {
+    public function load_translations() {
 
         // Preserve the documented custom directory before using normal plugin fallback.
         $locale = apply_filters( 'plugin_locale', function_exists( 'determine_locale' ) ? determine_locale() : ( is_admin() ? get_user_locale() : get_locale() ), 'portfolio-content' );
@@ -53,12 +74,12 @@ class DDW_Portfolio_Content {
         }
 	}
 
-	/**
-	 * Register Portfolio Content CPT.
+		/**
+	 * Register the public portfolio post type and its existing editor support.
 	 *
-	 * @since 1.0.0
+	 * @return void Exposes the native REST controller for block-editor access.
 	 */
-	public function register_post_type() {
+    public function register_post_type() {
 
 		$labels = array(
 			'name'                  => _x( 'Portfolios', 'Post Type General Name', 'portfolio-content' ),
@@ -126,16 +147,22 @@ class DDW_Portfolio_Content {
 
 		register_post_type(
 			'portfolio-content',
-			apply_filters( 'pfc/post-type/params', $args )
+			/**
+             * Filter registration arguments; return the modified argument array.
+             *
+             * @since 1.0.0
+             * @param array $args Native post-type registration arguments.
+             */
+            apply_filters( 'pfc/post-type/params', $args )
 		);
 	}
 
-	/**
-	 * Register custom taxonomy: Portfolio Category
+		/**
+	 * Register hierarchical portfolio categories through the existing filter.
 	 *
-	 * @since 1.0.0
+	 * @return void Retains the existing taxonomy name and permissions.
 	 */
-	public function register_taxonomy_category() {
+    public function register_taxonomy_category() {
 
 		$labels = array(
 			'name'                       => _x( 'Portfolio Categories', 'Taxonomy General Name', 'portfolio-content' ),
@@ -164,16 +191,22 @@ class DDW_Portfolio_Content {
 		register_taxonomy(
 			'portfolio-category',
 			array( 'portfolio-content' ),
-			apply_filters( 'pfc/taxonomy/params-category', $args )
+			/**
+             * Filter registration arguments; return the modified argument array.
+             *
+             * @since 1.0.0
+             * @param array $args Native category registration arguments.
+             */
+            apply_filters( 'pfc/taxonomy/params-category', $args )
 		);
 	}
 
-	/**
-	 * Register custom taxonomy: Portfolio Tag
+		/**
+	 * Register non-hierarchical portfolio tags through the existing filter.
 	 *
-	 * @since 1.0.0
+	 * @return void Retains the existing taxonomy name and permissions.
 	 */
-	public function register_taxonomy_tag() {
+    public function register_taxonomy_tag() {
 
 		$labels = array(
 			'name'                       => _x( 'Portfolio Tags', 'Taxonomy General Name', 'portfolio-content' ),
@@ -202,11 +235,23 @@ class DDW_Portfolio_Content {
 		register_taxonomy(
 			'portfolio-tag',
 			array( 'portfolio-content' ),
-			apply_filters( 'pfc/taxonomy/params-tag', $args )
+			/**
+             * Filter registration arguments; return the modified argument array.
+             *
+             * @since 1.0.0
+             * @param array $args Native tag registration arguments.
+             */
+            apply_filters( 'pfc/taxonomy/params-tag', $args )
 		);
 	}
 
-    /** Shared defaults; labels remain literal for translation extraction. */
+        /**
+     * Return common public taxonomy settings without changing translated labels.
+     *
+     * @param array $labels Translated native taxonomy labels.
+     * @param bool $hierarchical Whether the taxonomy represents categories.
+     * @return array Native register_taxonomy arguments.
+     */
     private function taxonomy_args( $labels, $hierarchical ) {
         return array(
             'labels' => $labels,
@@ -218,6 +263,21 @@ class DDW_Portfolio_Content {
             'show_tagcloud' => true,
             'show_in_rest' => true,
         );
+    }
+
+    /**
+     * Keep component locale switching on the complete merged host catalog.
+     *
+     * @param string $mofile Requested local MO path.
+     * @param string $domain WordPress textdomain being loaded.
+     * @return string Complete host resource for known bundled Library paths; other loads are unchanged.
+     */
+    public function component_translation_file( $mofile, $domain ) {
+        if ( 'portfolio-content' !== $domain || ! defined( 'PFC_PLUGIN_FILE' ) ) { return $mofile; }
+        $library_languages = wp_normalize_path( dirname( PFC_PLUGIN_FILE ) . '/includes/deckerweb-plugin-library/languages' );
+        if ( wp_normalize_path( dirname( $mofile ) ) !== $library_languages || ! in_array( basename( $mofile ), array( 'de_DE.mo', 'de_DE_formal.mo' ), true ) ) { return $mofile; }
+        $host = dirname( PFC_PLUGIN_FILE ) . '/languages/portfolio-content-' . basename( $mofile );
+        return is_readable( $host ) ? $host : $mofile;
     }
 
 }  // end of class

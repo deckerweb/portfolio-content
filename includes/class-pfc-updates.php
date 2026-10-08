@@ -24,13 +24,19 @@ final class GitHubUpdates {
 		if ( ! class_exists( '\Deckerweb\GitHubReleaseUpdater\V2\Updater' ) ) {
 			require_once ( dirname( PFC_PLUGIN_FILE ) . '/' ) . 'includes/deckerweb-github-release-updater-v2.php';
 		}
-		try {
+		if ( ! defined( '\\Deckerweb\\GitHubReleaseUpdater\\V2\\Updater::SUPPORTS_HOST_TRANSLATIONS' ) ) {
+            add_action( 'admin_notices', array( $this, 'compatibility_notice' ) );
+            add_action( 'network_admin_notices', array( $this, 'compatibility_notice' ) );
+            return;
+        }
+        try {
 			$updater = new \Deckerweb\GitHubReleaseUpdater\V2\Updater(
 				PFC_PLUGIN_FILE,
 				self::REPOSITORY,
 				'Portfolio Content',
 				__( 'Portfolio projects, categories and tags with a quick start, project template and native block patterns.', 'portfolio-content' ),
-				$this->artwork()
+				$this->artwork(),
+                array( 'translate' => require dirname( PFC_PLUGIN_FILE ) . '/includes/updater-translations.php' )
 			);
 		} catch ( \InvalidArgumentException $error ) {
 			// An unsupported directory must not break the admin or login design.
@@ -79,6 +85,33 @@ final class GitHubUpdates {
 		return $args;
 	}
 
+    /**
+     * Explain an incompatible shared updater to administrators without disrupting content.
+     *
+     * @return void Outputs an escaped administration notice.
+     */
+    public function compatibility_notice(): void {
+        if ( ! current_user_can( 'update_plugins' ) ) { return; }
+        echo '<div class="notice notice-warning"><p>' . esc_html__( 'Portfolio Content updates require deckerweb Updater 2.1 or newer. Another active plugin loaded an older copy. Update the deckerweb plugins together; portfolio content remains available.', 'portfolio-content' ) . '</p></div>';
+    }
+
+    /**
+     * Identify native single and bulk updates belonging to this plugin only.
+     *
+     * @param mixed $upgrader WordPress upgrader instance.
+     * @param array $context Native upgrade context.
+     * @return bool Whether plugin package validation applies.
+     */
+    public function update_context( $upgrader, array $context ): bool {
+        if ( ( $context['plugin'] ?? '' ) !== plugin_basename( PFC_PLUGIN_FILE )
+            || ( isset( $context['type'] ) && 'plugin' !== $context['type'] )
+            || ( isset( $context['action'] ) && 'update' !== $context['action'] ) ) {
+            return false;
+        }
+        return isset( $context['type'], $context['action'] )
+            || ( $upgrader instanceof \Plugin_Upgrader && true === $upgrader->bulk );
+    }
+
 	/**
 	 * Validate the actual candidate before WordPress removes the installed plugin.
 	 * Requirements in installed headers cannot describe a future release reliably.
@@ -90,7 +123,7 @@ final class GitHubUpdates {
 	 * @return mixed Original source or localized WP_Error.
 	 */
 	public function validate_source( $source, $remote_source, $upgrader, array $hook_extra ) {
-		if ( ( $hook_extra['plugin'] ?? '' ) !== plugin_basename( PFC_PLUGIN_FILE ) || ( $hook_extra['type'] ?? '' ) !== 'plugin' || ( $hook_extra['action'] ?? '' ) !== 'update' ) {
+		if ( ! $this->update_context( $upgrader, $hook_extra ) ) {
 			return $source;
 		}
 		if ( is_wp_error( $source ) ) {
