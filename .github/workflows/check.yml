@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        php: ['7.4', '8.0', '8.3', '8.4']
+        php: ['8.1', '8.2', '8.3', '8.4']
     steps:
       - uses: actions/checkout@v4
       - uses: shivammathur/setup-php@v2
@@ -15,11 +15,7 @@ jobs:
       - name: Check PHP syntax
         shell: bash
         run: |
-          if [ '${{ matrix.php }}' = '7.4' ]; then
-            find . -name '*.php' -not -path './includes/deckerweb-plugin-library/*' -print0 | xargs -0 -n1 php -l
-          else
-            find . -name '*.php' -print0 | xargs -0 -n1 php -l
-          fi
+          find . -name '*.php' -print0 | xargs -0 -n1 php -l
       - name: Build distribution
         run: python3 tools/build.py --output dist
       - uses: actions/upload-artifact@v4

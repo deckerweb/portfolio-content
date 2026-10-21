@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.1 — 2026-10-21
+
+- **Improved:** Updated deckerweb Library to 1.1.0 and Updater to 2.2.0.
+- **Fixed:** Hardened the local changelog dialog and preserved documentation links if it cannot open.
+- **Misc:** PHP 8.1 or newer is now required; WordPress 6.7 remains supported.
+
 ## 1.3.0 — 2026-10-08
 
 - **New:** Added a setup check with direct project and archive actions, plus guidance for native patterns.

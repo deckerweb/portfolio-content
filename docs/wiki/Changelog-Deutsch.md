@@ -1,5 +1,11 @@
 # Änderungsprotokoll
 
+## 1.3.1 — 21.10.2026
+
+- **Verbessert:** deckerweb Library auf 1.1.0 und Updater auf 2.2.0 aktualisiert.
+- **Behoben:** Lokalen Änderungsverlauf robuster gestaltet; Dokumentationslinks bleiben bei Öffnungsfehlern nutzbar.
+- **Sonstiges:** PHP 8.1 oder neuer ist jetzt erforderlich; WordPress 6.7 bleibt unterstützt.
+
 ## 1.3.0 — 08.10.2026
 
 - **Neu:** Einrichtungscheck mit direkten Projekt- und Archivaktionen sowie Einstieg in native Block-Vorlagen ergänzt.

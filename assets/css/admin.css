@@ -5,3 +5,7 @@
 .pfc-root .pfc-footer{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:16px 28px;margin:32px 0 16px;padding:20px 0;border-top:1px solid #ccd5d9;color:#52626d;font-size:13px;line-height:1.6}.pfc-footer strong{color:#245c73;margin-inline-end:8px}.pfc-root .pfc-footer p{font-size:13px;margin:4px 0 0}.pfc-footer>div:last-child{display:flex;flex-direction:row;flex-wrap:wrap;gap:8px 20px;text-align:left}.pfc-footer a{color:#245c73;text-underline-offset:3px}.pfc-footer a:focus-visible{outline:2px solid #245c73;outline-offset:3px}@media(max-width:600px){.pfc-root .pfc-footer{display:block}.pfc-footer>div:last-child{margin-top:12px}}
 
 .pfc-change{display:inline-block;padding:2px 7px;margin-inline-end:4px;border-radius:4px;font-size:12px;font-weight:600;line-height:1.4}.pfc-change-new{background:#e5f4ea;color:#1d5632}.pfc-change-improved{background:#e8eef9;color:#24477a}.pfc-change-fixed{background:#fff2d7;color:#704d00}.pfc-change-misc{background:#eef0f2;color:#444b54}.pfc-document-content li{margin-bottom:8px}.pfc-root a:focus-visible,.pfc-root input:focus-visible,.pfc-document-dialog button:focus-visible{outline:2px solid #2271b1;outline-offset:3px}
+
+/* Closed dialogs remain hidden beside foreign dialog display rules. */
+.pfc-root .pfc-document-dialog[hidden]:not([open]), .pfc-root .pfc-document-dialog:not([open]) { display:none !important; visibility:hidden !important; }
+.pfc-document-header form { margin:0; }

@@ -3,9 +3,9 @@
  * Plugin Name: Portfolio Content
  * Plugin URI: https://github.com/deckerweb/portfolio-content
  * Description: Portfolio projects, categories and tags with a quick start, project template and native block patterns.
- * Version: 1.3.0
+ * Version: 1.3.1
  * Requires at least: 6.7
- * Requires PHP: 7.4
+ * Requires PHP: 8.1
  * Author: David Decker – DECKERWEB
  * Author URI: https://github.com/deckerweb
  * License: GPL v2 or later
@@ -34,7 +34,7 @@ PFC_Editor::register();
 PFC_Admin::register();
 ( new \Deckerweb\PortfolioContent\GitHubUpdates() )->register();
 // Register shared administration infrastructure only where its runtime can be used.
-if ( PHP_VERSION_ID >= 80000 && ( is_admin() || wp_doing_cron() || ( defined( 'WP_CLI' ) && WP_CLI ) ) ) {
+if ( ( is_admin() || wp_doing_cron() || ( defined( 'WP_CLI' ) && WP_CLI ) ) ) {
     require_once __DIR__ . '/includes/deckerweb-plugin-library/bootstrap.php';
     deckerweb_library_register_v2( __FILE__, [], __DIR__ . '/includes/deckerweb-plugin-library' );
 }

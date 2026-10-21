@@ -1,15 +1,10 @@
 <?php
-/**
- * Translate shared updater messages through the Portfolio Content textdomain.
- *
- * @package PortfolioContent
- */
+/** Copy into the host adapter and replace the portfolio-content textdomain with its literal domain. */
 defined( 'ABSPATH' ) || exit;
 /**
- * Resolve a current-locale updater message.
- *
- * @param string $message English source text.
- * @return string Translated text, or the unchanged source for unknown messages.
+ * Resolve an updater source string in the host textdomain.
+ * @param string $message English updater message.
+ * @return string Translated host message, or original source text.
  */
 return static function ( string $message ): string {
     // Literal calls let the host's normal translation extractor collect every source string.
@@ -36,6 +31,20 @@ return static function ( string $message ): string {
             return __( 'Could not prepare the GitHub release package.', 'portfolio-content' );
         case 'See the release on GitHub.':
             return __( 'See the release on GitHub.', 'portfolio-content' );
+        case 'Git Updater is active. If a deckerweb installation or update fails, temporarily deactivate Git Updater and retry. Reactivate it afterwards if other plugins or themes need it. Only leave it disabled when those extensions have another reliable update provider.':
+            return __( 'Git Updater is active. If a deckerweb installation or update fails, temporarily deactivate Git Updater and retry. Reactivate it afterwards if other plugins or themes need it. Only leave it disabled when those extensions have another reliable update provider.', 'portfolio-content' );
+        case 'Manage installed plugins':
+            return __( 'Manage installed plugins', 'portfolio-content' );
+        case 'Dismiss this notice':
+            return __( 'Dismiss this notice', 'portfolio-content' );
+        case 'Permission denied.':
+            return __( 'Permission denied.', 'portfolio-content' );
+        case 'Public catalog callbacks require both providers and cannot be used in private mode.':
+            return __( 'Public catalog callbacks require both providers and cannot be used in private mode.', 'portfolio-content' );
+        case 'The approved release could not be verified.':
+            return __( 'The approved release could not be verified.', 'portfolio-content' );
+        case 'The approved release changed. Refresh updates first.':
+            return __( 'The approved release changed. Refresh updates first.', 'portfolio-content' );
         default:
             return $message;
     }

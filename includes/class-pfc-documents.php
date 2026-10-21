@@ -63,7 +63,7 @@ final class PFC_Documents {
                 if ( is_readable( $file ) && filesize( $file ) < 262144 ) { $text = file_get_contents( $file ); }
             } elseif ( defined( 'PFC_SNIPPET' ) ) { $text = $GLOBALS['pfc_snippet_documents'][ self::file( $kind ) ] ?? ''; }
             if ( ! is_string( $text ) || '' === $text ) { continue; }
-            echo '<dialog id="pfc-document-' . esc_attr( $kind ) . '" class="pfc-document-dialog" aria-labelledby="pfc-document-' . esc_attr( $kind ) . '-title"><header class="pfc-document-header"><h2 id="pfc-document-' . esc_attr( $kind ) . '-title">Portfolio Content · ' . esc_html( $title ) . '</h2><button type="button" class="button" data-pfc-close autofocus>' . esc_html__( 'Close', 'portfolio-content' ) . '</button></header><div class="pfc-document-content" tabindex="0">' . self::content( $text ) . '</div></dialog>';
+            echo '<dialog id="pfc-document-' . esc_attr( $kind ) . '" class="pfc-document-dialog" hidden aria-labelledby="pfc-document-' . esc_attr( $kind ) . '-title"><header class="pfc-document-header"><h2 id="pfc-document-' . esc_attr( $kind ) . '-title">Portfolio Content · ' . esc_html( $title ) . '</h2><form method="dialog"><button type="submit" class="button" data-pfc-close autofocus>' . esc_html__( 'Close', 'portfolio-content' ) . '</button></form></header><div class="pfc-document-content" tabindex="0">' . wp_kses_post( self::content( $text ) ) . '</div></dialog>';
         }
     }
 }

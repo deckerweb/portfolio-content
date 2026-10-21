@@ -106,7 +106,7 @@ final class PFC_Admin {
      */
     private static function is_filtered() {
         foreach ( array( 'portfolio-category', 'portfolio-tag', 's', 'm', 'author', 'post_status' ) as $key ) {
-            if ( isset( $_GET[ $key ] ) && is_scalar( $_GET[ $key ] ) && '' !== (string) $_GET[ $key ] && '0' !== (string) $_GET[ $key ] && 'all' !== (string) $_GET[ $key ] ) { return true; }
+            if ( isset( $_GET[ $key ] ) && is_scalar( $_GET[ $key ] ) && '' !== sanitize_text_field( wp_unslash( (string) $_GET[ $key ] ) ) && '0' !== sanitize_text_field( wp_unslash( (string) $_GET[ $key ] ) ) && 'all' !== sanitize_text_field( wp_unslash( (string) $_GET[ $key ] ) ) ) { return true; }
         }
         return false;
     }

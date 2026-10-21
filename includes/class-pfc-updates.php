@@ -24,7 +24,7 @@ final class GitHubUpdates {
 		if ( ! class_exists( '\Deckerweb\GitHubReleaseUpdater\V2\Updater' ) ) {
 			require_once ( dirname( PFC_PLUGIN_FILE ) . '/' ) . 'includes/deckerweb-github-release-updater-v2.php';
 		}
-		if ( ! defined( '\\Deckerweb\\GitHubReleaseUpdater\\V2\\Updater::SUPPORTS_HOST_TRANSLATIONS' ) ) {
+		if ( ! defined( '\\Deckerweb\\GitHubReleaseUpdater\\V2\\Updater::SUPPORTS_HOST_TRANSLATIONS' ) || ! defined( '\\Deckerweb\\GitHubReleaseUpdater\\V2\\Updater::IMPLEMENTATION_VERSION' ) || version_compare( \Deckerweb\GitHubReleaseUpdater\V2\Updater::IMPLEMENTATION_VERSION, '2.2.0', '<' ) ) {
             add_action( 'admin_notices', array( $this, 'compatibility_notice' ) );
             add_action( 'network_admin_notices', array( $this, 'compatibility_notice' ) );
             return;
@@ -92,7 +92,9 @@ final class GitHubUpdates {
      */
     public function compatibility_notice(): void {
         if ( ! current_user_can( 'update_plugins' ) ) { return; }
-        echo '<div class="notice notice-warning"><p>' . esc_html__( 'Portfolio Content updates require deckerweb Updater 2.1 or newer. Another active plugin loaded an older copy. Update the deckerweb plugins together; portfolio content remains available.', 'portfolio-content' ) . '</p></div>';
+        $screen = function_exists( 'get_current_screen' ) ? get_current_screen() : null;
+        if ( ! $screen || ! in_array( $screen->id, array( 'plugins', 'plugins-network', 'update-core', 'update-core-network', 'settings_page_portfolio-content', 'portfolio-content_page_pfc-quick-start' ), true ) ) { return; }
+        echo '<div class="notice notice-warning"><p>' . esc_html__( 'Portfolio Content updates require deckerweb Updater 2.2 or newer. Another active plugin loaded an older copy. Update the deckerweb plugins together; portfolio content remains available.', 'portfolio-content' ) . '</p></div>';
     }
 
     /**

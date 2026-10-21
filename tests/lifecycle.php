@@ -59,7 +59,7 @@ pfc_lifecycle_check( get_post( $post ) && get_option( 'pfc_project_template' ), 
 pfc_lifecycle_check( get_site_option( 'deckerweb_library_settings_v1' ) === array( 'fixture' => true ), 'Inactive installed host protects Library data' );
 pfc_lifecycle_check( false === get_site_transient( 'ddw_ghru_' . substr( md5( 'https://github.com/deckerweb/portfolio-content' ), 0, 24 ) ), 'Uninstall removes own updater cache' );
 update_option( 'pfc_delete_settings', true );
-pfc_uninstall_site_settings();
+portfolio_content_uninstall_site_settings();
 pfc_lifecycle_check( get_option( 'pfc_project_template', 'missing' ) === 'missing' && get_option( 'pfc_delete_settings', 'missing' ) === 'missing', 'Explicit opt-in deletes own settings only' );
 pfc_lifecycle_check( get_post( $post ) && get_option( 'foreign_pfc_fixture' ) === 'keep', 'Content and foreign settings survive opted-in cleanup' );
 unlink( $other . '/includes/deckerweb-plugin-library/bootstrap.php' );

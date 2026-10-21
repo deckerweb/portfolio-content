@@ -4,7 +4,7 @@
 
 **Your projects. Ready to share.** A lightweight portfolio plugin by David Decker – DECKERWEB: create projects, organize your work and present it with your theme or builder.
 
-**Version:** 1.3.0 · **Requires:** WordPress 6.7+ / PHP 7.4+ · **License:** GPL v2 or later
+**Version:** 1.3.1 · **Requires:** WordPress 6.7+ / PHP 8.1+ · **License:** GPL v2 or later
 
 [Download](https://github.com/deckerweb/portfolio-content/releases/latest) · [User guide](https://github.com/deckerweb/portfolio-content/wiki/English) · [Deutsch](README-de.md)
 
@@ -31,13 +31,13 @@ Portfolio projects with categories and tags, ready for the block editor or your 
 - Featured-image previews and a category filter in the project list.
 - Optional editable project starter: challenge, approach, result and gallery.
 - Two native block patterns: project story and responsive project overview with pagination.
-- Bundled deckerweb GitHub Release Updater 2.1.0 and deckerweb Plugin Library 0.8.1.
+- Bundled deckerweb GitHub Release Updater 2.2.0 and deckerweb Plugin Library 1.1.0.
 - English, German and formal German interfaces and localized update banners.
 - Setup check, manual starter insertion into empty drafts, clickable native category filters, filter reset and helpful empty states.
 
 ## Installation and first steps
 
-1. Upload `portfolio-content-1.3.0.zip` under Plugins → Add New → Upload Plugin; activate it.
+1. Upload `portfolio-content-1.3.1.zip` under Plugins → Add New → Upload Plugin; activate it.
 2. Open Settings → Portfolio Content. Optionally enable the project starter.
 3. Add a project with title, featured image and excerpt; publish it.
 4. Create a page. In the block inserter's Patterns tab choose Portfolio Content → Portfolio: project overview.
@@ -53,9 +53,9 @@ Disabled by default. Enable it in settings to populate new empty auto-drafts onl
 
 ## Updates and Library
 
-Updates from public stable GitHub releases appear in the regular WordPress plugin update system. Automatic updates remain your choice. The bundled deckerweb Updater 2.1.0 and plugin validate package identity, offered version and actual WordPress/PHP requirements. Icons and banners are served locally.
+Updates from public stable GitHub releases appear in the regular WordPress plugin update system. Automatic updates remain your choice. The bundled deckerweb Updater 2.2.0 and plugin validate package identity, offered version and actual WordPress/PHP requirements. Icons and banners are served locally.
 
-The deckerweb Library 0.8.1 adds a catalog under Plugins → Add New. Installation and activation are separate decisions. WordPress.org remains the default. Online catalog retrieval is optional and off by default. On PHP 7.4, portfolio features remain available without the Library.
+The deckerweb Library 1.1.0 adds a catalog under Plugins → Add New. Installation and activation are separate decisions. WordPress.org remains the default. Online catalog retrieval is optional and off by default. 
 
 ## Multisite and data
 
@@ -113,6 +113,12 @@ The meta-links filter is now scoped to this plugin's row. Custom translations un
 
 ## Changelog
 
+### 1.3.1 — 2026-10-21
+
+- **Improved:** Updated deckerweb Library to 1.1.0 and Updater to 2.2.0.
+- **Fixed:** Hardened the local changelog dialog and preserved documentation links if it cannot open.
+- **Misc:** PHP 8.1 or newer is now required; WordPress 6.7 remains supported.
+
 ### 1.3.0 — 2026-10-08
 
 - **New:** Added a setup check with direct project and archive actions, plus guidance for native patterns.
@@ -161,7 +167,7 @@ Report vulnerabilities privately: [Security reporting](https://github.com/decker
 
 © 2019–2026 David Decker – DECKERWEB · [GPL v2 or later](LICENSE).
 
-Includes deckerweb Library 0.8.1 and deckerweb Updater 2.1.0 by David Decker, both GPL-2.0-or-later. Administration styles and dialog behavior are adapted from Brand Admin Schemes by David Decker, GPL-2.0-or-later. Artwork: approved Portfolio Content Design A by DECKERWEB; SVG sources and PNG exports are provided under GPL-2.0-or-later. System fonts are referenced; no font files are bundled.
+Includes deckerweb Library 1.1.0 and deckerweb Updater 2.2.0 by David Decker, both GPL-2.0-or-later. Administration styles and dialog behavior are adapted from Brand Admin Schemes by David Decker, GPL-2.0-or-later. Artwork: approved Portfolio Content Design A by DECKERWEB; SVG sources and PNG exports are provided under GPL-2.0-or-later. System fonts are referenced; no font files are bundled.
 
 GitHub Pages uses the Cayman theme (CC0-1.0); the local layout uses system fonts.
 

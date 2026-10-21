@@ -8,7 +8,7 @@ if ( ! class_exists( 'DDW_Portfolio_Content' ) ) :
 class DDW_Portfolio_Content {
 
 	/** Class constants & variables */
-	public const VERSION = '1.3.0';
+	public const VERSION = '1.3.1';
 
 		/**
 	 * Register translation, content and activation callbacks.

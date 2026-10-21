@@ -51,7 +51,7 @@ $wp_locale_switcher = new WP_Locale_Switcher(); $wp_locale_switcher->init();
 foreach ( array( 'de_DE', 'de_DE_formal' ) as $test_locale ) {
     $changed = switch_to_locale( $test_locale );
     pfc_verify( $translate( 'See the release on GitHub.' ) !== 'See the release on GitHub.', 'Updater translation: ' . $test_locale );
-    if ( PHP_VERSION_ID >= 80000 ) { pfc_verify( Deckerweb\PluginLibrary\V0_8_1\I18n::text( 'Install now' ) === 'Jetzt installieren', 'Library uses host-domain translation: ' . $test_locale ); }
+    if ( PHP_VERSION_ID >= 80000 ) { pfc_verify( Deckerweb\PluginLibrary\V1_1_0\I18n::text( 'Install now' ) === 'Jetzt installieren', 'Library uses host-domain translation: ' . $test_locale ); }
     pfc_verify( __( 'Your projects. Ready to share.', 'portfolio-content' ) !== 'Your projects. Ready to share.' && $translate( 'See the release on GitHub.' ) !== 'See the release on GitHub.', 'Host translations survive component locale loading: ' . $test_locale );
     restore_previous_locale();
 }
@@ -61,4 +61,4 @@ $file = plugin_basename( PFC_PLUGIN_FILE );
 pfc_verify( $adapter->update_context( $bulk, array( 'plugin' => $file ) ), 'Native bulk context reaches package validation' );
 pfc_verify( ! $adapter->update_context( $bulk, array( 'plugin' => 'other/other.php' ) ) && ! $adapter->update_context( $bulk, array( 'plugin' => $file, 'action' => 'install' ) ), 'Bulk validation excludes foreign plugins and install actions' );
 pfc_verify( ! $adapter->update_context( null, array( 'plugin' => $file ) ), 'Missing type/action requires genuine bulk upgrader' );
-pfc_verify( Deckerweb\GitHubReleaseUpdater\V2\Updater::IMPLEMENTATION_VERSION === '2.1.0', 'Canonical stable updater is loaded' );
+pfc_verify( Deckerweb\GitHubReleaseUpdater\V2\Updater::IMPLEMENTATION_VERSION === '2.2.0', 'Canonical stable updater is loaded' );

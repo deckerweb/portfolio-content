@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Portfolio Content 1.3.0\n"
+"Project-Id-Version: Portfolio Content 1.3.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-08 23:47+0200\n"
+"POT-Creation-Date: 2026-10-21 21:27+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -288,9 +288,9 @@ msgid ""
 "and native block patterns."
 msgstr ""
 
-#: includes/class-pfc-updates.php:95 tools/component-messages.php:202
+#: includes/class-pfc-updates.php:95 tools/component-messages.php:171
 msgid ""
-"Portfolio Content updates require deckerweb Updater 2.1 or newer. Another "
+"Portfolio Content updates require deckerweb Updater 2.2 or newer. Another "
 "active plugin loaded an older copy. Update the deckerweb plugins together; "
 "portfolio content remains available."
 msgstr ""
@@ -340,19 +340,19 @@ msgstr ""
 msgid "Project starter template"
 msgstr ""
 
-#: includes/class-pfc-editor.php:31
+#: includes/class-pfc-editor.php:31 tools/component-messages.php:84
 msgid "Insert the template into an empty draft. Save the project when ready."
 msgstr ""
 
-#: includes/class-pfc-editor.php:31
+#: includes/class-pfc-editor.php:31 tools/component-messages.php:83
 msgid "Insert project template"
 msgstr ""
 
-#: includes/class-pfc-editor.php:45
+#: includes/class-pfc-editor.php:45 tools/component-messages.php:215
 msgid "Template inserted. You can edit and save it."
 msgstr ""
 
-#: includes/class-pfc-editor.php:45
+#: includes/class-pfc-editor.php:45 tools/component-messages.php:226
 msgid "The draft already contains content. Nothing was changed."
 msgstr ""
 
@@ -419,7 +419,7 @@ msgstr ""
 msgid "No featured image"
 msgstr ""
 
-#: includes/class-pfc-admin.php:99
+#: includes/class-pfc-admin.php:99 tools/component-messages.php:73
 msgid "Filter by portfolio category"
 msgstr ""
 
@@ -428,43 +428,44 @@ msgid "All portfolio categories"
 msgstr ""
 
 #: includes/class-pfc-admin.php:101 includes/class-pfc-admin.php:124
-#: tools/component-messages.php:158
+#: tools/component-messages.php:188
 msgid "Reset filters"
 msgstr ""
 
-#: includes/class-pfc-admin.php:122
+#: includes/class-pfc-admin.php:122 tools/component-messages.php:147
 msgid "No projects match this view."
 msgstr ""
 
-#: includes/class-pfc-admin.php:122
+#: includes/class-pfc-admin.php:122 tools/component-messages.php:262
 msgid "Your portfolio starts with your first project."
 msgstr ""
 
 #: includes/class-pfc-admin.php:124 includes/class-pfc-admin.php:137
+#: tools/component-messages.php:54
 msgid "Create project"
 msgstr ""
 
-#: includes/class-pfc-admin.php:137
+#: includes/class-pfc-admin.php:137 tools/component-messages.php:203
 msgid "Setup check"
 msgstr ""
 
-#: includes/class-pfc-admin.php:137
+#: includes/class-pfc-admin.php:137 tools/component-messages.php:174
 msgid "Projects are available."
 msgstr ""
 
-#: includes/class-pfc-admin.php:137
+#: includes/class-pfc-admin.php:137 tools/component-messages.php:148
 msgid "No projects yet. Create your first project."
 msgstr ""
 
-#: includes/class-pfc-admin.php:137
+#: includes/class-pfc-admin.php:137 tools/component-messages.php:29
 msgid "Automatic project template: enabled."
 msgstr ""
 
-#: includes/class-pfc-admin.php:137
+#: includes/class-pfc-admin.php:137 tools/component-messages.php:30
 msgid "Automatic project template: optional, currently disabled."
 msgstr ""
 
-#: includes/class-pfc-admin.php:137
+#: includes/class-pfc-admin.php:137 tools/component-messages.php:25
 msgid "Archive: open it to check how your theme displays published projects."
 msgstr ""
 
@@ -472,13 +473,13 @@ msgstr ""
 msgid "View portfolio archive"
 msgstr ""
 
-#: includes/class-pfc-admin.php:139
+#: includes/class-pfc-admin.php:139 tools/component-messages.php:169
 msgid ""
 "Portfolio Content organizes your projects. Your theme, native block patterns "
 "or builder determine their appearance."
 msgstr ""
 
-#: includes/class-pfc-admin.php:139
+#: includes/class-pfc-admin.php:139 tools/component-messages.php:255
 msgid "Use the portfolio patterns: create a page and open the Patterns tab."
 msgstr ""
 
@@ -548,18 +549,18 @@ msgstr ""
 msgid "Use the starter template for new projects"
 msgstr ""
 
-#: includes/class-pfc-admin.php:174 tools/component-messages.php:200
+#: includes/class-pfc-admin.php:174 tools/component-messages.php:58
 msgid "Delete plugin settings when uninstalling"
 msgstr ""
 
-#: includes/class-pfc-admin.php:174 tools/component-messages.php:201
+#: includes/class-pfc-admin.php:174 tools/component-messages.php:155
 msgid ""
 "Off by default. Deletes only this website’s Portfolio Content settings. "
 "Projects, categories, tags and images are always kept. In Multisite, each "
 "website chooses separately."
 msgstr ""
 
-#: includes/class-pfc-admin.php:175 tools/component-messages.php:91
+#: includes/class-pfc-admin.php:175 tools/component-messages.php:193
 msgid "Save settings"
 msgstr ""
 
@@ -590,7 +591,7 @@ msgid "Version"
 msgstr ""
 
 #: includes/class-pfc-admin.php:185 includes/class-pfc-documents.php:59
-#: tools/component-messages.php:22
+#: tools/component-messages.php:42
 msgid "Changelog"
 msgstr ""
 
@@ -602,7 +603,7 @@ msgstr ""
 msgid "Plugin website"
 msgstr ""
 
-#: includes/class-pfc-admin.php:202 tools/component-messages.php:199
+#: includes/class-pfc-admin.php:202 tools/component-messages.php:201
 msgid "Settings"
 msgstr ""
 
@@ -614,54 +615,88 @@ msgstr ""
 msgid "Join our Newsletter"
 msgstr ""
 
-#: includes/class-pfc-documents.php:66 tools/component-messages.php:23
+#: includes/class-pfc-documents.php:66 tools/component-messages.php:45
 msgid "Close"
 msgstr ""
 
-#: includes/updater-translations.php:18 tools/component-messages.php:188
+#: includes/updater-translations.php:13 tools/component-messages.php:172
 msgid "Private mode must be boolean."
 msgstr ""
 
-#: includes/updater-translations.php:20 tools/component-messages.php:189
+#: includes/updater-translations.php:15 tools/component-messages.php:97
 msgid "Invalid authentication provider."
 msgstr ""
 
-#: includes/updater-translations.php:22 tools/component-messages.php:190
+#: includes/updater-translations.php:17 tools/component-messages.php:230
 msgid "The plugin must be installed in a stable slug directory."
 msgstr ""
 
-#: includes/updater-translations.php:24 tools/component-messages.php:191
+#: includes/updater-translations.php:19 tools/component-messages.php:94
 msgid "Invalid GitHub repository URL."
 msgstr ""
 
-#: includes/updater-translations.php:26 tools/component-messages.php:192
+#: includes/updater-translations.php:21 tools/component-messages.php:231
 msgid ""
 "The private update could not be authorized. Check the repository credentials "
 "and refresh updates."
 msgstr ""
 
-#: includes/updater-translations.php:28 tools/component-messages.php:193
+#: includes/updater-translations.php:23 tools/component-messages.php:52
 msgid "Could not create the update download file."
 msgstr ""
 
-#: includes/updater-translations.php:30 tools/component-messages.php:194
+#: includes/updater-translations.php:25 tools/component-messages.php:232
 msgid "The private update download failed. Check credentials and try again."
 msgstr ""
 
-#: includes/updater-translations.php:32 tools/component-messages.php:195
+#: includes/updater-translations.php:27 tools/component-messages.php:51
 msgid "Could not access the update filesystem."
 msgstr ""
 
-#: includes/updater-translations.php:34 tools/component-messages.php:196
+#: includes/updater-translations.php:29 tools/component-messages.php:80
 msgid "GitHub release does not contain the plugin main file."
 msgstr ""
 
-#: includes/updater-translations.php:36 tools/component-messages.php:197
+#: includes/updater-translations.php:31 tools/component-messages.php:53
 msgid "Could not prepare the GitHub release package."
 msgstr ""
 
-#: includes/updater-translations.php:38 tools/component-messages.php:198
+#: includes/updater-translations.php:33 tools/component-messages.php:196
 msgid "See the release on GitHub."
+msgstr ""
+
+#: includes/updater-translations.php:35 tools/component-messages.php:78
+msgid ""
+"Git Updater is active. If a deckerweb installation or update fails, "
+"temporarily deactivate Git Updater and retry. Reactivate it afterwards if "
+"other plugins or themes need it. Only leave it disabled when those "
+"extensions have another reliable update provider."
+msgstr ""
+
+#: includes/updater-translations.php:37 tools/component-messages.php:129
+msgid "Manage installed plugins"
+msgstr ""
+
+#: includes/updater-translations.php:39 tools/component-messages.php:63
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/updater-translations.php:41 tools/component-messages.php:163
+msgid "Permission denied."
+msgstr ""
+
+#: includes/updater-translations.php:43 tools/component-messages.php:175
+msgid ""
+"Public catalog callbacks require both providers and cannot be used in "
+"private mode."
+msgstr ""
+
+#: includes/updater-translations.php:45 tools/component-messages.php:220
+msgid "The approved release could not be verified."
+msgstr ""
+
+#: includes/updater-translations.php:47 tools/component-messages.php:219
+msgid "The approved release changed. Refresh updates first."
 msgstr ""
 
 #: tools/component-messages.php:3
@@ -685,468 +720,399 @@ msgid "%s supports activation per site only."
 msgstr ""
 
 #: tools/component-messages.php:7
-msgid "Activate"
+msgid "Action cancelled."
 msgstr ""
 
 #: tools/component-messages.php:8
+msgid "Activate"
+msgstr ""
+
+#: tools/component-messages.php:9
 msgid ""
 "Activate Bricks QuickNav per site after selecting the Bricks parent or child "
 "theme."
 msgstr ""
 
-#: tools/component-messages.php:9
-msgid "Admin"
-msgstr ""
-
 #: tools/component-messages.php:10
-msgid "Already active"
+msgid "Activating…"
 msgstr ""
 
 #: tools/component-messages.php:11
-msgid "Archive contains too many files."
+msgid "Active"
 msgstr ""
 
 #: tools/component-messages.php:12
-msgid "Archive symlinks are not permitted."
+msgid "Active filters: "
 msgstr ""
 
 #: tools/component-messages.php:13
-msgid "As of "
+msgid "Admin"
 msgstr ""
 
 #: tools/component-messages.php:14
-msgid "Back to deckerweb"
+msgid "Affected features remain paused until their requirements are met."
 msgstr ""
 
 #: tools/component-messages.php:15
-msgid "Builder"
+msgid "All"
 msgstr ""
 
 #: tools/component-messages.php:16
-msgid "Cannot create temporary file."
+msgid "Already active"
 msgstr ""
 
 #: tools/component-messages.php:17
-msgid "Cannot create verified archive."
+msgid "Already up to date."
 msgstr ""
 
 #: tools/component-messages.php:18
-msgid "Cannot finalize archive."
+msgid "Another action for this plugin is running. Please wait."
 msgstr ""
 
 #: tools/component-messages.php:19
-msgid "Cannot normalize archive."
+msgid ""
+"Another component interrupted the request. If Git Updater is active, "
+"temporarily deactivate it and retry."
 msgstr ""
 
 #: tools/component-messages.php:20
-msgid "Cannot read archive entry."
+msgid ""
+"Another updater provides a different release. Refresh updates before "
+"continuing."
 msgstr ""
 
 #: tools/component-messages.php:21
-msgid "Catalog URL"
+msgid "Apr"
 msgstr ""
 
-#: tools/component-messages.php:24
-msgid "Compatible additions only"
-msgstr ""
-
-#: tools/component-messages.php:25
-msgid "Content"
-msgstr ""
-
-#: tools/component-messages.php:26
-msgid "Delete Library settings when removing the last host plugin"
-msgstr ""
-
-#: tools/component-messages.php:27
-msgid "Details & requirements"
-msgstr ""
-
-#: tools/component-messages.php:28
-msgid "Discover more plugins by deckerweb"
-msgstr ""
-
-#: tools/component-messages.php:29
-msgid "Dismiss permanently"
-msgstr ""
-
-#: tools/component-messages.php:30
-msgid "Done. The plugin is active."
-msgstr ""
-
-#: tools/component-messages.php:31
-msgid "Enter a catalog URL first."
-msgstr ""
-
-#: tools/component-messages.php:32
-msgid "Expanded archive is too large."
-msgstr ""
-
-#: tools/component-messages.php:33
-msgid "Filter"
-msgstr ""
-
-#: tools/component-messages.php:34
-msgid "GitHub Stars"
-msgstr ""
-
-#: tools/component-messages.php:35
-msgid "Hide catalog"
-msgstr ""
-
-#: tools/component-messages.php:36
-msgid "Improved"
-msgstr ""
-
-#: tools/component-messages.php:37
-msgid "Install and activate this plugin in the network admin."
-msgstr ""
-
-#: tools/component-messages.php:38
-msgid "Install deckerweb plugin"
-msgstr ""
-
-#: tools/component-messages.php:39
-msgid "Install now"
-msgstr ""
-
-#: tools/component-messages.php:40
-msgid "Installed"
-msgstr ""
-
-#: tools/component-messages.php:41
-msgid "Installed: "
-msgstr ""
-
-#: tools/component-messages.php:42
-msgid "Invalid ZIP archive."
-msgstr ""
-
-#: tools/component-messages.php:43
-msgid "Invalid approval flag."
-msgstr ""
-
-#: tools/component-messages.php:44
-msgid "Invalid catalog field: "
-msgstr ""
-
-#: tools/component-messages.php:45
-msgid "Invalid catalog schema."
-msgstr ""
-
-#: tools/component-messages.php:46
-msgid "Invalid dependencies."
-msgstr ""
-
-#: tools/component-messages.php:47
-msgid "Invalid dependency URL."
-msgstr ""
-
-#: tools/component-messages.php:48
-msgid "Invalid dependency metadata."
-msgstr ""
-
-#: tools/component-messages.php:49
-msgid "Invalid display field."
-msgstr ""
-
-#: tools/component-messages.php:50
-msgid "Invalid icon color."
-msgstr ""
-
-#: tools/component-messages.php:51
-msgid "Invalid icon label."
-msgstr ""
-
-#: tools/component-messages.php:52
-msgid "Invalid identity or release metadata."
-msgstr ""
-
-#: tools/component-messages.php:53
-msgid "Invalid local icon."
-msgstr ""
-
-#: tools/component-messages.php:54
-msgid "Invalid network policy."
-msgstr ""
-
-#: tools/component-messages.php:55
-msgid "Invalid network requirement."
-msgstr ""
-
-#: tools/component-messages.php:56
-msgid "Invalid platform version."
-msgstr ""
-
-#: tools/component-messages.php:57
-msgid "Invalid star count."
-msgstr ""
-
-#: tools/component-messages.php:58
-msgid "Invalid stars date."
-msgstr ""
-
-#: tools/component-messages.php:59
-msgid "Library"
-msgstr ""
-
-#: tools/component-messages.php:60
-msgid "Library changelog"
-msgstr ""
-
-#: tools/component-messages.php:61
-msgid "Library settings"
-msgstr ""
-
-#: tools/component-messages.php:62
-msgid "Library settings saved."
-msgstr ""
-
-#: tools/component-messages.php:63
-msgid "Manage installed plugins"
-msgstr ""
-
-#: tools/component-messages.php:64
-msgid "Misc"
-msgstr ""
-
-#: tools/component-messages.php:65
-msgid "Missing display text."
-msgstr ""
-
-#: tools/component-messages.php:66
-msgid "Missing plugin header."
-msgstr ""
-
-#: tools/component-messages.php:67
-msgid "More by deckerweb"
-msgstr ""
-
-#: tools/component-messages.php:68
-msgid "Multisite"
-msgstr ""
-
-#: tools/component-messages.php:69
-msgid "Network activate"
-msgstr ""
-
-#: tools/component-messages.php:70
-msgid "Network permission denied."
-msgstr ""
-
-#: tools/component-messages.php:71
-msgid "New"
-msgstr ""
-
-#: tools/component-messages.php:72
-msgid "No approved plugins match this selection."
-msgstr ""
-
-#: tools/component-messages.php:73
-msgid ""
-"Off by default. Applies only when no other host is installed, including "
-"inactive hosts. Removes Library settings, installation records and "
-"introduction status. Installed plugins, their content and other plugin "
-"settings remain unchanged. Network data is shared across sites."
-msgstr ""
-
-#: tools/component-messages.php:74
-msgid "Online catalog"
-msgstr ""
-
-#: tools/component-messages.php:75
-msgid "Only approved releases"
-msgstr ""
-
-#: tools/component-messages.php:76
-msgid "Open catalog"
-msgstr ""
-
-#: tools/component-messages.php:77
-msgid "PHP ZIP support is required."
-msgstr ""
-
-#: tools/component-messages.php:78
-msgid "POST required."
-msgstr ""
-
-#: tools/component-messages.php:79
-msgid "Permission denied."
-msgstr ""
-
-#: tools/component-messages.php:80
-msgid "Plugin identity or version does not match the catalog."
-msgstr ""
-
-#: tools/component-messages.php:81
-msgid "Plugin is not installed."
-msgstr ""
-
-#: tools/component-messages.php:82
-msgid "Product website"
-msgstr ""
-
-#: tools/component-messages.php:83
-msgid "Refresh catalog"
-msgstr ""
-
-#: tools/component-messages.php:84
-msgid ""
-"Release checksum is verified before installation. Activation is a separate "
-"step."
-msgstr ""
-
-#: tools/component-messages.php:85
-msgid "Release must contain exactly the approved plugin directory."
-msgstr ""
-
-#: tools/component-messages.php:86
-msgid "Repository & documentation"
-msgstr ""
-
-#: tools/component-messages.php:87
-#, php-format
-msgid "Requires PHP %s or newer."
-msgstr ""
-
-#: tools/component-messages.php:88
-#, php-format
-msgid "Requires WordPress %s or newer."
-msgstr ""
-
-#: tools/component-messages.php:89
-msgid "Requires a WordPress Multisite network."
-msgstr ""
-
-#: tools/component-messages.php:90
-msgid "Retrieve approved catalog updates online"
-msgstr ""
-
-#: tools/component-messages.php:92
-msgid "Scripts"
-msgstr ""
-
-#: tools/component-messages.php:93
-msgid "Search this catalog"
-msgstr ""
-
-#: tools/component-messages.php:94
-msgid "Selected by deckerweb · Installed from GitHub releases"
-msgstr ""
-
-#: tools/component-messages.php:95
-msgid "Show deckerweb under Add Plugins"
-msgstr ""
-
-#: tools/component-messages.php:96
-msgid "Small plugins. Practical improvements."
-msgstr ""
-
-#: tools/component-messages.php:97
-msgid "Source: GitHub"
-msgstr ""
-
-#: tools/component-messages.php:98
-msgid "The GitHub release could not be downloaded."
-msgstr ""
-
-#: tools/component-messages.php:99
-msgid "The approved release changed. Refresh updates first."
-msgstr ""
-
-#: tools/component-messages.php:100
-msgid "The catalog URL is not an allowed first-party HTTPS endpoint."
-msgstr ""
-
-#: tools/component-messages.php:101
-msgid "The catalog could not be verified. Please try again later."
-msgstr ""
-
-#: tools/component-messages.php:102
-msgid "The catalog is disabled."
-msgstr ""
-
-#: tools/component-messages.php:103
-msgid "The catalog is hidden."
-msgstr ""
-
-#: tools/component-messages.php:104
-msgid ""
-"The online catalog is unavailable. Showing cached or bundled entries; online "
-"approval is checked again before installation."
-msgstr ""
-
-#: tools/component-messages.php:105
-msgid "The online catalog source is not trusted."
-msgstr ""
-
-#: tools/component-messages.php:106
-msgid "The release checksum does not match. Installation stopped."
-msgstr ""
-
-#: tools/component-messages.php:107
-msgid ""
-"This plugin directory already exists. Use the installed plugin; it will not "
-"be overwritten."
-msgstr ""
-
-#: tools/component-messages.php:108
-msgid "This release is no longer approved."
-msgstr ""
-
-#: tools/component-messages.php:109
-msgid "This release is not approved."
-msgstr ""
-
-#: tools/component-messages.php:110
-msgid "Unsafe archive path."
-msgstr ""
-
-#: tools/component-messages.php:111
-msgid "Untrusted release URL."
-msgstr ""
-
-#: tools/component-messages.php:112
-#, php-format
-msgid "Update %1$s to version %2$s or newer."
-msgstr ""
-
-#: tools/component-messages.php:113
-msgid "View plugins"
-msgstr ""
-
-#: tools/component-messages.php:114
-msgid "Visibility"
-msgstr ""
-
-#: tools/component-messages.php:115
-msgid "WordPress"
-msgstr ""
-
-#: tools/component-messages.php:116
-msgid ""
-"You already use one of my plugins. Find selected additions in the deckerweb "
-"tab."
-msgstr ""
-
-#: tools/component-messages.php:117
-msgid "January"
-msgstr ""
-
-#: tools/component-messages.php:118
-msgid "February"
-msgstr ""
-
-#: tools/component-messages.php:119
-msgid "March"
-msgstr ""
-
-#: tools/component-messages.php:120
+#: tools/component-messages.php:22
 msgid "April"
 msgstr ""
 
+#: tools/component-messages.php:23
+msgid "Archive contains too many files."
+msgstr ""
+
+#: tools/component-messages.php:24
+msgid "Archive symlinks are not permitted."
+msgstr ""
+
+#: tools/component-messages.php:26
+msgid "As of "
+msgstr ""
+
+#: tools/component-messages.php:27
+msgid "Aug"
+msgstr ""
+
+#: tools/component-messages.php:28
+msgid "August"
+msgstr ""
+
+#: tools/component-messages.php:31
+msgid "Back to deckerweb"
+msgstr ""
+
+#: tools/component-messages.php:32
+msgid "Builder"
+msgstr ""
+
+#: tools/component-messages.php:33
+msgid "Bundled catalog"
+msgstr ""
+
+#: tools/component-messages.php:34
+msgid "Cached or bundled catalog"
+msgstr ""
+
+#: tools/component-messages.php:35
+msgid "Cannot create temporary file."
+msgstr ""
+
+#: tools/component-messages.php:36
+msgid "Cannot create verified archive."
+msgstr ""
+
+#: tools/component-messages.php:37
+msgid "Cannot finalize archive."
+msgstr ""
+
+#: tools/component-messages.php:38
+msgid "Cannot normalize archive."
+msgstr ""
+
+#: tools/component-messages.php:39
+msgid "Cannot read archive entry."
+msgstr ""
+
+#: tools/component-messages.php:40
+msgid "Catalog URL"
+msgstr ""
+
+#: tools/component-messages.php:41
+msgid "Catalog refreshed."
+msgstr ""
+
+#: tools/component-messages.php:43
+msgid "Check status"
+msgstr ""
+
+#: tools/component-messages.php:44
+msgid "Checking status…"
+msgstr ""
+
+#: tools/component-messages.php:46
+msgid "Commerce"
+msgstr ""
+
+#: tools/component-messages.php:47
+msgid "Compatible additions only"
+msgstr ""
+
+#: tools/component-messages.php:48
+msgid "Content"
+msgstr ""
+
+#: tools/component-messages.php:49
+msgid "Copied."
+msgstr ""
+
+#: tools/component-messages.php:50
+msgid "Copy diagnostic information"
+msgstr ""
+
+#: tools/component-messages.php:55
+msgid "Dec"
+msgstr ""
+
+#: tools/component-messages.php:56
+msgid "December"
+msgstr ""
+
+#: tools/component-messages.php:57
+msgid "Delete Library settings when removing the last host plugin"
+msgstr ""
+
+#: tools/component-messages.php:59
+msgid "Details & requirements"
+msgstr ""
+
+#: tools/component-messages.php:60
+msgid "Discover more plugins by deckerweb"
+msgstr ""
+
+#: tools/component-messages.php:61
+msgid "Discover randomly"
+msgstr ""
+
+#: tools/component-messages.php:62
+msgid "Dismiss permanently"
+msgstr ""
+
+#: tools/component-messages.php:64
+msgid "Done. The plugin is active."
+msgstr ""
+
+#: tools/component-messages.php:65
+msgid "Enter a catalog URL first."
+msgstr ""
+
+#: tools/component-messages.php:66
+msgid "Expanded archive is too large."
+msgstr ""
+
+#: tools/component-messages.php:67
+msgid "F j, Y"
+msgstr ""
+
+#: tools/component-messages.php:68
+msgid "Feb"
+msgstr ""
+
+#: tools/component-messages.php:69
+msgid "February"
+msgstr ""
+
+#: tools/component-messages.php:70
+msgid "Filesystem credentials are required."
+msgstr ""
+
+#: tools/component-messages.php:71
+msgid ""
+"Filesystem credentials are required. Use the catalog with JavaScript enabled "
+"or the native Plugins screen."
+msgstr ""
+
+#: tools/component-messages.php:72
+msgid "Filter"
+msgstr ""
+
+#: tools/component-messages.php:74
+msgid "Fits my installation"
+msgstr ""
+
+#: tools/component-messages.php:75
+msgid "Fixed"
+msgstr ""
+
+#: tools/component-messages.php:76
+msgid "Fri"
+msgstr ""
+
+#: tools/component-messages.php:77
+msgid "Friday"
+msgstr ""
+
+#: tools/component-messages.php:79
+msgid "GitHub Stars"
+msgstr ""
+
+#: tools/component-messages.php:81
+msgid "Hide catalog"
+msgstr ""
+
+#: tools/component-messages.php:82
+msgid "Improved"
+msgstr ""
+
+#: tools/component-messages.php:85
+msgid "Install and activate this plugin in the network admin."
+msgstr ""
+
+#: tools/component-messages.php:86
+msgid "Install deckerweb plugin"
+msgstr ""
+
+#: tools/component-messages.php:87
+msgid "Install now"
+msgstr ""
+
+#: tools/component-messages.php:88
+msgid "Installation cancelled."
+msgstr ""
+
+#: tools/component-messages.php:89
+msgid "Installation failed."
+msgstr ""
+
+#: tools/component-messages.php:90
+msgid "Installed"
+msgstr ""
+
+#: tools/component-messages.php:91
+msgid "Installed · inactive"
+msgstr ""
+
+#: tools/component-messages.php:92
+msgid "Installed: "
+msgstr ""
+
+#: tools/component-messages.php:93
+msgid "Installing…"
+msgstr ""
+
+#: tools/component-messages.php:95
+msgid "Invalid ZIP archive."
+msgstr ""
+
+#: tools/component-messages.php:96
+msgid "Invalid approval flag."
+msgstr ""
+
+#: tools/component-messages.php:98
+msgid "Invalid catalog field: "
+msgstr ""
+
+#: tools/component-messages.php:99
+msgid "Invalid catalog revision."
+msgstr ""
+
+#: tools/component-messages.php:100
+msgid "Invalid catalog schema."
+msgstr ""
+
+#: tools/component-messages.php:101
+msgid "Invalid catalog timestamp."
+msgstr ""
+
+#: tools/component-messages.php:102
+msgid "Invalid dependencies."
+msgstr ""
+
+#: tools/component-messages.php:103
+msgid "Invalid dependency URL."
+msgstr ""
+
+#: tools/component-messages.php:104
+msgid "Invalid dependency metadata."
+msgstr ""
+
+#: tools/component-messages.php:105
+msgid "Invalid display field."
+msgstr ""
+
+#: tools/component-messages.php:106
+msgid "Invalid icon color."
+msgstr ""
+
+#: tools/component-messages.php:107
+msgid "Invalid icon label."
+msgstr ""
+
+#: tools/component-messages.php:108
+msgid "Invalid identity or release metadata."
+msgstr ""
+
+#: tools/component-messages.php:109
+msgid "Invalid local icon."
+msgstr ""
+
+#: tools/component-messages.php:110
+msgid "Invalid network policy."
+msgstr ""
+
+#: tools/component-messages.php:111
+msgid "Invalid network requirement."
+msgstr ""
+
+#: tools/component-messages.php:112
+msgid "Invalid platform version."
+msgstr ""
+
+#: tools/component-messages.php:113
+msgid "Invalid plugin series."
+msgstr ""
+
+#: tools/component-messages.php:114
+msgid "Invalid sort order."
+msgstr ""
+
+#: tools/component-messages.php:115
+msgid "Invalid star count."
+msgstr ""
+
+#: tools/component-messages.php:116
+msgid "Invalid stars date."
+msgstr ""
+
+#: tools/component-messages.php:117
+msgid "Jan"
+msgstr ""
+
+#: tools/component-messages.php:118
+msgid "January"
+msgstr ""
+
+#: tools/component-messages.php:119
+msgid "Jul"
+msgstr ""
+
+#: tools/component-messages.php:120
+msgid "July"
+msgstr ""
+
 #: tools/component-messages.php:121
-msgid "May"
+msgid "Jun"
 msgstr ""
 
 #: tools/component-messages.php:122
@@ -1154,269 +1120,501 @@ msgid "June"
 msgstr ""
 
 #: tools/component-messages.php:123
-msgid "July"
+msgid "Last successful check: "
 msgstr ""
 
 #: tools/component-messages.php:124
-msgid "August"
+msgid "Library"
 msgstr ""
 
 #: tools/component-messages.php:125
-msgid "September"
+msgid "Library changelog"
 msgstr ""
 
 #: tools/component-messages.php:126
-msgid "October"
+msgid "Library settings"
 msgstr ""
 
 #: tools/component-messages.php:127
-msgid "November"
+msgid "Library settings saved."
 msgstr ""
 
 #: tools/component-messages.php:128
-msgid "December"
-msgstr ""
-
-#: tools/component-messages.php:129
-msgid "Jan"
+msgid "Manage Content"
 msgstr ""
 
 #: tools/component-messages.php:130
-msgid "Feb"
-msgstr ""
-
-#: tools/component-messages.php:131
 msgid "Mar"
 msgstr ""
 
+#: tools/component-messages.php:131
+msgid "March"
+msgstr ""
+
 #: tools/component-messages.php:132
-msgid "Apr"
+msgid "May"
 msgstr ""
 
 #: tools/component-messages.php:133
-msgid "Jun"
+msgid "Misc"
 msgstr ""
 
 #: tools/component-messages.php:134
-msgid "Jul"
+msgid "Missing display text."
 msgstr ""
 
 #: tools/component-messages.php:135
-msgid "Aug"
+msgid "Missing plugin header."
 msgstr ""
 
 #: tools/component-messages.php:136
-msgid "Sep"
-msgstr ""
-
-#: tools/component-messages.php:137
-msgid "Oct"
-msgstr ""
-
-#: tools/component-messages.php:138
-msgid "Nov"
-msgstr ""
-
-#: tools/component-messages.php:139
-msgid "Dec"
-msgstr ""
-
-#: tools/component-messages.php:140
-msgid "Monday"
-msgstr ""
-
-#: tools/component-messages.php:141
-msgid "Tuesday"
-msgstr ""
-
-#: tools/component-messages.php:142
-msgid "Wednesday"
-msgstr ""
-
-#: tools/component-messages.php:143
-msgid "Thursday"
-msgstr ""
-
-#: tools/component-messages.php:144
-msgid "Friday"
-msgstr ""
-
-#: tools/component-messages.php:145
-msgid "Saturday"
-msgstr ""
-
-#: tools/component-messages.php:146
-msgid "Sunday"
-msgstr ""
-
-#: tools/component-messages.php:147
 msgid "Mon"
 msgstr ""
 
-#: tools/component-messages.php:148
-msgid "Tue"
+#: tools/component-messages.php:137
+msgid "Monday"
+msgstr ""
+
+#: tools/component-messages.php:138
+msgid "More by deckerweb"
+msgstr ""
+
+#: tools/component-messages.php:139
+msgid "Multisite"
+msgstr ""
+
+#: tools/component-messages.php:140
+msgid "Name A–Z"
+msgstr ""
+
+#: tools/component-messages.php:141
+msgid "Name Z–A"
+msgstr ""
+
+#: tools/component-messages.php:142
+msgid "Network activate"
+msgstr ""
+
+#: tools/component-messages.php:143
+msgid "Network active"
+msgstr ""
+
+#: tools/component-messages.php:144
+msgid "Network permission denied."
+msgstr ""
+
+#: tools/component-messages.php:145
+msgid "New"
+msgstr ""
+
+#: tools/component-messages.php:146
+msgid "No approved plugins match this selection."
 msgstr ""
 
 #: tools/component-messages.php:149
-msgid "Wed"
+msgid "Not installed. You can try again."
 msgstr ""
 
 #: tools/component-messages.php:150
-msgid "Thu"
+msgid "Nov"
 msgstr ""
 
 #: tools/component-messages.php:151
-msgid "Fri"
+msgid "November"
 msgstr ""
 
 #: tools/component-messages.php:152
-msgid "Sat"
+msgid "Oct"
 msgstr ""
 
 #: tools/component-messages.php:153
-msgid "Sun"
+msgid "October"
 msgstr ""
 
 #: tools/component-messages.php:154
-msgid "F j, Y"
-msgstr ""
-
-#: tools/component-messages.php:155
-msgid "Plugin series"
+msgid ""
+"Off by default. Applies only when no other host is installed, including "
+"inactive hosts. Removes Library settings, installation records and "
+"introduction status. Installed plugins, their content and other plugin "
+"settings remain unchanged. Network data is shared across sites."
 msgstr ""
 
 #: tools/component-messages.php:156
-msgid "All"
+msgid "Online catalog"
 msgstr ""
 
 #: tools/component-messages.php:157
-msgid "Fits my installation"
+msgid ""
+"Only HTTPS on raw.githubusercontent.com/deckerweb. The server receives the "
+"requesting IP address. GitHub is contacted when installing a release."
+msgstr ""
+
+#: tools/component-messages.php:158
+msgid "Only approved releases"
 msgstr ""
 
 #: tools/component-messages.php:159
-msgid "Invalid plugin series."
+msgid "Open catalog"
 msgstr ""
 
 #: tools/component-messages.php:160
+msgid ""
+"Optional. The bundled catalog works immediately. Catalog requests are cached "
+"for 24 hours. No site URL, plugin list or usage data is sent."
+msgstr ""
+
+#: tools/component-messages.php:161
+msgid "PHP ZIP support is required."
+msgstr ""
+
+#: tools/component-messages.php:162
+msgid "POST required."
+msgstr ""
+
+#: tools/component-messages.php:164
+msgid "Permission denied. Reload the page and check your permissions."
+msgstr ""
+
+#: tools/component-messages.php:165
+msgid "Planned: "
+msgstr ""
+
+#: tools/component-messages.php:166
+msgid "Plugin identity or version does not match the catalog."
+msgstr ""
+
+#: tools/component-messages.php:167
+msgid "Plugin is not installed."
+msgstr ""
+
+#: tools/component-messages.php:168
+msgid "Plugin series"
+msgstr ""
+
+#: tools/component-messages.php:170
+msgid ""
+"Portfolio Content updates require deckerweb Updater 2.1 or newer. Another "
+"active plugin loaded an older copy. Update the deckerweb plugins together; "
+"portfolio content remains available."
+msgstr ""
+
+#: tools/component-messages.php:173
+msgid "Product website"
+msgstr ""
+
+#: tools/component-messages.php:176
+msgid "Recently updated"
+msgstr ""
+
+#: tools/component-messages.php:177
+msgid "Refresh catalog"
+msgstr ""
+
+#: tools/component-messages.php:178
+msgid ""
+"Release 1.0.0 is being prepared. Installation will be available after "
+"package verification."
+msgstr ""
+
+#: tools/component-messages.php:179
+msgid ""
+"Release checksum is verified before installation. Activation is a separate "
+"step."
+msgstr ""
+
+#: tools/component-messages.php:180
+msgid "Release in preparation"
+msgstr ""
+
+#: tools/component-messages.php:181
+msgid "Release must contain exactly the approved plugin directory."
+msgstr ""
+
+#: tools/component-messages.php:182
+msgid "Remove filter: "
+msgstr ""
+
+#: tools/component-messages.php:183
+msgid "Repository & documentation"
+msgstr ""
+
+#: tools/component-messages.php:184
+msgid ""
+"Requirements shown are preliminary until the stable release is verified."
+msgstr ""
+
+#: tools/component-messages.php:185
+#, php-format
+msgid "Requires PHP %s or newer."
+msgstr ""
+
+#: tools/component-messages.php:186
+#, php-format
+msgid "Requires WordPress %s or newer."
+msgstr ""
+
+#: tools/component-messages.php:187
+msgid "Requires a WordPress Multisite network."
+msgstr ""
+
+#: tools/component-messages.php:189
+msgid "Reset view"
+msgstr ""
+
+#: tools/component-messages.php:190
+msgid "Retrieve approved catalog updates online"
+msgstr ""
+
+#: tools/component-messages.php:191
+msgid "Sat"
+msgstr ""
+
+#: tools/component-messages.php:192
+msgid "Saturday"
+msgstr ""
+
+#: tools/component-messages.php:194
+msgid "Scripts"
+msgstr ""
+
+#: tools/component-messages.php:195
+msgid "Search this catalog"
+msgstr ""
+
+#: tools/component-messages.php:197
+msgid "Select and copy the text."
+msgstr ""
+
+#: tools/component-messages.php:198
+msgid "Selected by deckerweb · Installed from GitHub releases"
+msgstr ""
+
+#: tools/component-messages.php:199
+msgid "Sep"
+msgstr ""
+
+#: tools/component-messages.php:200
+msgid "September"
+msgstr ""
+
+#: tools/component-messages.php:202
+msgid "Settings saved."
+msgstr ""
+
+#: tools/component-messages.php:204
+msgid "Shop"
+msgstr ""
+
+#: tools/component-messages.php:205
+msgid "Show deckerweb under Add Plugins"
+msgstr ""
+
+#: tools/component-messages.php:206
 msgid ""
 "Shows plugins whose platform and dependency requirements are met in this "
 "site or network. Without this filter, plugins with missing requirements "
 "remain visible."
 msgstr ""
 
-#: tools/component-messages.php:161
-msgid "Fixed"
+#: tools/component-messages.php:207
+msgid "Shuffle again"
 msgstr ""
 
-#: tools/component-messages.php:162
-msgid "Invalid catalog revision."
+#: tools/component-messages.php:208
+msgid "Small plugins. Practical improvements."
 msgstr ""
 
-#: tools/component-messages.php:163
-msgid "This catalog requires a newer Library."
+#: tools/component-messages.php:209
+msgid "Sort by"
 msgstr ""
 
-#: tools/component-messages.php:164
+#: tools/component-messages.php:210
+msgid "Source: GitHub"
+msgstr ""
+
+#: tools/component-messages.php:211
+msgid "Standard"
+msgstr ""
+
+#: tools/component-messages.php:212
+msgid "Sun"
+msgstr ""
+
+#: tools/component-messages.php:213
+msgid "Sunday"
+msgstr ""
+
+#: tools/component-messages.php:214
+msgid "Technical information"
+msgstr ""
+
+#: tools/component-messages.php:216
+msgid "The GitHub release could not be downloaded."
+msgstr ""
+
+#: tools/component-messages.php:217
+msgid "The action is still running. Check its status again."
+msgstr ""
+
+#: tools/component-messages.php:218
+msgid "The approved package could not be verified."
+msgstr ""
+
+#: tools/component-messages.php:221
+msgid "The catalog URL is not an allowed first-party HTTPS endpoint."
+msgstr ""
+
+#: tools/component-messages.php:222
+msgid "The catalog could not be verified. Please try again later."
+msgstr ""
+
+#: tools/component-messages.php:223
+msgid "The catalog is disabled."
+msgstr ""
+
+#: tools/component-messages.php:224
+msgid "The catalog is hidden."
+msgstr ""
+
+#: tools/component-messages.php:225
 msgid ""
-"Optional. The bundled catalog works immediately. Catalog requests are cached "
-"for 24 hours. No site URL, plugin list or usage data is sent."
+"The deckerweb catalog could not load. Check platform requirements and the "
+"complete Library integration in the host plugin."
 msgstr ""
 
-#: tools/component-messages.php:165
-msgid "Invalid catalog timestamp."
-msgstr ""
-
-#: tools/component-messages.php:166
-msgid "The approved release could not be verified."
-msgstr ""
-
-#: tools/component-messages.php:167
+#: tools/component-messages.php:227
 msgid ""
-"Only HTTPS on raw.githubusercontent.com/deckerweb. The server receives the "
-"requesting IP address. GitHub is contacted when installing a release."
+"The installed plugin identity could not be verified for this catalog update."
 msgstr ""
 
-#: tools/component-messages.php:168
-msgid "Manage Content"
-msgstr ""
-
-#: tools/component-messages.php:169
-msgid "Commerce"
-msgstr ""
-
-#: tools/component-messages.php:170
-msgid "Release in preparation"
-msgstr ""
-
-#: tools/component-messages.php:171
-msgid "Planned: "
-msgstr ""
-
-#: tools/component-messages.php:172
+#: tools/component-messages.php:228
 msgid ""
-"Release 1.0.0 is being prepared. Installation will be available after "
-"package verification."
+"The online catalog is unavailable. Showing cached or bundled entries; online "
+"approval is checked again before installation."
 msgstr ""
 
-#: tools/component-messages.php:173
-msgid ""
-"Requirements shown are preliminary until the stable release is verified."
+#: tools/component-messages.php:229
+msgid "The online catalog source is not trusted."
 msgstr ""
 
-#: tools/component-messages.php:174
-msgid "Installing…"
+#: tools/component-messages.php:233
+msgid "The release checksum does not match. Installation stopped."
 msgstr ""
 
-#: tools/component-messages.php:175
-msgid "Activating…"
-msgstr ""
-
-#: tools/component-messages.php:176
+#: tools/component-messages.php:234
 msgid ""
 "The request could not be completed. Check the plugin status before trying "
 "again."
 msgstr ""
 
-#: tools/component-messages.php:177
-msgid "Installation cancelled."
+#: tools/component-messages.php:235
+msgid "The requirements below describe the offered release."
 msgstr ""
 
-#: tools/component-messages.php:178
-msgid "Another action for this plugin is running. Please wait."
+#: tools/component-messages.php:236
+msgid "The update has not been confirmed. You can try again."
 msgstr ""
 
-#: tools/component-messages.php:179
-msgid "Filesystem credentials are required."
+#: tools/component-messages.php:237
+msgid ""
+"These details contain component versions and catalog status, without "
+"credentials or site content."
 msgstr ""
 
-#: tools/component-messages.php:180
-msgid "Installation failed."
+#: tools/component-messages.php:238
+msgid "This catalog requires a newer Library."
 msgstr ""
 
-#: tools/component-messages.php:181
+#: tools/component-messages.php:239
+msgid ""
+"This plugin directory already exists. Use the installed plugin; it will not "
+"be overwritten."
+msgstr ""
+
+#: tools/component-messages.php:240
+msgid "This release is no longer approved."
+msgstr ""
+
+#: tools/component-messages.php:241
+msgid "This release is not approved."
+msgstr ""
+
+#: tools/component-messages.php:242
+msgid "Thu"
+msgstr ""
+
+#: tools/component-messages.php:243
+msgid "Thursday"
+msgstr ""
+
+#: tools/component-messages.php:244
 msgid "Tools"
 msgstr ""
 
-#: tools/component-messages.php:182
-msgid "Shop"
+#: tools/component-messages.php:245
+msgid "Tue"
 msgstr ""
 
-#: tools/component-messages.php:183
-msgid "Check status"
+#: tools/component-messages.php:246
+msgid "Tuesday"
 msgstr ""
 
-#: tools/component-messages.php:184
-msgid "The action is still running. Check its status again."
+#: tools/component-messages.php:247
+msgid "Unsafe archive path."
 msgstr ""
 
-#: tools/component-messages.php:185
-msgid "Not installed. You can try again."
+#: tools/component-messages.php:248
+msgid "Untrusted release URL."
 msgstr ""
 
-#: tools/component-messages.php:186
-msgid "Checking status…"
+#: tools/component-messages.php:249
+#, php-format
+msgid "Update %1$s to version %2$s or newer."
 msgstr ""
 
-#: tools/component-messages.php:187
-msgid "The requirements below describe the offered release."
+#: tools/component-messages.php:250
+msgid "Update available"
+msgstr ""
+
+#: tools/component-messages.php:251
+msgid "Update failed."
+msgstr ""
+
+#: tools/component-messages.php:252
+#, php-format
+msgid "Update to %s"
+msgstr ""
+
+#: tools/component-messages.php:253
+msgid "Updated"
+msgstr ""
+
+#: tools/component-messages.php:254
+msgid "Updating…"
+msgstr ""
+
+#: tools/component-messages.php:256
+msgid "View plugins"
+msgstr ""
+
+#: tools/component-messages.php:257
+msgid "Visibility"
+msgstr ""
+
+#: tools/component-messages.php:258
+msgid "Wed"
+msgstr ""
+
+#: tools/component-messages.php:259
+msgid "Wednesday"
+msgstr ""
+
+#: tools/component-messages.php:260
+msgid "WordPress"
+msgstr ""
+
+#: tools/component-messages.php:261
+msgid ""
+"You already use one of my plugins. Find selected additions in the deckerweb "
+"tab."
 msgstr ""

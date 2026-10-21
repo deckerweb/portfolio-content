@@ -1,7 +1,7 @@
 from pathlib import Path
 import re,json,ast,subprocess
 p=Path(__file__).resolve().parents[1]; files=[p/'portfolio-content.php']+list((p/'includes').glob('class*.php'))+[p/'includes/updater-translations.php',p/'tools/component-messages.php']
-subprocess.run(['xgettext','--language=PHP','--from-code=UTF-8','--keyword=__','--keyword=_x:1,2c','--keyword=esc_html__','--keyword=esc_attr__','--keyword=esc_html_x:1,2c','--keyword=esc_attr_x:1,2c','--package-name=Portfolio Content','--package-version=1.3.0','-o','languages/portfolio-content.pot']+[str(f.relative_to(p)) for f in files],check=True,cwd=p)
+subprocess.run(['xgettext','--language=PHP','--from-code=UTF-8','--keyword=__','--keyword=_x:1,2c','--keyword=esc_html__','--keyword=esc_attr__','--keyword=esc_html_x:1,2c','--keyword=esc_attr_x:1,2c','--package-name=Portfolio Content','--package-version=1.3.1','-o','languages/portfolio-content.pot']+[str(f.relative_to(p)) for f in files],check=True,cwd=p)
 def entries(text):
  result=[]
  for block in text.split('\n\n'):
@@ -49,7 +49,7 @@ component=json.loads((p/'tools/component-translations.json').read_text())
 source=entries((p/'languages/portfolio-content.pot').read_text())
 for locale in ['de_DE','de_DE_formal']:
  old={(e.get('msgctxt',''),e['msgid']):e.get('msgstr','') for e in entries((p/f'languages/portfolio-content-{locale}.po').read_text())}
- header=f'Project-Id-Version: Portfolio Content 1.3.0\nLanguage: {locale}\nLast-Translator: David Decker – DECKERWEB\nLanguage-Team: German\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\nPO-Revision-Date: 2026-10-08 12:00+0200\n'
+ header=f'Project-Id-Version: Portfolio Content 1.3.1\nLanguage: {locale}\nLast-Translator: David Decker – DECKERWEB\nLanguage-Team: German\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\nPO-Revision-Date: 2026-10-21 12:00+0200\n'
  lines=['msgid ""','msgstr '+json.dumps(header,ensure_ascii=False)];messages={};missing=[]
  for e in source:
   if not e['msgid']:continue
@@ -65,6 +65,6 @@ for locale in ['de_DE','de_DE_formal']:
  if missing:raise Exception(missing)
  po=p/f'languages/portfolio-content-{locale}.po';po.write_text('\n'.join(lines)+'\n');subprocess.run(['msgfmt','--check','-o',str(po.with_suffix('.mo')),str(po)],check=True)
  def phpq(s):return "'"+s.replace('\\','\\\\').replace("'","\\'")+"'"
- l10n="<?php\nreturn ['project-id-version' => 'Portfolio Content 1.3.0', 'language' => "+phpq(locale)+", 'plural-forms' => 'nplurals=2; plural=(n != 1);', 'messages' => [\n"+''.join(phpq(k)+' => '+phpq(v)+",\n" for k,v in messages.items())+"]];\n"
+ l10n="<?php\nreturn ['project-id-version' => 'Portfolio Content 1.3.1', 'language' => "+phpq(locale)+", 'plural-forms' => 'nplurals=2; plural=(n != 1);', 'messages' => [\n"+''.join(phpq(k)+' => '+phpq(v)+",\n" for k,v in messages.items())+"]];\n"
  po.with_suffix('.l10n.php').write_text(l10n)
  print(locale,len(messages),'translated strings')

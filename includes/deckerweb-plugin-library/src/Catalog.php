@@ -1,6 +1,6 @@
 <?php
 /** Copyright 2026 David Decker – DECKERWEB. SPDX-License-Identifier: GPL-2.0-or-later */
-namespace Deckerweb\PluginLibrary\V0_8_1;
+namespace Deckerweb\PluginLibrary\V1_1_0;
 if ( ! defined( 'ABSPATH' ) ) { exit; }
 
 /** Strict metadata-only catalog. No remote PHP, JavaScript, CSS, icons or telemetry. */
@@ -10,6 +10,14 @@ final class Catalog {
  public const DEFAULT_URL = 'https://raw.githubusercontent.com/deckerweb/deckerweb-plugin-library/main/catalog/catalog.json';
 	private string $dir;
 	public string $status = 'bundled';
+ public array $provenance = [];
+ /** Return catalog provenance without requesting fresh metadata.
+  * @return array Source, revision and last successful verification time; no endpoint secrets.
+  */
+ public function summary(): array {
+  if (!$this->provenance) { $this->entries(); }
+  return ['source'=>$this->status,'revision'=>$this->provenance['catalog_revision'] ?? '', 'checked_at'=>$this->provenance['checked_at'] ?? 0];
+ }
 	/**
 	 * Initialize the component with validated host paths and shared runtime configuration.
 	 *
@@ -41,7 +49,7 @@ final class Catalog {
 	 * @return array Ordered unique series identifiers; no memberships for independent plugins.
 	 */
 	public static function series( array $entry ): array {
-		return $entry['series_memberships_v2'] ?? $entry['series_memberships'] ?? ( isset( $entry['series'] ) ? [ $entry['series'] ] : [] );
+		return $entry['series_memberships_v3'] ?? $entry['series_memberships_v2'] ?? $entry['series_memberships'] ?? ( isset( $entry['series'] ) ? [ $entry['series'] ] : [] );
 	}
 
 	/**
@@ -68,6 +76,14 @@ final class Catalog {
   if ( isset( $data['catalog_revision'] ) && ( ! is_string( $data['catalog_revision'] ) || ! preg_match( '/^[a-zA-Z0-9][a-zA-Z0-9._-]{0,63}$/D', $data['catalog_revision'] ) ) ) { return new \WP_Error( 'dwl_catalog', Library::t( 'Invalid catalog revision.' ) ); }
   if ( isset( $data['requires_library'] ) && ( ! is_string( $data['requires_library'] ) || ! preg_match( '/^\d+\.\d+\.\d+$/D', $data['requires_library'] ) || version_compare( Library::VERSION, $data['requires_library'], '<' ) ) ) { return new \WP_Error( 'dwl_catalog', Library::t( 'This catalog requires a newer Library.' ) ); }
   if ( isset( $data['generated_at'] ) && ( ! is_string( $data['generated_at'] ) || ! preg_match( '/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/D', $data['generated_at'] ) ) ) { return new \WP_Error( 'dwl_catalog', Library::t( 'Invalid catalog timestamp.' ) ); }
+  $definitions = $data['series_definitions'] ?? [];
+  if ( ! is_array( $definitions ) || count( $definitions ) > 30 ) { return new \WP_Error( 'dwl_catalog', Library::t( 'Invalid plugin series.' ) ); }
+  foreach ( $definitions as $id => $definition ) {
+   if ( ! is_string( $id ) || ! preg_match( '/^[a-z][a-z0-9-]{0,39}$/D', $id ) || ! is_array( $definition )
+    || ! is_string( $definition['name'] ?? null ) || trim( $definition['name'] ) === '' || strlen( $definition['name'] ) > 100
+    || ! is_string( $definition['name_de'] ?? null ) || trim( $definition['name_de'] ) === '' || strlen( $definition['name_de'] ) > 100
+    || ! is_int( $definition['order'] ?? null ) || $definition['order'] < 0 || $definition['order'] > 1000 ) { return new \WP_Error( 'dwl_catalog', Library::t( 'Invalid plugin series.' ) ); }
+  }
 		$result = [];
 		foreach ( $data['plugins'] as $entry ) {
 			if ( ! is_array( $entry ) || ! isset( $entry['approved'] ) || ! is_bool( $entry['approved'] ) ) { return new \WP_Error( 'dwl_catalog', Library::t( 'Invalid approval flag.' ) ); }
@@ -100,7 +116,17 @@ final class Catalog {
     $legacy = $entry['series_memberships'] ?? ( isset( $entry['series'] ) ? [ $entry['series'] ] : [] );
     if ( $projection !== $legacy ) { return new \WP_Error( 'dwl_catalog', Library::t( 'Invalid plugin series.' ) ); }
    }
-			$slug = $entry['slug'];
+   if ( isset( $entry['series_memberships_v3'] ) ) {
+    $list = $entry['series_memberships_v3'];
+    if ( ! is_array( $list ) || array_keys( $list ) !== array_keys( array_values( $list ) ) || count( $list ) > 30 || count( array_unique( array_filter( $list, 'is_string' ) ) ) !== count( $list ) ) { return new \WP_Error( 'dwl_catalog', Library::t( 'Invalid plugin series.' ) ); }
+    foreach ( $list as $id ) { if ( ! is_string( $id ) || ! isset( $definitions[$id] ) ) { return new \WP_Error( 'dwl_catalog', Library::t( 'Invalid plugin series.' ) ); } }
+    $projection = array_values( array_intersect( $list, array_keys( self::SERIES ) ) );
+    if ( $projection !== ( $entry['series_memberships_v2'] ?? $entry['series_memberships'] ?? ( isset( $entry['series'] ) ? [ $entry['series'] ] : [] ) ) ) { return new \WP_Error( 'dwl_catalog', Library::t( 'Invalid plugin series.' ) ); }
+   }
+   $entry['_series_definitions'] = $definitions;
+   if ( isset( $entry['sort_order'] ) && ( ! is_int( $entry['sort_order'] ) || $entry['sort_order'] < 0 || $entry['sort_order'] > 10000 ) ) { return new \WP_Error( 'dwl_catalog', Library::t( 'Invalid display field.' ) ); }
+			if ( isset($entry['published_at']) && (!is_string($entry['published_at']) || !preg_match('/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/D',$entry['published_at']) || strtotime($entry['published_at'])===false) ) { return new \WP_Error('dwl_catalog',Library::t('Invalid catalog timestamp.')); }
+   $slug = $entry['slug'];
 			if ( ! preg_match( '/^[a-z0-9]+(?:-[a-z0-9]+)*$/D', $slug ) || isset( $result[$slug] )
 				|| ! preg_match( '~^deckerweb/[a-zA-Z0-9_.-]+$~D', $entry['repository'] )
 				|| ! preg_match( '~^' . preg_quote( $slug, '~' ) . '/[a-zA-Z0-9_-]+\.php$~D', $entry['plugin_file'] )
@@ -123,7 +149,19 @@ final class Catalog {
 					|| ! in_array( $d['detector'] ?? '', [ '', 'breakdance', 'bricks', 'oxygen', 'advanced_scripts' ], true ) ) { return new \WP_Error( 'dwl_catalog', Library::t( 'Invalid dependency metadata.' ) ); }
 				if ( isset( $d['url'] ) && ( ! is_string( $d['url'] ) || ! preg_match( '~^https://(?:breakdance\.com|bricksbuilder\.io|oxygenbuilder\.com|cleanplugins\.com|github\.com/deckerweb|deckerweb\.de)/[a-zA-Z0-9_./-]*$~D', $d['url'] ) ) ) { return new \WP_Error( 'dwl_catalog', Library::t( 'Invalid dependency URL.' ) ); }
 			}
-			foreach ( [ 'name_de', 'description_de', 'category' ] as $field ) {
+   $rules = $entry['dependency_rules'] ?? [];
+   if ( ! is_array( $rules ) || array_keys( $rules ) !== array_keys( array_values( $rules ) ) || count( $rules ) > 10 ) { return new \WP_Error( 'dwl_catalog', Library::t( 'Invalid dependency metadata.' ) ); }
+   $rule_files = [];
+   foreach ( $rules as $rule ) {
+    if ( ! is_array( $rule ) || ! is_string( $rule['plugin_file'] ?? null ) || ! in_array( $rule['plugin_file'], array_column( $dependencies, 'plugin_file' ), true ) 
+     || ! in_array( $rule['mode'] ?? '', [ 'required', 'pause' ], true ) || ! is_string( $rule['since_version'] ?? null ) || ! preg_match( '/^\d+\.\d+\.\d+(?:-[a-zA-Z0-9.-]+)?$/D', $rule['since_version'] )
+     || ( isset( $rule['until_version'] ) && ( ! is_string( $rule['until_version'] ) || ! preg_match( '/^\d+\.\d+\.\d+(?:-[a-zA-Z0-9.-]+)?$/D', $rule['until_version'] ) || version_compare( $rule['until_version'], $rule['since_version'], '<=' ) ) ) ) { return new \WP_Error( 'dwl_catalog', Library::t( 'Invalid dependency metadata.' ) ); }
+    foreach ( $rule_files[$rule['plugin_file']] ?? [] as $previous ) {
+     if ( ( ! isset( $previous['until_version'] ) || version_compare( $rule['since_version'], $previous['until_version'], '<' ) ) && ( ! isset( $rule['until_version'] ) || version_compare( $previous['since_version'], $rule['until_version'], '<' ) ) ) { return new \WP_Error( 'dwl_catalog', Library::t( 'Invalid dependency metadata.' ) ); }
+    }
+    $rule_files[$rule['plugin_file']][] = $rule;
+   }
+			foreach ( [ 'name_de', 'description_de', 'category', 'category_de' ] as $field ) {
 				if ( isset( $entry[$field] ) && ( ! is_string( $entry[$field] ) || strlen( $entry[$field] ) > 2000 ) ) { return new \WP_Error( 'dwl_catalog', Library::t( 'Invalid display field.' ) ); }
 			}
 
@@ -139,6 +177,13 @@ final class Catalog {
 			$entry['dependencies'] = $dependencies;
 			$result[$slug] = $entry;
 		}
+  /**
+   * Sort approved entries by explicit operator order and stable slug tie-break.
+   * @param array $a First validated entry.
+   * @param array $b Second validated entry.
+   * @return int Comparison result; does not change plugin identity or approval.
+   */
+  uasort( $result, static function( array $a, array $b ): int { return ( ( $a['sort_order'] ?? 10000 ) <=> ( $b['sort_order'] ?? 10000 ) ) ?: strcmp( $a['slug'], $b['slug'] ); } );
 		return $result;
 	}
 
@@ -172,7 +217,7 @@ final class Catalog {
 			$cache = get_site_transient( $key );
 			if ( ! $fresh && is_array( $cache ) && isset( $cache['data'] ) ) {
 				$this->status = 'online';
-				return self::validate( $cache['data'] );
+				$this->provenance = ['catalog_revision'=>$cache['data']['catalog_revision'] ?? '', 'checked_at'=>(int)($cache['checked_at'] ?? 0)]; return self::validate( $cache['data'] );
 			}
 			if ( $fresh || ! get_site_transient( $key . '_retry' ) ) {
 				$response = wp_safe_remote_get( $url, [ 'user-agent' => 'deckerweb-plugin-library/' . Library::VERSION, 'timeout' => 6, 'redirection' => 0, 'limit_response_size' => 262145, 'headers' => ( $fresh ? [ 'Accept' => 'application/json', 'Cache-Control' => 'no-cache', 'Pragma' => 'no-cache' ] : [ 'Accept' => 'application/json' ] ) ] );
@@ -184,16 +229,16 @@ final class Catalog {
 					set_site_transient( $key . '_last', [ 'data' => $data, 'checked_at' => time() ], 48 * HOUR_IN_SECONDS );
 					delete_site_transient( $key . '_retry' );
 					$this->status = 'online';
-					return $valid;
+					$this->provenance = ['catalog_revision'=>$data['catalog_revision'] ?? '', 'checked_at'=>time()]; return $valid;
 				}
 				set_site_transient( $key . '_retry', true, 15 * MINUTE_IN_SECONDS );
 			}
 			if ( $fresh ) { return new \WP_Error( 'dwl_offline', Library::t( 'The catalog could not be verified. Please try again later.' ) ); }
 			$last = get_site_transient( $key . '_last' );
 			$this->status = 'offline';
-			if ( is_array( $last ) && isset( $last['data'] ) ) { return self::validate( $last['data'] ); }
+			if ( is_array( $last ) && isset( $last['data'] ) ) { $this->provenance = ['catalog_revision'=>$last['data']['catalog_revision'] ?? '', 'checked_at'=>(int)($last['checked_at'] ?? 0)]; return self::validate( $last['data'] ); }
 		}
 		$data = json_decode( (string) ( is_file( $this->dir . '/catalog.json' ) ? file_get_contents( $this->dir . '/catalog.json' ) : '' ), true );
-		return self::validate( $data );
+		$this->provenance = ['catalog_revision'=>$data['catalog_revision'] ?? '', 'checked_at'=>0]; return self::validate( $data );
 	}
 }

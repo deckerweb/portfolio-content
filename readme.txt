@@ -2,9 +2,9 @@
 Contributors: deckerweb
 Tags: portfolio, projects, custom post type, block patterns
 Requires at least: 6.7
-Requires PHP: 7.4
+Requires PHP: 8.1
 Tested up to: 7.1.3
-Stable tag: 1.3.0
+Stable tag: 1.3.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,15 +20,15 @@ Portfolio projects with categories and tags, ready for the block editor or your 
 - Featured-image previews and a category filter in the project list.
 - Optional editable project starter: challenge, approach, result and gallery.
 - Two native block patterns: project story and responsive project overview with pagination.
-- Bundled deckerweb GitHub Release Updater 2.1.0 and deckerweb Plugin Library 0.8.1.
+- Bundled deckerweb GitHub Release Updater 2.2.0 and deckerweb Plugin Library 1.1.0.
 - English, German and formal German interfaces and localized update banners.
 - Setup check, manual starter insertion into empty drafts, clickable native category filters, filter reset and helpful empty states.
 
 Disabled by default. Enable it in settings to populate new empty auto-drafts only. Existing projects and non-empty defaults remain untouched. It is ordinary editable content, not a locked template. The classic WordPress editor receives headings and paragraphs instead of block markup. The project editor also offers Insert project template for empty drafts, independently of the automatic setting. Current unsaved content is protected; insertion only changes the editor until you save.
 
-Updates from public stable GitHub releases appear in the regular WordPress plugin update system. Automatic updates remain your choice. The bundled deckerweb Updater 2.1.0 and plugin validate package identity, offered version and actual WordPress/PHP requirements. Icons and banners are served locally.
+Updates from public stable GitHub releases appear in the regular WordPress plugin update system. Automatic updates remain your choice. The bundled deckerweb Updater 2.2.0 and plugin validate package identity, offered version and actual WordPress/PHP requirements. Icons and banners are served locally.
 
-The deckerweb Library 0.8.1 adds a catalog under Plugins → Add New. Installation and activation are separate decisions. WordPress.org remains the default. Online catalog retrieval is optional and off by default. On PHP 7.4, portfolio features remain available without the Library.
+The deckerweb Library 1.1.0 adds a catalog under Plugins → Add New. Installation and activation are separate decisions. WordPress.org remains the default. Online catalog retrieval is optional and off by default. 
 
 Projects, categories, tags, images and preferences belong to each website. Network activation registers portfolio content on all sites in the network, including newly created sites. The starter and deletion preference are configured separately per website; there is no shared portfolio network setting.
 
@@ -44,7 +44,7 @@ Ko-fi (https://ko-fi.com/deckerweb) · Buy Me a Coffee (https://buymeacoffee.com
 
 © 2019–2026 David Decker – DECKERWEB · GPL v2 or later (LICENSE).
 
-Includes deckerweb Library 0.8.1 and deckerweb Updater 2.1.0 by David Decker, both GPL-2.0-or-later. Administration styles and dialog behavior are adapted from Brand Admin Schemes by David Decker, GPL-2.0-or-later. Artwork: approved Portfolio Content Design A by DECKERWEB; SVG sources and PNG exports are provided under GPL-2.0-or-later. System fonts are referenced; no font files are bundled.
+Includes deckerweb Library 1.1.0 and deckerweb Updater 2.2.0 by David Decker, both GPL-2.0-or-later. Administration styles and dialog behavior are adapted from Brand Admin Schemes by David Decker, GPL-2.0-or-later. Artwork: approved Portfolio Content Design A by DECKERWEB; SVG sources and PNG exports are provided under GPL-2.0-or-later. System fonts are referenced; no font files are bundled.
 
 GitHub Pages uses the Cayman theme (CC0-1.0); the local layout uses system fonts.
 
@@ -52,7 +52,7 @@ Library (https://github.com/deckerweb/deckerweb-plugin-library) · Updater (http
 
 == Installation ==
 
-1. Upload portfolio-content-1.3.0.zip under Plugins → Add New → Upload Plugin; activate it.
+1. Upload portfolio-content-1.3.1.zip under Plugins → Add New → Upload Plugin; activate it.
 2. Open Settings → Portfolio Content. Optionally enable the project starter.
 3. Add a project with title, featured image and excerpt; publish it.
 4. Create a page. In the block inserter's Patterns tab choose Portfolio Content → Portfolio: project overview.
@@ -95,6 +95,12 @@ Projects, categories, tags and images always remain. Preferences remain by defau
 FAQ by topic: https://github.com/deckerweb/portfolio-content/wiki/FAQ-English
 
 == Changelog ==
+
+= 1.3.1 — 2026-10-21 =
+
+- Improved: Updated deckerweb Library to 1.1.0 and Updater to 2.2.0.
+- Fixed: Hardened the local changelog dialog and preserved documentation links if it cannot open.
+- Misc: PHP 8.1 or newer is now required; WordPress 6.7 remains supported.
 
 = 1.3.0 — 2026-10-08 =
 

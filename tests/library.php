@@ -4,7 +4,7 @@ if(PHP_SAPI!=='cli' || empty($argv[1])){exit(1);}define('WP_ADMIN',true);if ( ! 
 require $argv[1];wp_set_current_user(1);
 if(PHP_VERSION_ID<80000){if(!empty($GLOBALS['deckerweb_library_runtime_v1']))throw new RuntimeException('Unsupported Library runtime');exit;}
 $runtime=$GLOBALS['deckerweb_library_runtime_v1']??null;
-if(!$runtime || get_class($runtime)!=='Deckerweb\\PluginLibrary\\V0_8_1\\Library')throw new RuntimeException('Library runtime');
+if(!$runtime || get_class($runtime)!=='Deckerweb\\PluginLibrary\\V1_1_0\\Library')throw new RuntimeException('Library runtime');
 $tabs=apply_filters('install_plugins_tabs',['featured'=>'Featured']);
 if(!isset($tabs['featured'],$tabs['deckerweb']))throw new RuntimeException('Library tab');
 $candidates=$GLOBALS['deckerweb_library_candidates_v1'];
