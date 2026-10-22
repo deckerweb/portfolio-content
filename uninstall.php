@@ -31,9 +31,15 @@ if ( is_multisite() ) {
     } while ( count( $portfolio_content_ids ) === 100 );
 } else { portfolio_content_uninstall_site_settings(); }
 
-// Both generations of this repository's updater use explicitly scoped keys.
+// Remove only this repository's current and historical updater metadata caches.
+$portfolio_content_updater_class = require __DIR__ . '/includes/deckerweb-github-release-updater-v2.php';
 $portfolio_content_repository = 'https://github.com/deckerweb/portfolio-content';
-$portfolio_content_keys = array( 'ddw_ghru_' . substr( md5( $portfolio_content_repository ), 0, 24 ) );
+$portfolio_content_keys = array();
+foreach ( array( $portfolio_content_repository, $portfolio_content_repository . '|' . $portfolio_content_updater_class::IMPLEMENTATION_VERSION ) as $portfolio_content_identity ) {
+    $portfolio_content_cache_key = 'ddw_ghru_' . substr( md5( $portfolio_content_identity ), 0, 24 );
+    $portfolio_content_keys[] = $portfolio_content_cache_key;
+    $portfolio_content_keys[] = $portfolio_content_cache_key . '_private';
+}
 $portfolio_content_networks = is_multisite() ? get_networks( array( 'fields' => 'ids', 'number' => 0 ) ) : array( null );
 foreach ( $portfolio_content_networks as $portfolio_content_network_id ) {
     foreach ( $portfolio_content_keys as $portfolio_content_key ) {

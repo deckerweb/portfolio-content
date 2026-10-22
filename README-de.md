@@ -4,7 +4,7 @@
 
 **Deine Projekte. Bereit zum Teilen.** Ein schlankes Portfolio-Plugin von David Decker – DECKERWEB: Projekte anlegen, übersichtlich verwalten und mit deinem Theme oder Builder präsentieren.
 
-**Version:** 1.3.1 · **Voraussetzungen:** WordPress 6.7+ / PHP 8.1+ · **Lizenz:** GPL v2 oder neuer
+**Version:** 1.3.2 · **Voraussetzungen:** WordPress 6.7+ / PHP 8.1+ · **Lizenz:** GPL v2 oder neuer
 
 [Download](https://github.com/deckerweb/portfolio-content/releases/latest) · [Anleitung](https://github.com/deckerweb/portfolio-content/wiki/Deutsch) · [English](README.md)
 
@@ -31,13 +31,13 @@ Portfolio-Projekte mit Kategorien und Schlagwörtern für den Block-Editor oder 
 - Beitragsbild-Vorschau und Kategorienfilter in der Projektliste.
 - Optionale bearbeitbare Projektvorlage: Aufgabe, Umsetzung, Ergebnis und Galerie.
 - Zwei native Block-Vorlagen: Projektvorstellung und responsive Projektübersicht mit Seitennavigation.
-- deckerweb GitHub Release Updater 2.2.0 und deckerweb Plugin Library 1.1.0 enthalten.
+- deckerweb GitHub Release Updater 2.2.1 und deckerweb Plugin Library 1.1.0 enthalten.
 - Oberfläche auf Englisch, Deutsch und formellem Deutsch; lokalisierte Update-Banner.
 - Einrichtungscheck, manuelles Einfügen der Vorlage in leere Entwürfe, anklickbare native Kategorie-Filter, Filter zurücksetzen und hilfreiche leere Ansichten.
 
 ## Installation und erste Schritte
 
-1. `portfolio-content-1.3.1.zip` unter Plugins → Installieren → Plugin hochladen installieren und aktivieren.
+1. `portfolio-content-1.3.2.zip` unter Plugins → Installieren → Plugin hochladen installieren und aktivieren.
 2. Einstellungen → Portfolio Content öffnen. Bei Bedarf die Projektvorlage einschalten.
 3. Ein Projekt mit Titel, Beitragsbild und Textauszug anlegen und veröffentlichen.
 4. Eine Seite erstellen. Im Block-Inserter unter Vorlagen Portfolio Content → Portfolio: Projektübersicht wählen.
@@ -53,7 +53,7 @@ Standardmäßig ausgeschaltet. Nach dem Einschalten werden nur neue leere automa
 
 ## Updates und Library
 
-Updates aus öffentlichen stabilen GitHub-Releases erscheinen im normalen WordPress-Updatesystem. Automatische Updates werden nicht eingeschaltet. Der enthaltene deckerweb Updater 2.2.0 prüft Pakete zusammen mit dem Plugin auf Identität, angebotene Version und passende WordPress-/PHP-Anforderungen. Icons und Banner werden lokal ausgeliefert.
+Updates aus öffentlichen stabilen GitHub-Releases erscheinen im normalen WordPress-Updatesystem. Automatische Updates werden nicht eingeschaltet. Der enthaltene deckerweb Updater 2.2.1 prüft Pakete zusammen mit dem Plugin auf Identität, angebotene Version und passende WordPress-/PHP-Anforderungen. Icons und Banner werden lokal ausgeliefert.
 
 Die deckerweb Library 1.1.0 ergänzt einen Katalog unter Plugins → Installieren. Installation und Aktivierung sind getrennte Entscheidungen. WordPress.org bleibt der Standard. Der Online-Katalog ist freiwillig und standardmäßig ausgeschaltet. 
 
@@ -104,6 +104,10 @@ Interne Kennungen bleiben `portfolio-content`, `portfolio-category`, `portfolio-
 ![Projektvorlage im klassischen Editor](assets/screenshots/template-de.jpg)
 
 ## Änderungsprotokoll
+
+### 1.3.2 — 23.10.2026
+
+- **Behoben:** deckerweb Updater auf 2.2.1 aktualisiert; die Updateversorgung bleibt auch neben einer älteren geladenen Updater-Kopie verfügbar.
 
 ### 1.3.1 — 21.10.2026
 
@@ -159,7 +163,7 @@ Sicherheitslücken bitte vertraulich melden: [Security reporting](https://github
 
 © 2019–2026 David Decker – DECKERWEB · [GPL v2 oder neuer](LICENSE).
 
-Enthält deckerweb Library 1.1.0 und deckerweb Updater 2.2.0 von David Decker, jeweils GPL-2.0-or-later. Admin-Stile und Dialogverhalten wurden aus Brand Admin Schemes von David Decker übernommen und angepasst, GPL-2.0-or-later. Grafiken: freigegebenes Portfolio-Content-Design A von DECKERWEB; SVG-Quelldateien und PNG-Exporte werden mit GPL-2.0-or-later bereitgestellt. Systemschriften werden referenziert; Schriftdateien werden nicht mitgeliefert.
+Enthält deckerweb Library 1.1.0 und deckerweb Updater 2.2.1 von David Decker, jeweils GPL-2.0-or-later. Admin-Stile und Dialogverhalten wurden aus Brand Admin Schemes von David Decker übernommen und angepasst, GPL-2.0-or-later. Grafiken: freigegebenes Portfolio-Content-Design A von DECKERWEB; SVG-Quelldateien und PNG-Exporte werden mit GPL-2.0-or-later bereitgestellt. Systemschriften werden referenziert; Schriftdateien werden nicht mitgeliefert.
 
 GitHub Pages nutzt das Cayman-Theme (CC0-1.0); die lokale Vorlage verwendet Systemschriften.
 

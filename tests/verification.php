@@ -61,4 +61,4 @@ $file = plugin_basename( PFC_PLUGIN_FILE );
 pfc_verify( $adapter->update_context( $bulk, array( 'plugin' => $file ) ), 'Native bulk context reaches package validation' );
 pfc_verify( ! $adapter->update_context( $bulk, array( 'plugin' => 'other/other.php' ) ) && ! $adapter->update_context( $bulk, array( 'plugin' => $file, 'action' => 'install' ) ), 'Bulk validation excludes foreign plugins and install actions' );
 pfc_verify( ! $adapter->update_context( null, array( 'plugin' => $file ) ), 'Missing type/action requires genuine bulk upgrader' );
-pfc_verify( Deckerweb\GitHubReleaseUpdater\V2\Updater::IMPLEMENTATION_VERSION === '2.2.0', 'Canonical stable updater is loaded' );
+pfc_verify( Deckerweb\GitHubReleaseUpdater\V2\Updater::IMPLEMENTATION_VERSION === '2.2.1', 'Canonical stable updater is loaded' );
