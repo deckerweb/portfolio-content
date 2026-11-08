@@ -1,480 +1,14 @@
 msgid ""
-msgstr "Project-Id-Version: Portfolio Content 1.3.1\nLanguage: de_DE\nLast-Translator: David Decker – DECKERWEB\nLanguage-Team: German\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\nPO-Revision-Date: 2026-10-21 12:00+0200\n"
-
-msgctxt "Post Type General Name"
-msgid "Portfolios"
-msgstr "Portfolios"
-
-msgctxt "Post Type Singular Name"
-msgid "Portfolio"
-msgstr "Portfolio"
-
-msgctxt "Admin Bar name"
-msgid "Portfolio"
-msgstr "Portfolio"
-
-msgid "Portfolio Archive"
-msgstr "Portfolio Archiv"
-
-msgid "Portfolio Attributes"
-msgstr "Portfolio-Attribute"
-
-msgid "Parent Portfolio:"
-msgstr "Eltern Portfolio:"
-
-msgid "All Portfolios"
-msgstr "Alle Portfolios"
-
-msgid "Add New Portfolio"
-msgstr "Neues Portfolio hinzufügen"
-
-msgid "Add New"
-msgstr "Hinzufügen"
-
-msgid "New Portfolio"
-msgstr "Neuer Portfolio-Beitrag"
-
-msgid "Edit Portfolio"
-msgstr "Portfolio bearbeiten"
-
-msgid "Update Portfolio"
-msgstr "Portfolio aktualisieren"
-
-msgid "View Portfolio"
-msgstr "Portfolio anzeigen"
-
-msgid "View Portfolios"
-msgstr "Portfolio anschauen"
-
-msgid "Search Portfolios"
-msgstr "Portfolio suchen"
-
-msgid "Not found"
-msgstr "Nichts gefunden"
-
-msgid "Not found in Trash"
-msgstr "Es befinden sich keine Elemente im Papierkorb"
-
-msgid "Featured Image"
-msgstr "Beitragsbild"
-
-msgid "Set featured image"
-msgstr "Beitragsbild festlegen"
-
-msgid "Remove featured image"
-msgstr "Beitragsbild entfernen"
-
-msgid "Use as featured image"
-msgstr "Als Beitragsbild verwenden"
-
-msgid "Insert into Portfolio"
-msgstr "In Portfolio einfügen"
-
-msgid "Uploaded to this Portfolio"
-msgstr "Zu diesem Portfolio hochgeladen"
-
-msgid "Portfolios list"
-msgstr "Portfolios Liste"
-
-msgid "Portfolios list navigation"
-msgstr "Portfolios Listennavigation"
-
-msgid "Filter Portfolios list"
-msgstr "Filter Portfolios Liste"
-
-msgid "Portfolio"
-msgstr "Portfolio"
-
-msgid "Custom portfolio content"
-msgstr "Individuelle Portfolio-Inhalte"
-
-msgctxt "Taxonomy General Name"
-msgid "Portfolio Categories"
-msgstr "Portfolio Kategorien"
-
-msgctxt "Taxonomy Singular Name"
-msgid "Portfolio Category"
-msgstr "Portfolio Kategorie"
-
-msgid "All Categories"
-msgstr "Alle Kategorien"
-
-msgid "Parent Category"
-msgstr "Übergeordnete Kategorie"
-
-msgid "Parent Category:"
-msgstr "Übergeordnete Kategorie:"
-
-msgid "New Category Name"
-msgstr "Neuer Kategoriename"
-
-msgid "Add New Category"
-msgstr "Neue Kategorie hinzufügen"
-
-msgid "Edit Category"
-msgstr "Kategorie bearbeiten"
-
-msgid "Update Category"
-msgstr "Kategorie aktualisieren"
-
-msgid "View Category"
-msgstr "Kategorie anzeigen"
-
-msgid "Separate Categories with commas"
-msgstr "Kategorien mit Kommas trennen"
-
-msgid "Add or remove Categories"
-msgstr "Kategorien hinzufügen oder entfernen"
-
-msgid "Choose from the most used"
-msgstr "Aus meistbenutzten wählen"
-
-msgid "Popular Categories"
-msgstr "Beliebte Kategorien"
-
-msgid "Search Categories"
-msgstr "Kategorien durchsuchen"
-
-msgid "Not Found"
-msgstr "Nichts gefunden"
-
-msgid "No Categories"
-msgstr "Keine Kategorien"
-
-msgid "Categories list"
-msgstr "Kategorienliste"
-
-msgid "Categories list navigation"
-msgstr "Kategorien-Listen Navigation"
-
-msgctxt "Taxonomy General Name"
-msgid "Portfolio Tags"
-msgstr "Portfolio Schlagwörter"
-
-msgctxt "Taxonomy Singular Name"
-msgid "Portfolio Tag"
-msgstr "Portfolio Schlagwort"
-
-msgid "All Tags"
-msgstr "Alle Schlagwörter"
-
-msgid "Parent Tag"
-msgstr "Übergeordnetes Schlagwort"
-
-msgid "Parent Tag:"
-msgstr "Übergeordnetes Schlagwort:"
-
-msgid "New Tag Name"
-msgstr "Neuer Schlagwort-Name"
-
-msgid "Add New Tag"
-msgstr "Neues Schlagwort hinzufügen"
-
-msgid "Edit Tag"
-msgstr "Schlagwort bearbeiten"
-
-msgid "Update Tag"
-msgstr "Schlagwort aktualisieren"
-
-msgid "View Tag"
-msgstr "Schlagwort anzeigen"
-
-msgid "Separate Tags with commas"
-msgstr "Schlagwörter durch Kommas trennen"
-
-msgid "Add or remove Tags"
-msgstr "Hinzufügen oder Entfernen von Stichworte"
-
-msgid "Popular Tags"
-msgstr "Beliebte Schlagwörter"
-
-msgid "Search Tags"
-msgstr "Schlagwörter suchen"
-
-msgid "No Tags"
-msgstr "Keine Schlagwörter"
-
-msgid "Tags list"
-msgstr "Schlagwortliste"
-
-msgid "Tags list navigation"
-msgstr "Navigation der Schlagwortliste"
-
-msgid "Portfolio projects, categories and tags with a quick start, project template and native block patterns."
-msgstr "Portfolio-Projekte, Kategorien und Schlagwörter mit Schnellstart, Projektvorlage und nativen Block-Vorlagen."
-
-msgid "Portfolio Content updates require deckerweb Updater 2.2 or newer. Another active plugin loaded an older copy. Update the deckerweb plugins together; portfolio content remains available."
-msgstr "Portfolio-Content-Updates benötigen deckerweb Updater 2.2 oder neuer. Ein anderes aktives Plugin hat eine ältere Kopie geladen. Aktualisiere die deckerweb-Plugins gemeinsam; die Portfolio-Inhalte bleiben verfügbar."
-
-msgid "The update filesystem is unavailable. Please try again."
-msgstr "Das Dateisystem für Updates ist nicht verfügbar. Bitte versuche es erneut."
-
-msgid "The GitHub package does not contain the Portfolio Content plugin file."
-msgstr "Das GitHub-Paket enthält nicht die Plugin-Datei von Portfolio Content."
-
-msgid "The GitHub package could not be prepared. The installed version has been kept."
-msgstr "Das GitHub-Paket konnte nicht vorbereitet werden. Die installierte Version bleibt erhalten."
-
-msgid "The update package could not be checked."
-msgstr "Das Update-Paket konnte nicht geprüft werden."
-
-msgid "The package identity or version does not match a newer Portfolio Content release."
-msgstr "Identität oder Version des Pakets stimmen nicht mit einer neueren Portfolio-Content-Version überein."
-
-msgid "The package version differs from the offered update. Please check for updates again."
-msgstr "Die Paketversion weicht vom angebotenen Update ab. Bitte prüfe erneut auf Updates."
-
-msgid "The update package has missing or invalid WordPress/PHP requirements."
-msgstr "Das Update-Paket enthält fehlende oder ungültige WordPress-/PHP-Anforderungen."
-
-msgid "This release requires a newer WordPress or PHP version. The installed version has been kept."
-msgstr "Diese Version benötigt eine neuere WordPress- oder PHP-Version. Die installierte Version bleibt erhalten."
-
-msgid "Project starter template"
-msgstr "Projektvorlage"
-
-msgid "Insert the template into an empty draft. Save the project when ready."
-msgstr "Die Vorlage lässt sich in einen leeren Entwurf einfügen. Anschließend das Projekt speichern."
-
-msgid "Insert project template"
-msgstr "Projektvorlage einfügen"
-
-msgid "Template inserted. You can edit and save it."
-msgstr "Vorlage eingefügt. Sie lässt sich jetzt bearbeiten und speichern."
-
-msgid "The draft already contains content. Nothing was changed."
-msgstr "Der Entwurf enthält bereits Inhalt. Es wurde nichts verändert."
-
-msgid "The challenge"
-msgstr "Die Aufgabe"
-
-msgid "What did the client need? Describe the goal and starting point."
-msgstr "Was wurde gebraucht? Beschreibe das Ziel und die Ausgangslage."
-
-msgid "The approach"
-msgstr "Die Umsetzung"
-
-msgid "Explain your contribution and the steps that made the project work."
-msgstr "Beschreibe deinen Beitrag und die Schritte, die das Projekt erfolgreich gemacht haben."
-
-msgid "The result"
-msgstr "Das Ergebnis"
-
-msgid "Show the outcome and what improved for the client."
-msgstr "Zeige das Ergebnis und die Verbesserungen für den Kunden."
-
-msgid "Portfolio Content"
-msgstr "Portfolio Content"
-
-msgid "Portfolio: project story"
-msgstr "Portfolio: Projektvorstellung"
-
-msgid "A project story with challenge, approach, result and a gallery."
-msgstr "Eine Projektvorstellung mit Aufgabe, Umsetzung, Ergebnis und Galerie."
-
-msgid "Your published projects will appear here."
-msgstr "Hier erscheinen deine veröffentlichten Projekte."
-
-msgid "Portfolio: project overview"
-msgstr "Portfolio: Projektübersicht"
-
-msgid "A responsive project grid using native WordPress blocks and your theme styles."
-msgstr "Ein responsives Projektraster mit WordPress-Blöcken und den Stilen deines Themes."
-
-msgid "Quick start"
-msgstr "Schnellstart"
-
-msgid "Image"
-msgstr "Bild"
-
-msgid "No featured image"
-msgstr "Kein Beitragsbild"
-
-msgid "Filter by portfolio category"
-msgstr "Nach Portfolio-Kategorie filtern"
-
-msgid "All portfolio categories"
-msgstr "Alle Portfolio-Kategorien"
-
-msgid "Reset filters"
-msgstr "Filter zurücksetzen"
-
-msgid "No projects match this view."
-msgstr "Keine Projekte passen zu dieser Ansicht."
-
-msgid "Your portfolio starts with your first project."
-msgstr "Das Portfolio beginnt mit dem ersten Projekt."
-
-msgid "Create project"
-msgstr "Projekt erstellen"
-
-msgid "Setup check"
-msgstr "Einrichtungscheck"
-
-msgid "Projects are available."
-msgstr "Projekte sind vorhanden."
-
-msgid "No projects yet. Create your first project."
-msgstr "Noch keine Projekte vorhanden. Jetzt das erste Projekt erstellen."
-
-msgid "Automatic project template: enabled."
-msgstr "Automatische Projektvorlage: aktiviert."
-
-msgid "Automatic project template: optional, currently disabled."
-msgstr "Automatische Projektvorlage: optional, derzeit deaktiviert."
-
-msgid "Archive: open it to check how your theme displays published projects."
-msgstr "Archiv: Öffnen, um die Darstellung veröffentlichter Projekte durch das Theme zu prüfen."
-
-msgid "View portfolio archive"
-msgstr "Portfolio-Archiv ansehen"
-
-msgid "Portfolio Content organizes your projects. Your theme, native block patterns or builder determine their appearance."
-msgstr "Portfolio Content organisiert die Projekte. Theme, native Block-Vorlagen oder Builder bestimmen die Darstellung."
-
-msgid "Use the portfolio patterns: create a page and open the Patterns tab."
-msgstr "Portfolio-Vorlagen nutzen: Seite erstellen und den Reiter „Vorlagen“ öffnen."
-
-msgid "Your projects. Ready to share."
-msgstr "Deine Projekte. Bereit zum Teilen."
-
-msgid "Your first portfolio in three steps"
-msgstr "Dein erstes Portfolio in drei Schritten"
-
-msgid "1. Add your first project"
-msgstr "1. Erstes Projekt anlegen"
-
-msgid "Add a title, featured image and a short excerpt. Categories help visitors find related work."
-msgstr "Ergänze Titel, Beitragsbild und einen kurzen Textauszug. Kategorien helfen Besuchern, ähnliche Arbeiten zu finden."
-
-msgid "Add project"
-msgstr "Projekt anlegen"
-
-msgid "2. Create your overview"
-msgstr "2. Übersicht erstellen"
-
-msgid "Create a page, open Patterns and choose Portfolio Content → Portfolio: project overview. The grid automatically shows your published projects."
-msgstr "Erstelle eine Seite, öffne die Vorlagen und wähle Portfolio Content → Portfolio: Projektübersicht. Das Raster zeigt automatisch deine veröffentlichten Projekte."
-
-msgid "In your page builder, add a post grid and select Portfolio Content as its content source. Choose your image, title and excerpt layout."
-msgstr "Füge in deinem Page Builder ein Beitragsraster ein und wähle Portfolio Content als Inhaltsquelle. Lege das Layout für Bild, Titel und Textauszug fest."
-
-msgid "Create page"
-msgstr "Seite erstellen"
-
-msgid "3. Review and share"
-msgstr "3. Prüfen und teilen"
-
-msgid "Publish your project and check its public view. The archive layout is provided by your theme; add your overview page to your navigation when ready."
-msgstr "Veröffentliche dein Projekt und prüfe die öffentliche Ansicht. Dein Theme gestaltet das Archiv. Füge deine Übersichtsseite zur Navigation hinzu, sobald sie fertig ist."
-
-msgid "View projects"
-msgstr "Projekte ansehen"
-
-msgid "Start new projects with editable sections for the challenge, approach, result and images. Existing projects are never changed."
-msgstr "Beginne neue Projekte mit bearbeitbaren Abschnitten für Aufgabe, Umsetzung, Ergebnis und Bilder. Bestehende Projekte bleiben unverändert."
-
-msgid "Use the starter template for new projects"
-msgstr "Projektvorlage für neue Projekte verwenden"
-
-msgid "Delete plugin settings when uninstalling"
-msgstr "Plugin-Einstellungen bei der Deinstallation löschen"
-
-msgid "Off by default. Deletes only this website’s Portfolio Content settings. Projects, categories, tags and images are always kept. In Multisite, each website chooses separately."
-msgstr "Standardmäßig aus. Löscht ausschließlich die Portfolio-Content-Einstellungen dieser Website. Projekte, Kategorien, Schlagwörter und Bilder bleiben immer erhalten. In Multisite entscheidet jede Website getrennt."
-
-msgid "Save settings"
-msgstr "Einstellungen speichern"
-
-msgid "Make it yours"
-msgstr "Gestalte dein Portfolio"
-
-msgid "The block editor includes two Portfolio Content patterns: a project story and a project overview. Use your theme styles to adjust the design. With a classic editor or page builder, use the project content and its native post grid instead."
-msgstr "Im Block-Editor findest du zwei Portfolio-Content-Vorlagen: Projektvorstellung und Projektübersicht. Passe das Design mit den Stilen deines Themes an. Bei einem klassischen Editor oder Page Builder nutzt du die Projektinhalte und das dortige Beitragsraster."
-
-msgid "Custom fields can be added with your preferred field plugin. Portfolio Content keeps your content independent of its presentation."
-msgstr "Individuelle Felder kannst du mit deinem bevorzugten Feld-Plugin ergänzen. Portfolio Content hält deine Inhalte unabhängig von ihrer Darstellung."
-
-msgid "Plugin information"
-msgstr "Plugin-Informationen"
-
-msgid "Version"
-msgstr "Version"
-
-msgid "Changelog"
-msgstr "Änderungsverlauf"
-
-msgid "Documentation"
-msgstr "Dokumentation"
-
-msgid "Plugin website"
-msgstr "Plugin-Website"
-
-msgid "Settings"
-msgstr "Einstellungen"
-
-msgid "Donate"
-msgstr "Spenden"
-
-msgid "Join our Newsletter"
-msgstr "Newsletter abonnieren"
-
-msgid "Close"
-msgstr "Schließen"
-
-msgid "Private mode must be boolean."
-msgstr "Der Private-Modus muss ein boolescher Wert sein."
-
-msgid "Invalid authentication provider."
-msgstr "Ungültiger Authentifizierungsanbieter."
-
-msgid "The plugin must be installed in a stable slug directory."
-msgstr "Das Plugin muss in einem Verzeichnis mit einem festen Slug installiert sein."
-
-msgid "Invalid GitHub repository URL."
-msgstr "Ungültige GitHub-Repository-URL."
-
-msgid "The private update could not be authorized. Check the repository credentials and refresh updates."
-msgstr "Das private Update konnte nicht autorisiert werden. Prüfe die Repository-Zugangsdaten und suche erneut nach Updates."
-
-msgid "Could not create the update download file."
-msgstr "Die Datei für den Update-Download konnte nicht erstellt werden."
-
-msgid "The private update download failed. Check credentials and try again."
-msgstr "Der Download des privaten Updates ist fehlgeschlagen. Prüfe die Zugangsdaten und versuche es erneut."
-
-msgid "Could not access the update filesystem."
-msgstr "Auf das Dateisystem für das Update konnte nicht zugegriffen werden."
-
-msgid "GitHub release does not contain the plugin main file."
-msgstr "Der GitHub-Release enthält nicht die Hauptdatei des Plugins."
-
-msgid "Could not prepare the GitHub release package."
-msgstr "Das GitHub-Release-Paket konnte nicht vorbereitet werden."
-
-msgid "See the release on GitHub."
-msgstr "Sieh dir den Release auf GitHub an."
-
-msgid "Git Updater is active. If a deckerweb installation or update fails, temporarily deactivate Git Updater and retry. Reactivate it afterwards if other plugins or themes need it. Only leave it disabled when those extensions have another reliable update provider."
-msgstr "Git Updater ist aktiv. Wenn eine deckerweb-Installation oder ein Update fehlschlägt, deaktiviere Git Updater vorübergehend und versuche es erneut. Aktiviere ihn danach wieder, wenn andere Plugins oder Themes ihn benötigen. Lass ihn nur dauerhaft deaktiviert, wenn diese Erweiterungen einen anderen zuverlässigen Updateweg besitzen."
-
-msgid "Manage installed plugins"
-msgstr "Installierte Plugins verwalten"
-
-msgid "Dismiss this notice"
-msgstr "Diesen Hinweis ausblenden"
-
-msgid "Permission denied."
-msgstr "Zugriff verweigert."
-
-msgid "Public catalog callbacks require both providers and cannot be used in private mode."
-msgstr "Öffentliche Katalog-Callbacks benötigen beide Anbieter und können nicht im Private-Modus verwendet werden."
-
-msgid "The approved release could not be verified."
-msgstr "Die freigegebene Version konnte nicht geprüft werden."
-
-msgid "The approved release changed. Refresh updates first."
-msgstr "Die freigegebene Version hat sich geändert. Suche zuerst erneut nach Updates."
+msgstr ""
+"Project-Id-Version: Portfolio Content 1.3.1\n"
+"Language: de_DE\n"
+"Last-Translator: David Decker – DECKERWEB\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"PO-Revision-Date: 2026-10-21 12:00+0200\n"
 
 msgid "%s is installed but inactive. Activate it first."
 msgstr "%s ist installiert, aber inaktiv. Bitte zuerst aktivieren."
@@ -488,14 +22,37 @@ msgstr "%s muss zuerst netzwerkweit aktiviert werden."
 msgid "%s supports activation per site only."
 msgstr "%s unterstützt nur die Aktivierung je Website."
 
+msgid "1. Add your first project"
+msgstr "1. Erstes Projekt anlegen"
+
+msgid "2. Create your overview"
+msgstr "2. Übersicht erstellen"
+
+msgid "3. Review and share"
+msgstr "3. Prüfen und teilen"
+
+msgid "A project story with challenge, approach, result and a gallery."
+msgstr "Eine Projektvorstellung mit Aufgabe, Umsetzung, Ergebnis und Galerie."
+
+msgid ""
+"A responsive project grid using native WordPress blocks and your theme "
+"styles."
+msgstr ""
+"Ein responsives Projektraster mit WordPress-Blöcken und den Stilen deines "
+"Themes."
+
 msgid "Action cancelled."
 msgstr "Vorgang abgebrochen."
 
 msgid "Activate"
 msgstr "Aktivieren"
 
-msgid "Activate Bricks QuickNav per site after selecting the Bricks parent or child theme."
-msgstr "Bricks QuickNav bitte je Website aktivieren, nachdem das Bricks-Theme oder ein Child-Theme ausgewählt wurde."
+msgid ""
+"Activate Bricks QuickNav per site after selecting the Bricks parent or child "
+"theme."
+msgstr ""
+"Bricks QuickNav bitte je Website aktivieren, nachdem das Bricks-Theme oder "
+"ein Child-Theme ausgewählt wurde."
 
 msgid "Activating…"
 msgstr "Wird aktiviert…"
@@ -506,14 +63,59 @@ msgstr "Aktiv"
 msgid "Active filters: "
 msgstr "Aktive Filter: "
 
+msgid "Add New"
+msgstr "Hinzufügen"
+
+msgid "Add New Category"
+msgstr "Neue Kategorie hinzufügen"
+
+msgid "Add New Portfolio"
+msgstr "Neues Portfolio hinzufügen"
+
+msgid "Add New Tag"
+msgstr "Neues Schlagwort hinzufügen"
+
+msgid ""
+"Add a title, featured image and a short excerpt. Categories help visitors "
+"find related work."
+msgstr ""
+"Ergänze Titel, Beitragsbild und einen kurzen Textauszug. Kategorien helfen "
+"Besuchern, ähnliche Arbeiten zu finden."
+
+msgid "Add or remove Categories"
+msgstr "Kategorien hinzufügen oder entfernen"
+
+msgid "Add or remove Tags"
+msgstr "Hinzufügen oder Entfernen von Stichworte"
+
+msgid "Add project"
+msgstr "Projekt anlegen"
+
 msgid "Admin"
 msgstr "Administration"
 
+msgctxt "Admin Bar name"
+msgid "Portfolio"
+msgstr "Portfolio"
+
 msgid "Affected features remain paused until their requirements are met."
-msgstr "Betroffene Funktionen pausieren, bis ihre Voraussetzungen erfüllt sind."
+msgstr ""
+"Betroffene Funktionen pausieren, bis ihre Voraussetzungen erfüllt sind."
 
 msgid "All"
 msgstr "Alle"
+
+msgid "All Categories"
+msgstr "Alle Kategorien"
+
+msgid "All Portfolios"
+msgstr "Alle Portfolios"
+
+msgid "All Tags"
+msgstr "Alle Schlagwörter"
+
+msgid "All portfolio categories"
+msgstr "Alle Portfolio-Kategorien"
 
 msgid "Already active"
 msgstr "Bereits aktiv"
@@ -524,11 +126,19 @@ msgstr "Bereits aktuell."
 msgid "Another action for this plugin is running. Please wait."
 msgstr "Für dieses Plugin läuft bereits eine Aktion. Bitte warten."
 
-msgid "Another component interrupted the request. If Git Updater is active, temporarily deactivate it and retry."
-msgstr "Eine andere Komponente hat die Anfrage unterbrochen. Falls Git Updater aktiv ist, deaktiviere ihn vorübergehend und wiederhole den Vorgang."
+msgid ""
+"Another component interrupted the request. If Git Updater is active, "
+"temporarily deactivate it and retry."
+msgstr ""
+"Eine andere Komponente hat die Anfrage unterbrochen. Falls Git Updater aktiv "
+"ist, deaktiviere ihn vorübergehend und wiederhole den Vorgang."
 
-msgid "Another updater provides a different release. Refresh updates before continuing."
-msgstr "Ein anderer Updater bietet einen abweichenden Release an. Bitte die Updateinformationen vor dem Fortfahren aktualisieren."
+msgid ""
+"Another updater provides a different release. Refresh updates before "
+"continuing."
+msgstr ""
+"Ein anderer Updater bietet einen abweichenden Release an. Bitte die "
+"Updateinformationen vor dem Fortfahren aktualisieren."
 
 msgid "Apr"
 msgstr "Apr"
@@ -542,6 +152,11 @@ msgstr "Das Archiv enthält zu viele Dateien."
 msgid "Archive symlinks are not permitted."
 msgstr "Symbolische Verknüpfungen sind im Archiv nicht erlaubt."
 
+msgid "Archive: open it to check how your theme displays published projects."
+msgstr ""
+"Archiv: Öffnen, um die Darstellung veröffentlichter Projekte durch das Theme "
+"zu prüfen."
+
 msgid "As of "
 msgstr "Stand: "
 
@@ -550,6 +165,12 @@ msgstr "Aug"
 
 msgid "August"
 msgstr "August"
+
+msgid "Automatic project template: enabled."
+msgstr "Automatische Projektvorlage: aktiviert."
+
+msgid "Automatic project template: optional, currently disabled."
+msgstr "Automatische Projektvorlage: optional, derzeit deaktiviert."
 
 msgid "Back to deckerweb"
 msgstr "Zurück zu deckerweb"
@@ -584,11 +205,26 @@ msgstr "Katalog-URL"
 msgid "Catalog refreshed."
 msgstr "Katalog aktualisiert."
 
+msgid "Categories list"
+msgstr "Kategorienliste"
+
+msgid "Categories list navigation"
+msgstr "Kategorien-Listen Navigation"
+
+msgid "Changelog"
+msgstr "Änderungsverlauf"
+
 msgid "Check status"
 msgstr "Status prüfen"
 
 msgid "Checking status…"
 msgstr "Status wird geprüft…"
+
+msgid "Choose from the most used"
+msgstr "Aus meistbenutzten wählen"
+
+msgid "Close"
+msgstr "Schließen"
 
 msgid "Commerce"
 msgstr "Commerce"
@@ -605,6 +241,39 @@ msgstr "Kopiert."
 msgid "Copy diagnostic information"
 msgstr "Diagnoseinformationen kopieren"
 
+msgid "Could not access the update filesystem."
+msgstr "Auf das Dateisystem für das Update konnte nicht zugegriffen werden."
+
+msgid "Could not create the update download file."
+msgstr "Die Datei für den Update-Download konnte nicht erstellt werden."
+
+msgid "Could not prepare the GitHub release package."
+msgstr "Das GitHub-Release-Paket konnte nicht vorbereitet werden."
+
+msgid ""
+"Create a page, open Patterns and choose Portfolio Content → Portfolio: "
+"project overview. The grid automatically shows your published projects."
+msgstr ""
+"Erstelle eine Seite, öffne die Vorlagen und wähle Portfolio Content → "
+"Portfolio: Projektübersicht. Das Raster zeigt automatisch deine "
+"veröffentlichten Projekte."
+
+msgid "Create page"
+msgstr "Seite erstellen"
+
+msgid "Create project"
+msgstr "Projekt erstellen"
+
+msgid ""
+"Custom fields can be added with your preferred field plugin. Portfolio "
+"Content keeps your content independent of its presentation."
+msgstr ""
+"Individuelle Felder kannst du mit deinem bevorzugten Feld-Plugin ergänzen. "
+"Portfolio Content hält deine Inhalte unabhängig von ihrer Darstellung."
+
+msgid "Custom portfolio content"
+msgstr "Individuelle Portfolio-Inhalte"
+
 msgid "Dec"
 msgstr "Dez"
 
@@ -612,7 +281,12 @@ msgid "December"
 msgstr "Dezember"
 
 msgid "Delete Library settings when removing the last host plugin"
-msgstr "Library-Einstellungen beim Entfernen des letzten Host-Plugins ebenfalls löschen"
+msgstr ""
+"Library-Einstellungen beim Entfernen des letzten Host-Plugins ebenfalls "
+"löschen"
+
+msgid "Delete plugin settings when uninstalling"
+msgstr "Plugin-Einstellungen bei der Deinstallation löschen"
 
 msgid "Details & requirements"
 msgstr "Details & Voraussetzungen"
@@ -626,8 +300,26 @@ msgstr "Zufällig entdecken"
 msgid "Dismiss permanently"
 msgstr "Dauerhaft schließen"
 
+msgid "Dismiss this notice"
+msgstr "Diesen Hinweis ausblenden"
+
+msgid "Documentation"
+msgstr "Dokumentation"
+
+msgid "Donate"
+msgstr "Spenden"
+
 msgid "Done. The plugin is active."
 msgstr "Erledigt. Das Plugin ist aktiv."
+
+msgid "Edit Category"
+msgstr "Kategorie bearbeiten"
+
+msgid "Edit Portfolio"
+msgstr "Portfolio bearbeiten"
+
+msgid "Edit Tag"
+msgstr "Schlagwort bearbeiten"
 
 msgid "Enter a catalog URL first."
 msgstr "Bitte zuerst eine Katalog-URL eintragen."
@@ -635,8 +327,16 @@ msgstr "Bitte zuerst eine Katalog-URL eintragen."
 msgid "Expanded archive is too large."
 msgstr "Das entpackte Archiv ist zu groß."
 
+msgid "Explain your contribution and the steps that made the project work."
+msgstr ""
+"Beschreibe deinen Beitrag und die Schritte, die das Projekt erfolgreich "
+"gemacht haben."
+
 msgid "F j, Y"
 msgstr "j. F Y"
+
+msgid "Featured Image"
+msgstr "Beitragsbild"
 
 msgid "Feb"
 msgstr "Feb"
@@ -647,11 +347,21 @@ msgstr "Februar"
 msgid "Filesystem credentials are required."
 msgstr "Zugangsdaten für das Dateisystem werden benötigt."
 
-msgid "Filesystem credentials are required. Use the catalog with JavaScript enabled or the native Plugins screen."
-msgstr "Dateisystem-Zugangsdaten sind erforderlich. Bitte den Katalog mit aktiviertem JavaScript oder die WordPress-Pluginverwaltung verwenden."
+msgid ""
+"Filesystem credentials are required. Use the catalog with JavaScript enabled "
+"or the native Plugins screen."
+msgstr ""
+"Dateisystem-Zugangsdaten sind erforderlich. Bitte den Katalog mit "
+"aktiviertem JavaScript oder die WordPress-Pluginverwaltung verwenden."
 
 msgid "Filter"
 msgstr "Filtern"
+
+msgid "Filter Portfolios list"
+msgstr "Filter Portfolios Liste"
+
+msgid "Filter by portfolio category"
+msgstr "Nach Portfolio-Kategorie filtern"
 
 msgid "Fits my installation"
 msgstr "Passt zu meiner Installation"
@@ -665,14 +375,51 @@ msgstr "Fr"
 msgid "Friday"
 msgstr "Freitag"
 
+msgid ""
+"Git Updater is active. If a deckerweb installation or update fails, "
+"temporarily deactivate Git Updater and retry. Reactivate it afterwards if "
+"other plugins or themes need it. Only leave it disabled when those "
+"extensions have another reliable update provider."
+msgstr ""
+"Git Updater ist aktiv. Wenn eine deckerweb-Installation oder ein Update "
+"fehlschlägt, deaktiviere Git Updater vorübergehend und versuche es erneut. "
+"Aktiviere ihn danach wieder, wenn andere Plugins oder Themes ihn benötigen. "
+"Lass ihn nur dauerhaft deaktiviert, wenn diese Erweiterungen einen anderen "
+"zuverlässigen Updateweg besitzen."
+
 msgid "GitHub Stars"
 msgstr "GitHub-Sterne"
+
+msgid "GitHub release does not contain the plugin main file."
+msgstr "Der GitHub-Release enthält nicht die Hauptdatei des Plugins."
 
 msgid "Hide catalog"
 msgstr "Katalog ausblenden"
 
+msgid "Image"
+msgstr "Bild"
+
 msgid "Improved"
 msgstr "Verbessert"
+
+msgid ""
+"In your page builder, add a post grid and select Portfolio Content as its "
+"content source. Choose your image, title and excerpt layout."
+msgstr ""
+"Füge in deinem Page Builder ein Beitragsraster ein und wähle Portfolio "
+"Content als Inhaltsquelle. Lege das Layout für Bild, Titel und Textauszug "
+"fest."
+
+msgid "Insert into Portfolio"
+msgstr "In Portfolio einfügen"
+
+msgid "Insert project template"
+msgstr "Projektvorlage einfügen"
+
+msgid "Insert the template into an empty draft. Save the project when ready."
+msgstr ""
+"Die Vorlage lässt sich in einen leeren Entwurf einfügen. Anschließend das "
+"Projekt speichern."
 
 msgid "Install and activate this plugin in the network admin."
 msgstr "Dieses Plugin bitte im Netzwerk-Admin installieren und aktivieren."
@@ -701,11 +448,17 @@ msgstr "Installiert: "
 msgid "Installing…"
 msgstr "Wird installiert…"
 
+msgid "Invalid GitHub repository URL."
+msgstr "Ungültige GitHub-Repository-URL."
+
 msgid "Invalid ZIP archive."
 msgstr "Ungültiges ZIP-Archiv."
 
 msgid "Invalid approval flag."
 msgstr "Ungültige Freigabeangabe."
+
+msgid "Invalid authentication provider."
+msgstr "Ungültiger Authentifizierungsanbieter."
 
 msgid "Invalid catalog field: "
 msgstr "Ungültiges Katalogfeld: "
@@ -770,6 +523,9 @@ msgstr "Jan"
 msgid "January"
 msgstr "Januar"
 
+msgid "Join our Newsletter"
+msgstr "Newsletter abonnieren"
+
 msgid "Jul"
 msgstr "Jul"
 
@@ -797,8 +553,14 @@ msgstr "Library-Einstellungen"
 msgid "Library settings saved."
 msgstr "Library-Einstellungen gespeichert."
 
+msgid "Make it yours"
+msgstr "Gestalte dein Portfolio"
+
 msgid "Manage Content"
 msgstr "Inhalte verwalten"
+
+msgid "Manage installed plugins"
+msgstr "Installierte Plugins verwalten"
 
 msgid "Mar"
 msgstr "Mär"
@@ -848,8 +610,41 @@ msgstr "Keine Berechtigung für das Netzwerk."
 msgid "New"
 msgstr "Neu"
 
+msgid "New Category Name"
+msgstr "Neuer Kategoriename"
+
+msgid "New Portfolio"
+msgstr "Neuer Portfolio-Beitrag"
+
+msgid "New Tag Name"
+msgstr "Neuer Schlagwort-Name"
+
+msgid "No Categories"
+msgstr "Keine Kategorien"
+
+msgid "No Tags"
+msgstr "Keine Schlagwörter"
+
 msgid "No approved plugins match this selection."
 msgstr "Keine freigegebenen Plugins passen zu dieser Auswahl."
+
+msgid "No featured image"
+msgstr "Kein Beitragsbild"
+
+msgid "No projects match this view."
+msgstr "Keine Projekte passen zu dieser Ansicht."
+
+msgid "No projects yet. Create your first project."
+msgstr "Noch keine Projekte vorhanden. Jetzt das erste Projekt erstellen."
+
+msgid "Not Found"
+msgstr "Nichts gefunden"
+
+msgid "Not found"
+msgstr "Nichts gefunden"
+
+msgid "Not found in Trash"
+msgstr "Es befinden sich keine Elemente im Papierkorb"
 
 msgid "Not installed. You can try again."
 msgstr "Nicht installiert. Ein erneuter Versuch ist möglich."
@@ -866,14 +661,37 @@ msgstr "Okt"
 msgid "October"
 msgstr "Oktober"
 
-msgid "Off by default. Applies only when no other host is installed, including inactive hosts. Removes Library settings, installation records and introduction status. Installed plugins, their content and other plugin settings remain unchanged. Network data is shared across sites."
-msgstr "Standardmäßig ausgeschaltet. Gilt nur, wenn kein weiterer Host installiert ist, auch kein deaktivierter. Entfernt Library-Einstellungen, Installationszuordnung und den Status des Einführungshinweises. Installierte Plugins, deren Inhalte und Einstellungen anderer Plugins bleiben erhalten. Netzwerkdaten werden gemeinsam von den Websites genutzt."
+msgid ""
+"Off by default. Applies only when no other host is installed, including "
+"inactive hosts. Removes Library settings, installation records and "
+"introduction status. Installed plugins, their content and other plugin "
+"settings remain unchanged. Network data is shared across sites."
+msgstr ""
+"Standardmäßig ausgeschaltet. Gilt nur, wenn kein weiterer Host installiert "
+"ist, auch kein deaktivierter. Entfernt Library-Einstellungen, "
+"Installationszuordnung und den Status des Einführungshinweises. Installierte "
+"Plugins, deren Inhalte und Einstellungen anderer Plugins bleiben erhalten. "
+"Netzwerkdaten werden gemeinsam von den Websites genutzt."
+
+msgid ""
+"Off by default. Deletes only this website’s Portfolio Content settings. "
+"Projects, categories, tags and images are always kept. In Multisite, each "
+"website chooses separately."
+msgstr ""
+"Standardmäßig aus. Löscht ausschließlich die Portfolio-Content-Einstellungen "
+"dieser Website. Projekte, Kategorien, Schlagwörter und Bilder bleiben immer "
+"erhalten. In Multisite entscheidet jede Website getrennt."
 
 msgid "Online catalog"
 msgstr "Online-Katalog"
 
-msgid "Only HTTPS on raw.githubusercontent.com/deckerweb. The server receives the requesting IP address. GitHub is contacted when installing a release."
-msgstr "Nur HTTPS auf raw.githubusercontent.com/deckerweb. Der Server sieht die anfragende IP-Adresse. Beim Installieren eines Releases wird GitHub kontaktiert."
+msgid ""
+"Only HTTPS on raw.githubusercontent.com/deckerweb. The server receives the "
+"requesting IP address. GitHub is contacted when installing a release."
+msgstr ""
+"Nur HTTPS auf raw.githubusercontent.com/deckerweb. Der Server sieht die "
+"anfragende IP-Adresse. Beim Installieren eines Releases wird GitHub "
+"kontaktiert."
 
 msgid "Only approved releases"
 msgstr "Nur freigegebene Releases"
@@ -881,14 +699,37 @@ msgstr "Nur freigegebene Releases"
 msgid "Open catalog"
 msgstr "Katalog öffnen"
 
-msgid "Optional. The bundled catalog works immediately. Catalog requests are cached for 24 hours. No site URL, plugin list or usage data is sent."
-msgstr "Optional. Der mitgelieferte Katalog funktioniert sofort. Katalogabfragen werden 24 Stunden zwischengespeichert. Keine Website-URL, Plugin-Liste oder Nutzungsdaten werden übertragen."
+msgid ""
+"Optional. The bundled catalog works immediately. Catalog requests are cached "
+"for 24 hours. No site URL, plugin list or usage data is sent."
+msgstr ""
+"Optional. Der mitgelieferte Katalog funktioniert sofort. Katalogabfragen "
+"werden 24 Stunden zwischengespeichert. Keine Website-URL, Plugin-Liste oder "
+"Nutzungsdaten werden übertragen."
 
 msgid "PHP ZIP support is required."
 msgstr "PHP-ZIP-Unterstützung wird benötigt."
 
 msgid "POST required."
 msgstr "Eine POST-Anfrage ist erforderlich."
+
+msgid "Parent Category"
+msgstr "Übergeordnete Kategorie"
+
+msgid "Parent Category:"
+msgstr "Übergeordnete Kategorie:"
+
+msgid "Parent Portfolio:"
+msgstr "Eltern Portfolio:"
+
+msgid "Parent Tag"
+msgstr "Übergeordnetes Schlagwort"
+
+msgid "Parent Tag:"
+msgstr "Übergeordnetes Schlagwort:"
+
+msgid "Permission denied."
+msgstr "Zugriff verweigert."
 
 msgid "Permission denied. Reload the page and check your permissions."
 msgstr "Zugriff verweigert. Lade die Seite neu und prüfe deine Berechtigungen."
@@ -899,17 +740,117 @@ msgstr "Geplant: "
 msgid "Plugin identity or version does not match the catalog."
 msgstr "Plugin oder Version stimmt nicht mit dem Katalog überein."
 
+msgid "Plugin information"
+msgstr "Plugin-Informationen"
+
 msgid "Plugin is not installed."
 msgstr "Das Plugin ist nicht installiert."
 
 msgid "Plugin series"
 msgstr "Plugin-Serien"
 
-msgid "Portfolio Content updates require deckerweb Updater 2.1 or newer. Another active plugin loaded an older copy. Update the deckerweb plugins together; portfolio content remains available."
-msgstr "Portfolio-Content-Updates benötigen deckerweb Updater ab 2.1. Ein anderes aktives Plugin hat eine ältere Kopie geladen. Aktualisiere die deckerweb Plugins gemeinsam; die Portfolio-Inhalte bleiben verfügbar."
+msgid "Plugin website"
+msgstr "Plugin-Website"
+
+msgid "Popular Categories"
+msgstr "Beliebte Kategorien"
+
+msgid "Popular Tags"
+msgstr "Beliebte Schlagwörter"
+
+msgid "Portfolio"
+msgstr "Portfolio"
+
+msgid "Portfolio Archive"
+msgstr "Portfolio Archiv"
+
+msgid "Portfolio Attributes"
+msgstr "Portfolio-Attribute"
+
+msgid "Portfolio Content"
+msgstr "Portfolio Content"
+
+msgid ""
+"Portfolio Content organizes your projects. Your theme, native block patterns "
+"or builder determine their appearance."
+msgstr ""
+"Portfolio Content organisiert die Projekte. Theme, native Block-Vorlagen "
+"oder Builder bestimmen die Darstellung."
+
+msgid ""
+"Portfolio Content updates require deckerweb Updater 2.1 or newer. Another "
+"active plugin loaded an older copy. Update the deckerweb plugins together; "
+"portfolio content remains available."
+msgstr ""
+"Portfolio-Content-Updates benötigen deckerweb Updater ab 2.1. Ein anderes "
+"aktives Plugin hat eine ältere Kopie geladen. Aktualisiere die deckerweb "
+"Plugins gemeinsam; die Portfolio-Inhalte bleiben verfügbar."
+
+msgid ""
+"Portfolio Content updates require deckerweb Updater 2.2 or newer. Another "
+"active plugin loaded an older copy. Update the deckerweb plugins together; "
+"portfolio content remains available."
+msgstr ""
+"Portfolio-Content-Updates benötigen deckerweb Updater 2.2 oder neuer. Ein "
+"anderes aktives Plugin hat eine ältere Kopie geladen. Aktualisiere die "
+"deckerweb-Plugins gemeinsam; die Portfolio-Inhalte bleiben verfügbar."
+
+msgid ""
+"Portfolio projects, categories and tags with a quick start, project template "
+"and native block patterns."
+msgstr ""
+"Portfolio-Projekte, Kategorien und Schlagwörter mit Schnellstart, "
+"Projektvorlage und nativen Block-Vorlagen."
+
+msgid "Portfolio: project overview"
+msgstr "Portfolio: Projektübersicht"
+
+msgid "Portfolio: project story"
+msgstr "Portfolio: Projektvorstellung"
+
+msgid "Portfolios list"
+msgstr "Portfolios Liste"
+
+msgid "Portfolios list navigation"
+msgstr "Portfolios Listennavigation"
+
+msgctxt "Post Type General Name"
+msgid "Portfolios"
+msgstr "Portfolios"
+
+msgctxt "Post Type Singular Name"
+msgid "Portfolio"
+msgstr "Portfolio"
+
+msgid "Private mode must be boolean."
+msgstr "Der Private-Modus muss ein boolescher Wert sein."
 
 msgid "Product website"
 msgstr "Produktwebsite"
+
+msgid "Project starter template"
+msgstr "Projektvorlage"
+
+msgid "Projects are available."
+msgstr "Projekte sind vorhanden."
+
+msgid ""
+"Public catalog callbacks require both providers and cannot be used in "
+"private mode."
+msgstr ""
+"Öffentliche Katalog-Callbacks benötigen beide Anbieter und können nicht im "
+"Private-Modus verwendet werden."
+
+msgid ""
+"Publish your project and check its public view. The archive layout is "
+"provided by your theme; add your overview page to your navigation when ready."
+msgstr ""
+"Veröffentliche dein Projekt und prüfe die öffentliche Ansicht. Dein Theme "
+"gestaltet das Archiv. Füge deine Übersichtsseite zur Navigation hinzu, "
+"sobald sie fertig ist."
+
+msgid "Quick start"
+msgstr "Schnellstart"
 
 msgid "Recently updated"
 msgstr "Zuletzt aktualisiert"
@@ -917,11 +858,19 @@ msgstr "Zuletzt aktualisiert"
 msgid "Refresh catalog"
 msgstr "Katalog aktualisieren"
 
-msgid "Release 1.0.0 is being prepared. Installation will be available after package verification."
-msgstr "Release 1.0.0 wird vorbereitet. Die Installation ist nach Prüfung des Pakets verfügbar."
+msgid ""
+"Release 1.0.0 is being prepared. Installation will be available after "
+"package verification."
+msgstr ""
+"Release 1.0.0 wird vorbereitet. Die Installation ist nach Prüfung des Pakets "
+"verfügbar."
 
-msgid "Release checksum is verified before installation. Activation is a separate step."
-msgstr "Vor der Installation wird die Release-Prüfsumme geprüft. Die Aktivierung erfolgt separat."
+msgid ""
+"Release checksum is verified before installation. Activation is a separate "
+"step."
+msgstr ""
+"Vor der Installation wird die Release-Prüfsumme geprüft. Die Aktivierung "
+"erfolgt separat."
 
 msgid "Release in preparation"
 msgstr "Release in Vorbereitung"
@@ -929,14 +878,20 @@ msgstr "Release in Vorbereitung"
 msgid "Release must contain exactly the approved plugin directory."
 msgstr "Das Release muss genau das freigegebene Plugin-Verzeichnis enthalten."
 
+msgid "Remove featured image"
+msgstr "Beitragsbild entfernen"
+
 msgid "Remove filter: "
 msgstr "Filter entfernen: "
 
 msgid "Repository & documentation"
 msgstr "Repository & Dokumentation"
 
-msgid "Requirements shown are preliminary until the stable release is verified."
-msgstr "Die gezeigten Voraussetzungen sind bis zur Prüfung des stabilen Releases vorläufig."
+msgid ""
+"Requirements shown are preliminary until the stable release is verified."
+msgstr ""
+"Die gezeigten Voraussetzungen sind bis zur Prüfung des stabilen Releases "
+"vorläufig."
 
 msgid "Requires PHP %s or newer."
 msgstr "Benötigt PHP %s oder neuer."
@@ -946,6 +901,9 @@ msgstr "Benötigt WordPress %s oder neuer."
 
 msgid "Requires a WordPress Multisite network."
 msgstr "Benötigt ein WordPress-Multisite-Netzwerk."
+
+msgid "Reset filters"
+msgstr "Filter zurücksetzen"
 
 msgid "Reset view"
 msgstr "Ansicht zurücksetzen"
@@ -959,11 +917,26 @@ msgstr "Sa"
 msgid "Saturday"
 msgstr "Samstag"
 
+msgid "Save settings"
+msgstr "Einstellungen speichern"
+
 msgid "Scripts"
 msgstr "Scripte"
 
+msgid "Search Categories"
+msgstr "Kategorien durchsuchen"
+
+msgid "Search Portfolios"
+msgstr "Portfolio suchen"
+
+msgid "Search Tags"
+msgstr "Schlagwörter suchen"
+
 msgid "Search this catalog"
 msgstr "Diesen Katalog durchsuchen"
+
+msgid "See the release on GitHub."
+msgstr "Sieh dir den Release auf GitHub an."
 
 msgid "Select and copy the text."
 msgstr "Text markieren und kopieren."
@@ -974,11 +947,26 @@ msgstr "Von deckerweb ausgewählt · Installation aus GitHub-Releases"
 msgid "Sep"
 msgstr "Sep"
 
+msgid "Separate Categories with commas"
+msgstr "Kategorien mit Kommas trennen"
+
+msgid "Separate Tags with commas"
+msgstr "Schlagwörter durch Kommas trennen"
+
 msgid "September"
 msgstr "September"
 
+msgid "Set featured image"
+msgstr "Beitragsbild festlegen"
+
+msgid "Settings"
+msgstr "Einstellungen"
+
 msgid "Settings saved."
 msgstr "Einstellungen gespeichert."
+
+msgid "Setup check"
+msgstr "Einrichtungscheck"
 
 msgid "Shop"
 msgstr "Shop"
@@ -986,8 +974,17 @@ msgstr "Shop"
 msgid "Show deckerweb under Add Plugins"
 msgstr "deckerweb unter „Plugins hinzufügen“ anzeigen"
 
-msgid "Shows plugins whose platform and dependency requirements are met in this site or network. Without this filter, plugins with missing requirements remain visible."
-msgstr "Zeigt Plugins, deren Plattform- und Abhängigkeitsanforderungen auf dieser Website oder im Netzwerk erfüllt sind. Ohne diesen Filter bleiben Plugins mit fehlenden Voraussetzungen sichtbar."
+msgid "Show the outcome and what improved for the client."
+msgstr "Zeige das Ergebnis und die Verbesserungen für den Kunden."
+
+msgid ""
+"Shows plugins whose platform and dependency requirements are met in this "
+"site or network. Without this filter, plugins with missing requirements "
+"remain visible."
+msgstr ""
+"Zeigt Plugins, deren Plattform- und Abhängigkeitsanforderungen auf dieser "
+"Website oder im Netzwerk erfüllt sind. Ohne diesen Filter bleiben Plugins "
+"mit fehlenden Voraussetzungen sichtbar."
 
 msgid "Shuffle again"
 msgstr "Neu mischen"
@@ -1004,14 +1001,56 @@ msgstr "Quelle: GitHub"
 msgid "Standard"
 msgstr "Standard"
 
+msgid ""
+"Start new projects with editable sections for the challenge, approach, "
+"result and images. Existing projects are never changed."
+msgstr ""
+"Beginne neue Projekte mit bearbeitbaren Abschnitten für Aufgabe, Umsetzung, "
+"Ergebnis und Bilder. Bestehende Projekte bleiben unverändert."
+
 msgid "Sun"
 msgstr "So"
 
 msgid "Sunday"
 msgstr "Sonntag"
 
+msgid "Tags list"
+msgstr "Schlagwortliste"
+
+msgid "Tags list navigation"
+msgstr "Navigation der Schlagwortliste"
+
+msgctxt "Taxonomy General Name"
+msgid "Portfolio Categories"
+msgstr "Portfolio Kategorien"
+
+msgctxt "Taxonomy General Name"
+msgid "Portfolio Tags"
+msgstr "Portfolio Schlagwörter"
+
+msgctxt "Taxonomy Singular Name"
+msgid "Portfolio Category"
+msgstr "Portfolio Kategorie"
+
+msgctxt "Taxonomy Singular Name"
+msgid "Portfolio Tag"
+msgstr "Portfolio Schlagwort"
+
 msgid "Technical information"
 msgstr "Technische Informationen"
+
+msgid "Template inserted. You can edit and save it."
+msgstr "Vorlage eingefügt. Sie lässt sich jetzt bearbeiten und speichern."
+
+msgid ""
+"The GitHub package could not be prepared. The installed version has been "
+"kept."
+msgstr ""
+"Das GitHub-Paket konnte nicht vorbereitet werden. Die installierte Version "
+"bleibt erhalten."
+
+msgid "The GitHub package does not contain the Portfolio Content plugin file."
+msgstr "Das GitHub-Paket enthält nicht die Plugin-Datei von Portfolio Content."
 
 msgid "The GitHub release could not be downloaded."
 msgstr "Das GitHub-Release konnte nicht heruntergeladen werden."
@@ -1019,14 +1058,36 @@ msgstr "Das GitHub-Release konnte nicht heruntergeladen werden."
 msgid "The action is still running. Check its status again."
 msgstr "Die Aktion läuft noch. Bitte den Status erneut prüfen."
 
+msgid "The approach"
+msgstr "Die Umsetzung"
+
 msgid "The approved package could not be verified."
 msgstr "Das freigegebene Paket konnte nicht geprüft werden."
+
+msgid "The approved release changed. Refresh updates first."
+msgstr ""
+"Die freigegebene Version hat sich geändert. Suche zuerst erneut nach Updates."
+
+msgid "The approved release could not be verified."
+msgstr "Die freigegebene Version konnte nicht geprüft werden."
+
+msgid ""
+"The block editor includes two Portfolio Content patterns: a project story "
+"and a project overview. Use your theme styles to adjust the design. With a "
+"classic editor or page builder, use the project content and its native post "
+"grid instead."
+msgstr ""
+"Im Block-Editor findest du zwei Portfolio-Content-Vorlagen: "
+"Projektvorstellung und Projektübersicht. Passe das Design mit den Stilen "
+"deines Themes an. Bei einem klassischen Editor oder Page Builder nutzt du "
+"die Projektinhalte und das dortige Beitragsraster."
 
 msgid "The catalog URL is not an allowed first-party HTTPS endpoint."
 msgstr "Die Katalog-URL ist keine erlaubte eigene HTTPS-Quelle."
 
 msgid "The catalog could not be verified. Please try again later."
-msgstr "Der Katalog konnte nicht geprüft werden. Bitte später erneut versuchen."
+msgstr ""
+"Der Katalog konnte nicht geprüft werden. Bitte später erneut versuchen."
 
 msgid "The catalog is disabled."
 msgstr "Der Katalog ist deaktiviert."
@@ -1034,44 +1095,129 @@ msgstr "Der Katalog ist deaktiviert."
 msgid "The catalog is hidden."
 msgstr "Der Katalog ist ausgeblendet."
 
-msgid "The deckerweb catalog could not load. Check platform requirements and the complete Library integration in the host plugin."
-msgstr "Der deckerweb-Katalog konnte nicht geladen werden. Bitte PHP-/WordPress-Anforderungen und die vollständige Library-Einbindung im Host-Plugin prüfen."
+msgid "The challenge"
+msgstr "Die Aufgabe"
 
-msgid "The installed plugin identity could not be verified for this catalog update."
-msgstr "Die Identität des installierten Plugins konnte für dieses Katalogupdate nicht bestätigt werden."
+msgid ""
+"The deckerweb catalog could not load. Check platform requirements and the "
+"complete Library integration in the host plugin."
+msgstr ""
+"Der deckerweb-Katalog konnte nicht geladen werden. Bitte PHP-/WordPress-"
+"Anforderungen und die vollständige Library-Einbindung im Host-Plugin prüfen."
 
-msgid "The online catalog is unavailable. Showing cached or bundled entries; online approval is checked again before installation."
-msgstr "Der Online-Katalog ist nicht erreichbar. Angezeigt wird der gespeicherte oder mitgelieferte Katalog; vor der Installation wird die Online-Freigabe erneut geprüft."
+msgid "The draft already contains content. Nothing was changed."
+msgstr "Der Entwurf enthält bereits Inhalt. Es wurde nichts verändert."
+
+msgid ""
+"The installed plugin identity could not be verified for this catalog update."
+msgstr ""
+"Die Identität des installierten Plugins konnte für dieses Katalogupdate "
+"nicht bestätigt werden."
+
+msgid ""
+"The online catalog is unavailable. Showing cached or bundled entries; online "
+"approval is checked again before installation."
+msgstr ""
+"Der Online-Katalog ist nicht erreichbar. Angezeigt wird der gespeicherte "
+"oder mitgelieferte Katalog; vor der Installation wird die Online-Freigabe "
+"erneut geprüft."
 
 msgid "The online catalog source is not trusted."
 msgstr "Die Online-Katalogquelle ist nicht vertrauenswürdig."
 
-msgid "The release checksum does not match. Installation stopped."
-msgstr "Die Prüfsumme des Releases stimmt nicht überein. Installation gestoppt."
+msgid ""
+"The package identity or version does not match a newer Portfolio Content "
+"release."
+msgstr ""
+"Identität oder Version des Pakets stimmen nicht mit einer neueren Portfolio-"
+"Content-Version überein."
 
-msgid "The request could not be completed. Check the plugin status before trying again."
-msgstr "Die Anfrage konnte nicht abgeschlossen werden. Vor einem erneuten Versuch den Plugin-Status prüfen."
+msgid ""
+"The package version differs from the offered update. Please check for "
+"updates again."
+msgstr ""
+"Die Paketversion weicht vom angebotenen Update ab. Bitte prüfe erneut auf "
+"Updates."
+
+msgid "The plugin must be installed in a stable slug directory."
+msgstr ""
+"Das Plugin muss in einem Verzeichnis mit einem festen Slug installiert sein."
+
+msgid ""
+"The private update could not be authorized. Check the repository credentials "
+"and refresh updates."
+msgstr ""
+"Das private Update konnte nicht autorisiert werden. Prüfe die Repository-"
+"Zugangsdaten und suche erneut nach Updates."
+
+msgid "The private update download failed. Check credentials and try again."
+msgstr ""
+"Der Download des privaten Updates ist fehlgeschlagen. Prüfe die Zugangsdaten "
+"und versuche es erneut."
+
+msgid "The release checksum does not match. Installation stopped."
+msgstr ""
+"Die Prüfsumme des Releases stimmt nicht überein. Installation gestoppt."
+
+msgid ""
+"The request could not be completed. Check the plugin status before trying "
+"again."
+msgstr ""
+"Die Anfrage konnte nicht abgeschlossen werden. Vor einem erneuten Versuch "
+"den Plugin-Status prüfen."
 
 msgid "The requirements below describe the offered release."
-msgstr "Die folgenden Voraussetzungen beziehen sich auf den angebotenen Release."
+msgstr ""
+"Die folgenden Voraussetzungen beziehen sich auf den angebotenen Release."
+
+msgid "The result"
+msgstr "Das Ergebnis"
+
+msgid "The update filesystem is unavailable. Please try again."
+msgstr ""
+"Das Dateisystem für Updates ist nicht verfügbar. Bitte versuche es erneut."
 
 msgid "The update has not been confirmed. You can try again."
-msgstr "Die Aktualisierung wurde nicht bestätigt. Du kannst es erneut versuchen."
+msgstr ""
+"Die Aktualisierung wurde nicht bestätigt. Du kannst es erneut versuchen."
 
-msgid "These details contain component versions and catalog status, without credentials or site content."
-msgstr "Diese Angaben enthalten Komponentenversionen und den Katalogstatus, keine Zugangsdaten oder Website-Inhalte."
+msgid "The update package could not be checked."
+msgstr "Das Update-Paket konnte nicht geprüft werden."
+
+msgid "The update package has missing or invalid WordPress/PHP requirements."
+msgstr ""
+"Das Update-Paket enthält fehlende oder ungültige WordPress-/PHP-"
+"Anforderungen."
+
+msgid ""
+"These details contain component versions and catalog status, without "
+"credentials or site content."
+msgstr ""
+"Diese Angaben enthalten Komponentenversionen und den Katalogstatus, keine "
+"Zugangsdaten oder Website-Inhalte."
 
 msgid "This catalog requires a newer Library."
 msgstr "Dieser Katalog benötigt eine neuere Library."
 
-msgid "This plugin directory already exists. Use the installed plugin; it will not be overwritten."
-msgstr "Dieses Plugin-Verzeichnis existiert bereits. Bitte das installierte Plugin verwenden; es wird nicht überschrieben."
+msgid ""
+"This plugin directory already exists. Use the installed plugin; it will not "
+"be overwritten."
+msgstr ""
+"Dieses Plugin-Verzeichnis existiert bereits. Bitte das installierte Plugin "
+"verwenden; es wird nicht überschrieben."
 
 msgid "This release is no longer approved."
 msgstr "Dieses Release ist nicht mehr freigegeben."
 
 msgid "This release is not approved."
 msgstr "Dieses Release ist nicht freigegeben."
+
+msgid ""
+"This release requires a newer WordPress or PHP version. The installed "
+"version has been kept."
+msgstr ""
+"Diese Version benötigt eine neuere WordPress- oder PHP-Version. Die "
+"installierte Version bleibt erhalten."
 
 msgid "Thu"
 msgstr "Do"
@@ -1097,6 +1243,15 @@ msgstr "Nicht vertrauenswürdige Release-URL."
 msgid "Update %1$s to version %2$s or newer."
 msgstr "%1$s bitte auf Version %2$s oder neuer aktualisieren."
 
+msgid "Update Category"
+msgstr "Kategorie aktualisieren"
+
+msgid "Update Portfolio"
+msgstr "Portfolio aktualisieren"
+
+msgid "Update Tag"
+msgstr "Schlagwort aktualisieren"
+
 msgid "Update available"
 msgstr "Update verfügbar"
 
@@ -1112,8 +1267,42 @@ msgstr "Aktualisiert"
 msgid "Updating…"
 msgstr "Wird aktualisiert…"
 
+msgid "Uploaded to this Portfolio"
+msgstr "Zu diesem Portfolio hochgeladen"
+
+msgid "Use as featured image"
+msgstr "Als Beitragsbild verwenden"
+
+msgid "Use the portfolio patterns: create a page and open the Patterns tab."
+msgstr ""
+"Portfolio-Vorlagen nutzen: Seite erstellen und den Reiter „Vorlagen“ öffnen."
+
+msgid "Use the starter template for new projects"
+msgstr "Projektvorlage für neue Projekte verwenden"
+
+msgid "Version"
+msgstr "Version"
+
+msgid "View Category"
+msgstr "Kategorie anzeigen"
+
+msgid "View Portfolio"
+msgstr "Portfolio anzeigen"
+
+msgid "View Portfolios"
+msgstr "Portfolio anschauen"
+
+msgid "View Tag"
+msgstr "Schlagwort anzeigen"
+
 msgid "View plugins"
 msgstr "Plugins ansehen"
+
+msgid "View portfolio archive"
+msgstr "Portfolio-Archiv ansehen"
+
+msgid "View projects"
+msgstr "Projekte ansehen"
 
 msgid "Visibility"
 msgstr "Sichtbarkeit"
@@ -1124,8 +1313,159 @@ msgstr "Mi"
 msgid "Wednesday"
 msgstr "Mittwoch"
 
+msgid "What did the client need? Describe the goal and starting point."
+msgstr "Was wurde gebraucht? Beschreibe das Ziel und die Ausgangslage."
+
 msgid "WordPress"
 msgstr "WordPress"
 
-msgid "You already use one of my plugins. Find selected additions in the deckerweb tab."
-msgstr "Du nutzt bereits ein Plugin von mir. Ausgewählte Ergänzungen findest du im deckerweb-Tab."
+msgid ""
+"You already use one of my plugins. Find selected additions in the deckerweb "
+"tab."
+msgstr ""
+"Du nutzt bereits ein Plugin von mir. Ausgewählte Ergänzungen findest du im "
+"deckerweb-Tab."
+
+msgid "Your first portfolio in three steps"
+msgstr "Dein erstes Portfolio in drei Schritten"
+
+msgid "Your portfolio starts with your first project."
+msgstr "Das Portfolio beginnt mit dem ersten Projekt."
+
+msgid "Your projects. Ready to share."
+msgstr "Deine Projekte. Bereit zum Teilen."
+
+msgid "Your published projects will appear here."
+msgstr "Hier erscheinen deine veröffentlichten Projekte."
+
+msgid "Archive verification"
+msgstr "Archivprüfung"
+
+msgid "Catalog approval"
+msgstr "Katalogfreigabe"
+
+msgid "Catalog diagnostics require a public catalog provider."
+msgstr "Die Katalogdiagnose benötigt einen öffentlichen Kataloganbieter."
+
+msgid "Checksum verification"
+msgstr "Prüfsummenprüfung"
+
+msgid "HTTP status: %d."
+msgstr "HTTP-Status: %d."
+
+msgid "Invalid package cleanup provider."
+msgstr "Ungültiger Anbieter für die Paketbereinigung."
+
+msgid "Invalid private download limits."
+msgstr "Ungültige Grenzen für private Downloads."
+
+msgid "Package download"
+msgstr "Paketdownload"
+
+msgid "Safe package cleanup is unavailable for this update provider."
+msgstr "Für diesen Updateanbieter ist keine sichere Paketbereinigung verfügbar."
+
+msgid "The archive or plugin identity could not be verified. Installation was stopped."
+msgstr "Das Archiv oder die Pluginidentität konnte nicht geprüft werden. Die Installation wurde gestoppt."
+
+msgid "The package does not match the approved checksum. Installation was stopped."
+msgstr "Das Paket entspricht nicht der freigegebenen Prüfsumme. Die Installation wurde gestoppt."
+
+msgid "The secure connection to the update server failed."
+msgstr "Die sichere Verbindung zum Updateserver ist fehlgeschlagen."
+
+msgid "The update package identity, version or requirements could not be verified."
+msgstr "Identität, Version oder Anforderungen des Updatepakets konnten nicht bestätigt werden."
+
+msgid "The update provider did not return valid update data."
+msgstr "Der Updateanbieter hat keine gültigen Updatedaten geliefert."
+
+msgid "The update request timed out. Try again later."
+msgstr "Die Updateanfrage hat zu lange gedauert. Versuche es später erneut."
+
+msgid "The update server address could not be resolved."
+msgstr "Die Adresse des Updateservers konnte nicht aufgelöst werden."
+
+msgid "The update server could not be reached. Try again later."
+msgstr "Der Updateserver ist nicht erreichbar. Versuche es später erneut."
+
+msgid "The update server returned an unsuccessful HTTP response."
+msgstr "Der Updateserver hat eine HTTP-Fehlerantwort zurückgegeben."
+
+msgid "Update stopped at %1$s: %2$s"
+msgstr "Update gestoppt bei %1$s: %2$s"
+
+msgid "%1$s of %2$s plugins"
+msgstr "%1$s von %2$s Plugins"
+
+msgid "Catalog retrieval does not limit updates of installed plugins. Those use their normal WordPress update provider."
+msgstr "Der Katalogabruf begrenzt keine Updates installierter Plugins. Diese verwenden ihren normalen WordPress-Updater."
+
+msgid "Catalog verification"
+msgstr "Katalogprüfung"
+
+msgid "Connection failed. Please try again later."
+msgstr "Die Verbindung ist fehlgeschlagen. Bitte später erneut versuchen."
+
+msgid "Inactive"
+msgstr "Inaktiv"
+
+msgid "Installed plugin identity does not match the approved release."
+msgstr "Die Identität des installierten Plugins stimmt nicht mit dem freigegebenen Release überein."
+
+msgid "Installed plugins use their normal update provider. Reload the update information and try again."
+msgstr "Installierte Plugins verwenden ihren normalen Updater. Aktualisiere die Updateinformationen und versuche es erneut."
+
+msgid "Invalid status filter."
+msgstr "Ungültiger Statusfilter."
+
+msgid "No update reported."
+msgstr "Kein Update gemeldet."
+
+msgid "Not installed"
+msgstr "Nicht installiert"
+
+msgid "Plugin status"
+msgstr "Plugin-Status"
+
+msgid "Stage: %1$s. %2$s"
+msgstr "Fehlerstufe: %1$s. %2$s"
+
+msgid "The catalog response is invalid, incompatible or too large."
+msgstr "Die Katalogantwort ist ungültig, inkompatibel oder zu groß."
+
+msgid "The connection timed out. Please try again later."
+msgstr "Die Zeit für die Verbindung wurde überschritten. Bitte später erneut versuchen."
+
+msgid "The installed plugin identity could not be verified. Use the Plugins screen to review it."
+msgstr "Die Identität des installierten Plugins konnte nicht geprüft werden. Prüfe es auf der Plugins-Seite."
+
+msgid "The package checksum does not match the approved release. Installation was stopped."
+msgstr "Die Paketprüfsumme stimmt nicht mit der freigegebenen Version überein. Die Installation wurde gestoppt."
+
+msgid "The package did not pass the archive or plugin identity checks. Installation was stopped."
+msgstr "Das Paket hat die Archiv- oder Plugin-Identitätsprüfung nicht bestanden. Die Installation wurde gestoppt."
+
+msgid "The requirements below describe the catalog version for first installation, not an installed-plugin update."
+msgstr "Die folgenden Voraussetzungen beschreiben die Katalogversion für die Erstinstallation, nicht ein Bestandsupdate."
+
+msgid "The secure connection could not be verified."
+msgstr "Die sichere Verbindung konnte nicht bestätigt werden."
+
+msgid "The server address could not be resolved."
+msgstr "Die Serveradresse konnte nicht aufgelöst werden."
+
+msgid "The server returned HTTP %d. Please try again later."
+msgstr "Der Server hat HTTP %d zurückgegeben. Bitte später erneut versuchen."
+
+msgid "Update available: %s"
+msgstr "Update verfügbar: %s"
+
+msgid "Update information changed. Reload the page and try again."
+msgstr "Die Updateinformationen haben sich geändert. Lade die Seite neu und versuche es erneut."
+
+msgid "Use the Plugins screen to manage this installed plugin."
+msgstr "Verwalte dieses installierte Plugin auf der Plugins-Seite."
+
+msgid "Verified first installations · Independent plugin updates"
+msgstr "Geprüfte Erstinstallationen · Unabhängige Pluginupdates"

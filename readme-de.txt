@@ -3,8 +3,8 @@ Contributors: deckerweb
 Tags: portfolio, projects, custom post type, block patterns
 Requires at least: 6.7
 Requires PHP: 8.1
-Tested up to: 7.1.3
-Stable tag: 1.3.2
+Tested up to: 7.1
+Stable tag: 1.3.3
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,15 +20,15 @@ Portfolio-Projekte mit Kategorien und Schlagwörtern für den Block-Editor oder 
 - Beitragsbild-Vorschau und Kategorienfilter in der Projektliste.
 - Optionale bearbeitbare Projektvorlage: Aufgabe, Umsetzung, Ergebnis und Galerie.
 - Zwei native Block-Vorlagen: Projektvorstellung und responsive Projektübersicht mit Seitennavigation.
-- deckerweb GitHub Release Updater 2.2.1 und deckerweb Plugin Library 1.1.0 enthalten.
+- deckerweb GitHub Release Updater 2.4.0 und deckerweb Plugin Library 1.3.0 enthalten.
 - Oberfläche auf Englisch, Deutsch und formellem Deutsch; lokalisierte Update-Banner.
 - Einrichtungscheck, manuelles Einfügen der Vorlage in leere Entwürfe, anklickbare native Kategorie-Filter, Filter zurücksetzen und hilfreiche leere Ansichten.
 
 Standardmäßig ausgeschaltet. Nach dem Einschalten werden nur neue leere automatische Entwürfe vorbelegt. Bestehende Projekte und bereits befüllte Vorgaben bleiben unverändert. Alle Inhalte sind frei bearbeitbar. Im klassischen WordPress-Editor werden Überschriften und Absätze ohne Block-Markup eingefügt. Im Projekteditor lässt sich die Projektvorlage auch manuell in leere Entwürfe einfügen, unabhängig von der automatischen Einstellung. Aktuelle ungespeicherte Inhalte bleiben geschützt; erst das Speichern übernimmt die Änderung.
 
-Updates aus öffentlichen stabilen GitHub-Releases erscheinen im normalen WordPress-Updatesystem. Automatische Updates werden nicht eingeschaltet. Der enthaltene deckerweb Updater 2.2.1 prüft Pakete zusammen mit dem Plugin auf Identität, angebotene Version und passende WordPress-/PHP-Anforderungen. Icons und Banner werden lokal ausgeliefert.
+Updates aus öffentlichen stabilen GitHub-Releases erscheinen im normalen WordPress-Updatesystem. Automatische Updates werden nicht eingeschaltet. Der enthaltene deckerweb Updater 2.4.0 prüft Pakete zusammen mit dem Plugin auf Identität, angebotene Version und passende WordPress-/PHP-Anforderungen. Icons und Banner werden lokal ausgeliefert.
 
-Die deckerweb Library 1.1.0 ergänzt einen Katalog unter Plugins → Installieren. Installation und Aktivierung sind getrennte Entscheidungen. WordPress.org bleibt der Standard. Der Online-Katalog ist freiwillig und standardmäßig ausgeschaltet. 
+Die deckerweb Library 1.3.0 ergänzt einen Katalog unter Plugins → Installieren. Installation und Aktivierung sind getrennte Entscheidungen. WordPress.org bleibt der Standard. Der Online-Katalog ist freiwillig und standardmäßig ausgeschaltet.
 
 Projekte, Kategorien, Schlagwörter, Bilder und Einstellungen gehören zur jeweiligen Website. Netzwerkaktivierung registriert Portfolio-Inhalte auf allen Websites des Netzwerks, auch auf neu angelegten Websites. Die Projektvorlage und die Löschoption werden pro Website eingestellt; es gibt keine gemeinsame Portfolio-Netzwerkeinstellung.
 
@@ -44,7 +44,7 @@ Ko-fi (https://ko-fi.com/deckerweb) · Buy Me a Coffee (https://buymeacoffee.com
 
 © 2019–2026 David Decker – DECKERWEB · GPL v2 oder neuer (LICENSE).
 
-Enthält deckerweb Library 1.1.0 und deckerweb Updater 2.2.1 von David Decker, jeweils GPL-2.0-or-later. Admin-Stile und Dialogverhalten wurden aus Brand Admin Schemes von David Decker übernommen und angepasst, GPL-2.0-or-later. Grafiken: freigegebenes Portfolio-Content-Design A von DECKERWEB; SVG-Quelldateien und PNG-Exporte werden mit GPL-2.0-or-later bereitgestellt. Systemschriften werden referenziert; Schriftdateien werden nicht mitgeliefert.
+Enthält deckerweb Library 1.3.0 und deckerweb Updater 2.4.0 von David Decker, jeweils GPL-2.0-or-later. Admin-Stile und Dialogverhalten wurden aus Brand Admin Schemes von David Decker übernommen und angepasst, GPL-2.0-or-later. Grafiken: freigegebenes Portfolio-Content-Design A von DECKERWEB; SVG-Quelldateien und PNG-Exporte werden mit GPL-2.0-or-later bereitgestellt. Systemschriften werden referenziert; Schriftdateien werden nicht mitgeliefert.
 
 GitHub Pages nutzt das Cayman-Theme (CC0-1.0); die lokale Vorlage verwendet Systemschriften.
 
@@ -52,7 +52,7 @@ Library (https://github.com/deckerweb/deckerweb-plugin-library) · Updater (http
 
 == Installation ==
 
-1. portfolio-content-1.3.2.zip unter Plugins → Installieren → Plugin hochladen installieren und aktivieren.
+1. portfolio-content-1.3.3.zip unter Plugins → Installieren → Plugin hochladen installieren und aktivieren.
 2. Einstellungen → Portfolio Content öffnen. Bei Bedarf die Projektvorlage einschalten.
 3. Ein Projekt mit Titel, Beitragsbild und Textauszug anlegen und veröffentlichen.
 4. Eine Seite erstellen. Im Block-Inserter unter Vorlagen Portfolio Content → Portfolio: Projektübersicht wählen.
@@ -95,6 +95,10 @@ Projekte, Kategorien, Schlagwörter und Bilder bleiben immer erhalten. Einstellu
 Fragen nach Themen: https://github.com/deckerweb/portfolio-content/wiki/FAQ-Deutsch
 
 == Changelog ==
+
+= 1.3.3 · 2026-11-09 =
+
+- Behoben: deckerweb Library auf 1.3.0 und Updater auf 2.4.0 aktualisiert: normale Updates unabhängig vom Katalog, begrenzte Downloads und strengere Paketprüfung.
 
 = 1.3.2 — 23.10.2026 =
 

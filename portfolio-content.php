@@ -3,7 +3,7 @@
  * Plugin Name: Portfolio Content
  * Plugin URI: https://github.com/deckerweb/portfolio-content
  * Description: Portfolio projects, categories and tags with a quick start, project template and native block patterns.
- * Version: 1.3.2
+ * Version: 1.3.3
  * Requires at least: 6.7
  * Requires PHP: 8.1
  * Author: David Decker – DECKERWEB

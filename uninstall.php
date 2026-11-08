@@ -51,4 +51,4 @@ foreach ( $portfolio_content_networks as $portfolio_content_network_id ) {
     }
 }
 require_once __DIR__ . '/includes/deckerweb-plugin-library/lifecycle.php';
-deckerweb_library_uninstall_v3( $portfolio_content_host_file );
+deckerweb_library_uninstall_v4( $portfolio_content_host_file );
